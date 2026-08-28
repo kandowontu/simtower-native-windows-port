@@ -5,9 +5,7 @@ Windows 3.1 version of *SimTower*. It is an unofficial preservation and
 interoperability project and is not affiliated with or endorsed by the
 original creators, Maxis, or Electronic Arts.
 
-Public tags and GitHub releases are source-only. They intentionally exclude
-the original game's executable, graphics, audio, dialogs, help file, and the
-self-contained asset-bearing build. See [CREDITS.md](CREDITS.md) for the
+See [CREDITS.md](CREDITS.md) for the
 original game and third-party credits and [DISTRIBUTION.md](DISTRIBUTION.md)
 for the release boundary.
 
