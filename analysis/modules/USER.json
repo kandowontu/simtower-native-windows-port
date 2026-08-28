@@ -1,0 +1,9420 @@
+{
+  "metadata": {
+    "path": "original\\extracted\\WINDOWS\\SYSTEM\\USER.EXE",
+    "sha256": "3febac951dfb89d2249a13c7d9f713532f50f7fcfdc2c16925e3b3ad29ac1bf2",
+    "size": 264016,
+    "ne_header_offset": 1024,
+    "flags": 33537,
+    "target_os": 2,
+    "segment_count": 45,
+    "module_count": 8,
+    "resource_count_header": 0,
+    "alignment_shift": 4,
+    "auto_data_segment": 45,
+    "initial_heap": 5500,
+    "initial_stack": 0,
+    "initial_cs": 3,
+    "initial_ip": 0,
+    "initial_ss": 0,
+    "initial_sp": 0,
+    "movable_entry_count": 269
+  },
+  "modules": [
+    "KERNEL",
+    "GDI",
+    "SYSTEM",
+    "KEYBOARD",
+    "MOUSE",
+    "DISPLAY",
+    "SOUND",
+    "COMM"
+  ],
+  "imported_names": [
+    {
+      "offset": 1,
+      "name": "KERNEL"
+    },
+    {
+      "offset": 8,
+      "name": "GDI"
+    },
+    {
+      "offset": 12,
+      "name": "SYSTEM"
+    },
+    {
+      "offset": 19,
+      "name": "KEYBOARD"
+    },
+    {
+      "offset": 28,
+      "name": "MOUSE"
+    },
+    {
+      "offset": 34,
+      "name": "DISPLAY"
+    },
+    {
+      "offset": 42,
+      "name": "SOUND"
+    },
+    {
+      "offset": 48,
+      "name": "COMM"
+    }
+  ],
+  "external_imports": [
+    {
+      "module": "COMM",
+      "kind": "ordinal",
+      "symbol": 1,
+      "references": [
+        {
+          "segment": 40,
+          "offset": 235,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "COMM",
+      "kind": "ordinal",
+      "symbol": 10,
+      "references": [
+        {
+          "segment": 40,
+          "offset": 2360,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "COMM",
+      "kind": "ordinal",
+      "symbol": 11,
+      "references": [
+        {
+          "segment": 40,
+          "offset": 2254,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "COMM",
+      "kind": "ordinal",
+      "symbol": 12,
+      "references": [
+        {
+          "segment": 40,
+          "offset": 2282,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "COMM",
+      "kind": "ordinal",
+      "symbol": 13,
+      "references": [
+        {
+          "segment": 40,
+          "offset": 2307,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "COMM",
+      "kind": "ordinal",
+      "symbol": 14,
+      "references": [
+        {
+          "segment": 40,
+          "offset": 2332,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "COMM",
+      "kind": "ordinal",
+      "symbol": 15,
+      "references": [
+        {
+          "segment": 40,
+          "offset": 416,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "COMM",
+      "kind": "ordinal",
+      "symbol": 2,
+      "references": [
+        {
+          "segment": 40,
+          "offset": 374,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "COMM",
+      "kind": "ordinal",
+      "symbol": 3,
+      "references": [
+        {
+          "segment": 40,
+          "offset": 219,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "COMM",
+      "kind": "ordinal",
+      "symbol": 4,
+      "references": [
+        {
+          "segment": 40,
+          "offset": 650,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "COMM",
+      "kind": "ordinal",
+      "symbol": 5,
+      "references": [
+        {
+          "segment": 40,
+          "offset": 908,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "COMM",
+      "kind": "ordinal",
+      "symbol": 6,
+      "references": [
+        {
+          "segment": 40,
+          "offset": 2226,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "COMM",
+      "kind": "ordinal",
+      "symbol": 7,
+      "references": [
+        {
+          "segment": 40,
+          "offset": 996,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "COMM",
+      "kind": "ordinal",
+      "symbol": 8,
+      "references": [
+        {
+          "segment": 40,
+          "offset": 1074,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "COMM",
+      "kind": "ordinal",
+      "symbol": 9,
+      "references": [
+        {
+          "segment": 40,
+          "offset": 2391,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "DISPLAY",
+      "kind": "ordinal",
+      "symbol": 101,
+      "references": [
+        {
+          "segment": 3,
+          "offset": 1164,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "DISPLAY",
+      "kind": "ordinal",
+      "symbol": 102,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 39444,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "DISPLAY",
+      "kind": "ordinal",
+      "symbol": 103,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 21139,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "DISPLAY",
+      "kind": "ordinal",
+      "symbol": 104,
+      "references": [
+        {
+          "segment": 3,
+          "offset": 765,
+          "source_type": 2,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 768,
+          "source_type": 5,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 1,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 41826,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 9712,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 10,
+          "offset": 11118,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 13,
+          "offset": 1122,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 23,
+          "offset": 2119,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 25,
+          "offset": 8843,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 28,
+          "offset": 1170,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 30,
+          "offset": 9999,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 33,
+          "offset": 3799,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 35,
+          "offset": 1753,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 41,
+          "offset": 2463,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 101,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 17997,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 2678,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 7,
+          "offset": 2866,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 13,
+          "offset": 7782,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 105,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 35471,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 7,
+          "offset": 2426,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 13,
+          "offset": 8762,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 23,
+          "offset": 603,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 106,
+      "references": [
+        {
+          "segment": 12,
+          "offset": 2530,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 13,
+          "offset": 1334,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 11,
+      "references": [
+        {
+          "segment": 35,
+          "offset": 3338,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 117,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 5484,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 23,
+          "offset": 667,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 119,
+      "references": [
+        {
+          "segment": 3,
+          "offset": 7120,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 121,
+      "references": [
+        {
+          "segment": 5,
+          "offset": 911,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 122,
+      "references": [
+        {
+          "segment": 5,
+          "offset": 383,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 127,
+      "references": [
+        {
+          "segment": 39,
+          "offset": 516,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 129,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 34556,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 10,
+          "offset": 11632,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 13,
+          "offset": 7568,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 23,
+          "offset": 588,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 13,
+      "references": [
+        {
+          "segment": 21,
+          "offset": 2211,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 130,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 34967,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 10,
+          "offset": 11968,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 13,
+          "offset": 7659,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 23,
+          "offset": 635,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 131,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 34610,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 13,
+          "offset": 7716,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 23,
+          "offset": 453,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 134,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 18113,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 13,
+          "offset": 8329,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 23,
+          "offset": 482,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 148,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 31524,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 13,
+          "offset": 2280,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 21,
+          "offset": 2221,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 149,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 30495,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 150,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 42334,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 13,
+          "offset": 2963,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 18,
+          "offset": 565,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 21,
+          "offset": 2107,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 25,
+          "offset": 8590,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 154,
+      "references": [
+        {
+          "segment": 3,
+          "offset": 2071,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 41,
+          "offset": 3220,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 156,
+      "references": [
+        {
+          "segment": 12,
+          "offset": 2482,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 172,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 35412,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 7,
+          "offset": 2063,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 13,
+          "offset": 9027,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 173,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 17920,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 13,
+          "offset": 7737,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 179,
+      "references": [
+        {
+          "segment": 3,
+          "offset": 1638,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 180,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 34890,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 181,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 18557,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 190,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 35096,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 192,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 35754,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 193,
+      "references": [
+        {
+          "segment": 7,
+          "offset": 2441,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 13,
+          "offset": 7867,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 194,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 1810,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 2,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 42423,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 9698,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 10,
+          "offset": 11307,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 25,
+          "offset": 8497,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 28,
+          "offset": 1513,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 33,
+          "offset": 3671,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 35,
+          "offset": 4180,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 20,
+      "references": [
+        {
+          "segment": 6,
+          "offset": 2296,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 21,
+      "references": [
+        {
+          "segment": 21,
+          "offset": 2098,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 22,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 17910,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 6,
+          "offset": 1568,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 21,
+          "offset": 2042,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 25,
+          "offset": 8157,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 26,
+          "offset": 2729,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 35,
+          "offset": 3325,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 29,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 41810,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 2444,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 10,
+          "offset": 12321,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 13,
+          "offset": 3014,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 18,
+          "offset": 704,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 30,
+      "references": [
+        {
+          "segment": 6,
+          "offset": 1548,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 13,
+          "offset": 2872,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 21,
+          "offset": 2022,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 307,
+      "references": [
+        {
+          "segment": 28,
+          "offset": 979,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 33,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 38429,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 6,
+          "offset": 1070,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 10,
+          "offset": 12367,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 28,
+          "offset": 1092,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 35,
+          "offset": 2062,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 38,
+          "offset": 1736,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 34,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 41962,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 2823,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 7,
+          "offset": 1897,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 10,
+          "offset": 9684,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 13,
+          "offset": 8752,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 21,
+          "offset": 1928,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 41,
+          "offset": 2491,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 35,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 5007,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 12,
+          "offset": 2297,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 13,
+          "offset": 333,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 18,
+          "offset": 4903,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 350,
+      "references": [
+        {
+          "segment": 27,
+          "offset": 842,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 351,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 42463,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 6,
+          "offset": 2740,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 23,
+          "offset": 2035,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 25,
+          "offset": 8906,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 26,
+          "offset": 377,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 30,
+          "offset": 10208,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 33,
+          "offset": 4061,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 35,
+          "offset": 2097,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 354,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 9598,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 360,
+      "references": [
+        {
+          "segment": 21,
+          "offset": 285,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 41,
+          "offset": 2183,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 361,
+      "references": [
+        {
+          "segment": 6,
+          "offset": 297,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 21,
+          "offset": 1701,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 362,
+      "references": [
+        {
+          "segment": 6,
+          "offset": 323,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 365,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 3486,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 8,
+          "offset": 2715,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 374,
+      "references": [
+        {
+          "segment": 41,
+          "offset": 2040,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 375,
+      "references": [
+        {
+          "segment": 41,
+          "offset": 2118,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 39,
+      "references": [
+        {
+          "segment": 6,
+          "offset": 2282,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 13,
+          "offset": 3043,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 21,
+          "offset": 2070,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 400,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 36213,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 405,
+      "references": [
+        {
+          "segment": 3,
+          "offset": 9767,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 407,
+      "references": [
+        {
+          "segment": 10,
+          "offset": 12178,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 409,
+      "references": [
+        {
+          "segment": 13,
+          "offset": 8076,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 410,
+      "references": [
+        {
+          "segment": 39,
+          "offset": 967,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 411,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 39971,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 10,
+          "offset": 12241,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 412,
+      "references": [
+        {
+          "segment": 6,
+          "offset": 341,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 439,
+      "references": [
+        {
+          "segment": 13,
+          "offset": 1195,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 44,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 18009,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 440,
+      "references": [
+        {
+          "segment": 12,
+          "offset": 4850,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 21,
+          "offset": 784,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 441,
+      "references": [
+        {
+          "segment": 13,
+          "offset": 1047,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 45,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 41773,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 9659,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 10,
+          "offset": 12195,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 12,
+          "offset": 2231,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 13,
+          "offset": 8772,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 18,
+          "offset": 1350,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 21,
+          "offset": 1959,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 24,
+          "offset": 585,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 25,
+          "offset": 8366,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 26,
+          "offset": 2794,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 27,
+          "offset": 750,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 28,
+          "offset": 4570,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 30,
+          "offset": 3996,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 33,
+          "offset": 3844,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 34,
+          "offset": 733,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 35,
+          "offset": 4233,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 37,
+          "offset": 68,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 38,
+          "offset": 1008,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 41,
+          "offset": 2365,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 460,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 3660,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 462,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 46535,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 1124,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 6,
+          "offset": 8155,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 9,
+          "offset": 4881,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 10,
+          "offset": 12541,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 13,
+          "offset": 9528,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 463,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 34940,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 1191,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 5182,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 7,
+          "offset": 4729,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 8,
+          "offset": 607,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 13,
+          "offset": 3128,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 41,
+          "offset": 3342,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 464,
+      "references": [
+        {
+          "segment": 39,
+          "offset": 1402,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 47,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 35459,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 7,
+          "offset": 3182,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 13,
+          "offset": 8788,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 23,
+          "offset": 461,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 48,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 4884,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 9646,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 12,
+          "offset": 4801,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 13,
+          "offset": 1066,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 21,
+          "offset": 613,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 41,
+          "offset": 2962,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 50,
+      "references": [
+        {
+          "segment": 25,
+          "offset": 5996,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 51,
+      "references": [
+        {
+          "segment": 3,
+          "offset": 7971,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 12,
+          "offset": 4933,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 21,
+          "offset": 952,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 41,
+          "offset": 2405,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 52,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 4903,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 9610,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 10,
+          "offset": 9535,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 12,
+          "offset": 2181,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 21,
+          "offset": 971,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 41,
+          "offset": 2346,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 53,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 35015,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 57,
+      "references": [
+        {
+          "segment": 3,
+          "offset": 7489,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 24,
+          "offset": 540,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 60,
+      "references": [
+        {
+          "segment": 3,
+          "offset": 5162,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 41,
+          "offset": 2499,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 64,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 31680,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 3374,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 7,
+          "offset": 2560,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 23,
+          "offset": 434,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 65,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 2014,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 13,
+          "offset": 2212,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 23,
+          "offset": 419,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 66,
+      "references": [
+        {
+          "segment": 3,
+          "offset": 2134,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 41,
+          "offset": 3284,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 67,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 18260,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 13,
+          "offset": 7601,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 68,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 35106,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 2985,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 10,
+          "offset": 9713,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 12,
+          "offset": 2315,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 21,
+          "offset": 1184,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 41,
+          "offset": 2588,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 69,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 34948,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 7540,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 7,
+          "offset": 4737,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 8,
+          "offset": 3369,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 10,
+          "offset": 12201,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 12,
+          "offset": 5347,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 13,
+          "offset": 8185,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 21,
+          "offset": 985,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 23,
+          "offset": 735,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 24,
+          "offset": 1572,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 25,
+          "offset": 6050,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 39,
+          "offset": 484,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 41,
+          "offset": 3360,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 7,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 4948,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 12,
+          "offset": 2262,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 13,
+          "offset": 1087,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 74,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 5080,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 12,
+          "offset": 5339,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 13,
+          "offset": 1728,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 76,
+      "references": [
+        {
+          "segment": 6,
+          "offset": 2476,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 26,
+          "offset": 53,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 77,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 40614,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 13,
+          "offset": 6048,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 21,
+          "offset": 2120,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 78,
+      "references": [
+        {
+          "segment": 6,
+          "offset": 2266,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 79,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 17974,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 13,
+          "offset": 7766,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 21,
+          "offset": 2191,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 80,
+      "references": [
+        {
+          "segment": 3,
+          "offset": 7676,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 41,
+          "offset": 2030,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 81,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 39985,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 82,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 27088,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 7508,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 10,
+          "offset": 9568,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 12,
+          "offset": 5006,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 13,
+          "offset": 3259,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 17,
+          "offset": 671,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 21,
+          "offset": 1990,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 24,
+          "offset": 565,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 87,
+      "references": [
+        {
+          "segment": 3,
+          "offset": 5098,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 6,
+          "offset": 185,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 26,
+          "offset": 2823,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 9,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 41848,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 9674,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 10,
+          "offset": 11104,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 13,
+          "offset": 1102,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 23,
+          "offset": 2131,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 25,
+          "offset": 8266,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 28,
+          "offset": 948,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 30,
+          "offset": 10019,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 33,
+          "offset": 3785,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 35,
+          "offset": 1731,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 41,
+          "offset": 2447,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 90,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 4687,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 25,
+          "offset": 5952,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 91,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 42288,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 1010,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 9237,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 6,
+          "offset": 2559,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 10,
+          "offset": 12133,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 23,
+          "offset": 1831,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 26,
+          "offset": 318,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 27,
+          "offset": 625,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 28,
+          "offset": 4035,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 34,
+          "offset": 748,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 37,
+          "offset": 95,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 42,
+          "offset": 1363,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 92,
+      "references": [
+        {
+          "segment": 24,
+          "offset": 624,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 93,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 4574,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 947,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 6,
+          "offset": 1657,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 24,
+          "offset": 607,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 25,
+          "offset": 5211,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 94,
+      "references": [
+        {
+          "segment": 6,
+          "offset": 1432,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 96,
+      "references": [
+        {
+          "segment": 6,
+          "offset": 1446,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 98,
+      "references": [
+        {
+          "segment": 10,
+          "offset": 11669,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 99,
+      "references": [
+        {
+          "segment": 13,
+          "offset": 6139,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 1,
+      "references": [
+        {
+          "segment": 3,
+          "offset": 829,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 10,
+      "references": [
+        {
+          "segment": 26,
+          "offset": 2900,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 32,
+          "offset": 414,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 104,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 31972,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 105,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 21402,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 5,
+          "offset": 989,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 107,
+      "references": [
+        {
+          "segment": 22,
+          "offset": 983,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 41,
+          "offset": 178,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 111,
+      "references": [
+        {
+          "segment": 3,
+          "offset": 20,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 117,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 15881,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 118,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 33381,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 119,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 33387,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 121,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 3408,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 26,
+          "offset": 1706,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 128,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 1640,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 9895,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 22,
+          "offset": 1740,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 41,
+          "offset": 52,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 129,
+      "references": [
+        {
+          "segment": 41,
+          "offset": 4582,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 13,
+      "references": [
+        {
+          "segment": 41,
+          "offset": 6234,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 130,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 3133,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 133,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 32172,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 134,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 1336,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 445,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 135,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 475,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 136,
+      "references": [
+        {
+          "segment": 22,
+          "offset": 1394,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 138,
+      "references": [
+        {
+          "segment": 41,
+          "offset": 5982,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 15,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 21368,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 88,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 9036,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 13,
+          "offset": 966,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 14,
+          "offset": 269,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 21,
+          "offset": 401,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 24,
+          "offset": 2076,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 26,
+          "offset": 3110,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 38,
+          "offset": 1791,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 39,
+          "offset": 1234,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 40,
+          "offset": 2159,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 41,
+          "offset": 2077,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 42,
+          "offset": 1749,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 43,
+          "offset": 774,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 150,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 15504,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 155,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 34767,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 158,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 13271,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 23,
+          "offset": 3060,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 16,
+      "references": [
+        {
+          "segment": 12,
+          "offset": 5557,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 26,
+          "offset": 2195,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 39,
+          "offset": 990,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 41,
+          "offset": 404,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 43,
+          "offset": 981,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 161,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 3382,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 162,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 3397,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 166,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 1433,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 399,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 411,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 167,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 46342,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 3189,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 3480,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 8,
+          "offset": 958,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 9,
+          "offset": 2272,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 10,
+          "offset": 7818,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 12,
+          "offset": 2674,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 24,
+          "offset": 335,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 25,
+          "offset": 39,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 27,
+          "offset": 190,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 38,
+          "offset": 436,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 168,
+      "references": [
+        {
+          "segment": 12,
+          "offset": 71,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 17,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 21621,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 123,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 12,
+          "offset": 105,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 13,
+          "offset": 1263,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 14,
+          "offset": 845,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 21,
+          "offset": 1192,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 25,
+          "offset": 1604,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 26,
+          "offset": 2048,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 27,
+          "offset": 498,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 29,
+          "offset": 687,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 30,
+          "offset": 2164,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 32,
+          "offset": 1296,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 38,
+          "offset": 875,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 39,
+          "offset": 540,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 40,
+          "offset": 2197,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 41,
+          "offset": 2205,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 42,
+          "offset": 2072,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 43,
+          "offset": 1934,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 178,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 46689,
+          "source_type": 5,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 4542,
+          "source_type": 5,
+          "flags": 1
+        },
+        {
+          "segment": 23,
+          "offset": 2908,
+          "source_type": 5,
+          "flags": 1
+        },
+        {
+          "segment": 40,
+          "offset": 2130,
+          "source_type": 5,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 18,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 37870,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 106,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 3167,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 12,
+          "offset": 5453,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 26,
+          "offset": 3130,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 28,
+          "offset": 2138,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 29,
+          "offset": 661,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 30,
+          "offset": 6221,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 32,
+          "offset": 1268,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 39,
+          "offset": 1371,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 43,
+          "offset": 2290,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 184,
+      "references": [
+        {
+          "segment": 40,
+          "offset": 2144,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 185,
+      "references": [
+        {
+          "segment": 40,
+          "offset": 2187,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 19,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 8741,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 321,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 3819,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 9,
+          "offset": 2298,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 12,
+          "offset": 5539,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 13,
+          "offset": 1438,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 19,
+          "offset": 2365,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 24,
+          "offset": 134,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 25,
+          "offset": 2405,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 26,
+          "offset": 3195,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 28,
+          "offset": 2215,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 29,
+          "offset": 679,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 30,
+          "offset": 6283,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 32,
+          "offset": 1288,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 39,
+          "offset": 1411,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 43,
+          "offset": 2421,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 191,
+      "references": [
+        {
+          "segment": 3,
+          "offset": 65,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 197,
+      "references": [
+        {
+          "segment": 3,
+          "offset": 25,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 2,
+      "references": [
+        {
+          "segment": 5,
+          "offset": 919,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 20,
+      "references": [
+        {
+          "segment": 12,
+          "offset": 825,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 27,
+          "offset": 124,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 39,
+          "offset": 1227,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 21,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 46329,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 8,
+          "offset": 949,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 22,
+      "references": [
+        {
+          "segment": 12,
+          "offset": 5370,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 30,
+          "offset": 6208,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 24,
+      "references": [
+        {
+          "segment": 27,
+          "offset": 140,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 29,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 39567,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 30,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 15775,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 31,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 15724,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 315,
+      "references": [
+        {
+          "segment": 22,
+          "offset": 1359,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 324,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 34207,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 3245,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 8,
+          "offset": 921,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 9,
+          "offset": 2045,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 12,
+          "offset": 2963,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 24,
+          "offset": 2181,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 327,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 44782,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 3906,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 4,
+          "offset": 1277,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 5,
+          "offset": 1544,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 6,
+          "offset": 8225,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 7,
+          "offset": 6290,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 8,
+          "offset": 4131,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 9,
+          "offset": 5059,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 10,
+          "offset": 12648,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 11,
+          "offset": 1045,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 12,
+          "offset": 6139,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 13,
+          "offset": 9688,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 14,
+          "offset": 4343,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 15,
+          "offset": 6949,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 16,
+          "offset": 1426,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 18,
+          "offset": 6939,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 19,
+          "offset": 3030,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 22,
+          "offset": 3039,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 23,
+          "offset": 3531,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 24,
+          "offset": 2789,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 25,
+          "offset": 10452,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 37,
+          "offset": 4330,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 39,
+          "offset": 1985,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 40,
+          "offset": 3152,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 41,
+          "offset": 6457,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 33,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 28414,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 334,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 46304,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 335,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 13484,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 336,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 46408,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 337,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 46454,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 34,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 21615,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 5,
+          "offset": 957,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 340,
+      "references": [
+        {
+          "segment": 3,
+          "offset": 629,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 349,
+      "references": [
+        {
+          "segment": 21,
+          "offset": 759,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 35,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 19220,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 351,
+      "references": [
+        {
+          "segment": 5,
+          "offset": 866,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 353,
+      "references": [
+        {
+          "segment": 37,
+          "offset": 2047,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 354,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 46653,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 2203,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 7,
+          "offset": 3713,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 8,
+          "offset": 1092,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 10,
+          "offset": 7599,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 26,
+          "offset": 1811,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 36,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 37687,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 5,
+          "offset": 977,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 10,
+          "offset": 12288,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 23,
+          "offset": 3054,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 40,
+          "offset": 281,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 38,
+      "references": [
+        {
+          "segment": 5,
+          "offset": 1032,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 4,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 8729,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 9075,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 27,
+          "offset": 133,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 47,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 2943,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 10002,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 5,
+          "offset": 265,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 8,
+          "offset": 152,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 41,
+          "offset": 6085,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 48,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 4240,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 49,
+      "references": [
+        {
+          "segment": 3,
+          "offset": 8012,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 5,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 35035,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 8891,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 6,
+          "offset": 3100,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 7,
+          "offset": 240,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 8,
+          "offset": 1013,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 9,
+          "offset": 1993,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 10,
+          "offset": 5762,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 13,
+          "offset": 7882,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 14,
+          "offset": 1407,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 17,
+          "offset": 219,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 21,
+          "offset": 32,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 22,
+          "offset": 1777,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 26,
+          "offset": 1725,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 27,
+          "offset": 163,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 31,
+          "offset": 322,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 32,
+          "offset": 998,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 33,
+          "offset": 4778,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 34,
+          "offset": 9,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 38,
+          "offset": 1531,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 39,
+          "offset": 834,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 41,
+          "offset": 6214,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 50,
+      "references": [
+        {
+          "segment": 3,
+          "offset": 10056,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 5,
+          "offset": 281,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 22,
+          "offset": 1813,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 41,
+          "offset": 613,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 57,
+      "references": [
+        {
+          "segment": 3,
+          "offset": 8769,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 5,
+          "offset": 1196,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 21,
+          "offset": 1467,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 22,
+          "offset": 1239,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 58,
+      "references": [
+        {
+          "segment": 3,
+          "offset": 7360,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 21,
+          "offset": 1423,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 22,
+          "offset": 955,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 41,
+          "offset": 2769,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 59,
+      "references": [
+        {
+          "segment": 5,
+          "offset": 1256,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 22,
+          "offset": 1354,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 41,
+          "offset": 3790,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 6,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 25612,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 8440,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 7,
+          "offset": 413,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 9,
+          "offset": 955,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 13,
+          "offset": 4105,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 14,
+          "offset": 1540,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 26,
+          "offset": 2922,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 30,
+          "offset": 2793,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 32,
+          "offset": 1037,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 39,
+          "offset": 855,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 60,
+      "references": [
+        {
+          "segment": 3,
+          "offset": 3571,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 9,
+          "offset": 2223,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 12,
+          "offset": 5603,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 24,
+          "offset": 67,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 61,
+      "references": [
+        {
+          "segment": 3,
+          "offset": 3584,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 9,
+          "offset": 2240,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 12,
+          "offset": 5620,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 24,
+          "offset": 84,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 62,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 5193,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 3593,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 9,
+          "offset": 2252,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 12,
+          "offset": 2858,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 13,
+          "offset": 1372,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 19,
+          "offset": 2008,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 24,
+          "offset": 93,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 25,
+          "offset": 2363,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 63,
+      "references": [
+        {
+          "segment": 3,
+          "offset": 3827,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 12,
+          "offset": 1688,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 24,
+          "offset": 142,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 25,
+          "offset": 9265,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 65,
+      "references": [
+        {
+          "segment": 12,
+          "offset": 3583,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 67,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 2586,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 4894,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 5,
+          "offset": 1060,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 68,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 8736,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 69,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 8806,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 6,
+          "offset": 27,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 8,
+          "offset": 118,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 24,
+          "offset": 2051,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 7,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 35079,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 6661,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 6,
+          "offset": 3134,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 7,
+          "offset": 176,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 8,
+          "offset": 3672,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 9,
+          "offset": 2157,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 13,
+          "offset": 8193,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 14,
+          "offset": 1513,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 17,
+          "offset": 246,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 18,
+          "offset": 3690,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 21,
+          "offset": 293,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 26,
+          "offset": 1737,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 27,
+          "offset": 484,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 32,
+          "offset": 1123,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 33,
+          "offset": 4830,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 34,
+          "offset": 1160,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 38,
+          "offset": 1559,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 39,
+          "offset": 693,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 41,
+          "offset": 6224,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 70,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 33315,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 8,
+          "offset": 494,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 71,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 8776,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 8,
+          "offset": 570,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 39,
+          "offset": 665,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 72,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 8842,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 8,
+          "offset": 249,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 39,
+          "offset": 104,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 73,
+      "references": [
+        {
+          "segment": 39,
+          "offset": 871,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 74,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 40337,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 21,
+          "offset": 337,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 41,
+          "offset": 110,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 8,
+      "references": [
+        {
+          "segment": 26,
+          "offset": 3145,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 27,
+          "offset": 51,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 28,
+          "offset": 3865,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 30,
+          "offset": 9765,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 32,
+          "offset": 74,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 81,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 40349,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 21,
+          "offset": 1210,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 82,
+      "references": [
+        {
+          "segment": 21,
+          "offset": 369,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 84,
+      "references": [
+        {
+          "segment": 21,
+          "offset": 700,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 88,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 6964,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 1735,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 589,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 8,
+          "offset": 585,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 9,
+          "offset": 691,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 15,
+          "offset": 127,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 21,
+          "offset": 1334,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 22,
+          "offset": 538,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 24,
+          "offset": 529,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 37,
+          "offset": 3145,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 41,
+          "offset": 684,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 89,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 1655,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 386,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 605,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 15,
+          "offset": 164,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 9,
+      "references": [
+        {
+          "segment": 26,
+          "offset": 3187,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 27,
+          "offset": 75,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 28,
+          "offset": 3913,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 30,
+          "offset": 10318,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 32,
+          "offset": 230,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 90,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 38164,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 20,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 9178,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 5,
+          "offset": 614,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 6,
+          "offset": 1623,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 8,
+          "offset": 535,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 9,
+          "offset": 2513,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 10,
+          "offset": 12101,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 15,
+          "offset": 138,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 16,
+          "offset": 948,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 22,
+          "offset": 513,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 25,
+          "offset": 8896,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 26,
+          "offset": 2940,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 28,
+          "offset": 2157,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 30,
+          "offset": 9411,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 32,
+          "offset": 438,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 35,
+          "offset": 9426,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 37,
+          "offset": 3156,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 38,
+          "offset": 1730,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 40,
+          "offset": 1276,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 42,
+          "offset": 1148,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 43,
+          "offset": 2323,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 95,
+      "references": [
+        {
+          "segment": 3,
+          "offset": 8054,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 22,
+          "offset": 1756,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 41,
+          "offset": 191,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 96,
+      "references": [
+        {
+          "segment": 3,
+          "offset": 8021,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 22,
+          "offset": 1793,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 41,
+          "offset": 1036,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KEYBOARD",
+      "kind": "ordinal",
+      "symbol": 1,
+      "references": [
+        {
+          "segment": 3,
+          "offset": 817,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KEYBOARD",
+      "kind": "ordinal",
+      "symbol": 134,
+      "references": [
+        {
+          "segment": 26,
+          "offset": 1979,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KEYBOARD",
+      "kind": "ordinal",
+      "symbol": 135,
+      "references": [
+        {
+          "segment": 26,
+          "offset": 1994,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KEYBOARD",
+      "kind": "ordinal",
+      "symbol": 2,
+      "references": [
+        {
+          "segment": 5,
+          "offset": 77,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KEYBOARD",
+      "kind": "ordinal",
+      "symbol": 3,
+      "references": [
+        {
+          "segment": 5,
+          "offset": 314,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KEYBOARD",
+      "kind": "ordinal",
+      "symbol": 4,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 20450,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KEYBOARD",
+      "kind": "ordinal",
+      "symbol": 5,
+      "references": [
+        {
+          "segment": 37,
+          "offset": 2138,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 39,
+          "offset": 1320,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KEYBOARD",
+      "kind": "ordinal",
+      "symbol": 6,
+      "references": [
+        {
+          "segment": 37,
+          "offset": 2792,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 39,
+          "offset": 1303,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KEYBOARD",
+      "kind": "ordinal",
+      "symbol": 7,
+      "references": [
+        {
+          "segment": 3,
+          "offset": 9374,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "MOUSE",
+      "kind": "ordinal",
+      "symbol": 1,
+      "references": [
+        {
+          "segment": 3,
+          "offset": 958,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "MOUSE",
+      "kind": "ordinal",
+      "symbol": 2,
+      "references": [
+        {
+          "segment": 5,
+          "offset": 100,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "MOUSE",
+      "kind": "ordinal",
+      "symbol": 3,
+      "references": [
+        {
+          "segment": 5,
+          "offset": 309,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "SOUND",
+      "kind": "ordinal",
+      "symbol": 17,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 19868,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "SYSTEM",
+      "kind": "ordinal",
+      "symbol": 1,
+      "references": [
+        {
+          "segment": 37,
+          "offset": 2444,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "SYSTEM",
+      "kind": "ordinal",
+      "symbol": 2,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 29584,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 771,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "SYSTEM",
+      "kind": "ordinal",
+      "symbol": 3,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 29617,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "SYSTEM",
+      "kind": "ordinal",
+      "symbol": 4,
+      "references": [
+        {
+          "segment": 5,
+          "offset": 6,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "SYSTEM",
+      "kind": "ordinal",
+      "symbol": 5,
+      "references": [
+        {
+          "segment": 5,
+          "offset": 319,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "SYSTEM",
+      "kind": "ordinal",
+      "symbol": 6,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 33455,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "ordinal": 1,
+      "segment": 1,
+      "offset": 43869,
+      "flags": 3,
+      "name": "MESSAGEBOX"
+    },
+    {
+      "ordinal": 2,
+      "segment": 3,
+      "offset": 89,
+      "flags": 3,
+      "name": "OLDEXITWINDOWS"
+    },
+    {
+      "ordinal": 3,
+      "segment": 5,
+      "offset": 357,
+      "flags": 3,
+      "name": "ENABLEOEMLAYER"
+    },
+    {
+      "ordinal": 4,
+      "segment": 5,
+      "offset": 418,
+      "flags": 3,
+      "name": "DISABLEOEMLAYER"
+    },
+    {
+      "ordinal": 5,
+      "segment": 5,
+      "offset": 930,
+      "flags": 3,
+      "name": "INITAPP"
+    },
+    {
+      "ordinal": 6,
+      "segment": 1,
+      "offset": 33236,
+      "flags": 3,
+      "name": "POSTQUITMESSAGE"
+    },
+    {
+      "ordinal": 7,
+      "segment": 5,
+      "offset": 771,
+      "flags": 3,
+      "name": "EXITWINDOWS"
+    },
+    {
+      "ordinal": 8,
+      "segment": 3,
+      "offset": 562,
+      "flags": 3,
+      "name": "WEP"
+    },
+    {
+      "ordinal": 10,
+      "segment": 1,
+      "offset": 43240,
+      "flags": 3,
+      "name": "SETTIMER"
+    },
+    {
+      "ordinal": 11,
+      "segment": 1,
+      "offset": 29772,
+      "flags": 3,
+      "name": "BEAR11"
+    },
+    {
+      "ordinal": 12,
+      "segment": 1,
+      "offset": 43269,
+      "flags": 3,
+      "name": "KILLTIMER"
+    },
+    {
+      "ordinal": 13,
+      "segment": 1,
+      "offset": 29343,
+      "flags": 3,
+      "name": "GETTICKCOUNT"
+    },
+    {
+      "ordinal": 14,
+      "segment": 1,
+      "offset": 29753,
+      "flags": 1,
+      "name": "GETTIMERRESOLUTION"
+    },
+    {
+      "ordinal": 15,
+      "segment": 1,
+      "offset": 29343,
+      "flags": 3,
+      "name": "GETCURRENTTIME"
+    },
+    {
+      "ordinal": 16,
+      "segment": 1,
+      "offset": 43973,
+      "flags": 3,
+      "name": "CLIPCURSOR"
+    },
+    {
+      "ordinal": 17,
+      "segment": 1,
+      "offset": 43947,
+      "flags": 3,
+      "name": "GETCURSORPOS"
+    },
+    {
+      "ordinal": 18,
+      "segment": 1,
+      "offset": 43220,
+      "flags": 3,
+      "name": "SETCAPTURE"
+    },
+    {
+      "ordinal": 19,
+      "segment": 1,
+      "offset": 10429,
+      "flags": 3,
+      "name": "RELEASECAPTURE"
+    },
+    {
+      "ordinal": 20,
+      "segment": 1,
+      "offset": 33121,
+      "flags": 3,
+      "name": "SETDOUBLECLICKTIME"
+    },
+    {
+      "ordinal": 21,
+      "segment": 1,
+      "offset": 33137,
+      "flags": 3,
+      "name": "GETDOUBLECLICKTIME"
+    },
+    {
+      "ordinal": 22,
+      "segment": 1,
+      "offset": 43125,
+      "flags": 3,
+      "name": "SETFOCUS"
+    },
+    {
+      "ordinal": 23,
+      "segment": 1,
+      "offset": 33155,
+      "flags": 3,
+      "name": "GETFOCUS"
+    },
+    {
+      "ordinal": 24,
+      "segment": 13,
+      "offset": 9447,
+      "flags": 3,
+      "name": "REMOVEPROP"
+    },
+    {
+      "ordinal": 25,
+      "segment": 1,
+      "offset": 7317,
+      "flags": 3,
+      "name": "GETPROP"
+    },
+    {
+      "ordinal": 26,
+      "segment": 13,
+      "offset": 9418,
+      "flags": 3,
+      "name": "SETPROP"
+    },
+    {
+      "ordinal": 27,
+      "segment": 13,
+      "offset": 9476,
+      "flags": 3,
+      "name": "ENUMPROPS"
+    },
+    {
+      "ordinal": 28,
+      "segment": 1,
+      "offset": 6260,
+      "flags": 3,
+      "name": "CLIENTTOSCREEN"
+    },
+    {
+      "ordinal": 29,
+      "segment": 1,
+      "offset": 6302,
+      "flags": 3,
+      "name": "SCREENTOCLIENT"
+    },
+    {
+      "ordinal": 30,
+      "segment": 1,
+      "offset": 28988,
+      "flags": 3,
+      "name": "WINDOWFROMPOINT"
+    },
+    {
+      "ordinal": 31,
+      "segment": 1,
+      "offset": 6445,
+      "flags": 3,
+      "name": "ISICONIC"
+    },
+    {
+      "ordinal": 32,
+      "segment": 1,
+      "offset": 6181,
+      "flags": 3,
+      "name": "GETWINDOWRECT"
+    },
+    {
+      "ordinal": 33,
+      "segment": 1,
+      "offset": 6184,
+      "flags": 3,
+      "name": "GETCLIENTRECT"
+    },
+    {
+      "ordinal": 34,
+      "segment": 1,
+      "offset": 43289,
+      "flags": 3,
+      "name": "ENABLEWINDOW"
+    },
+    {
+      "ordinal": 35,
+      "segment": 1,
+      "offset": 6418,
+      "flags": 3,
+      "name": "ISWINDOWENABLED"
+    },
+    {
+      "ordinal": 36,
+      "segment": 1,
+      "offset": 43813,
+      "flags": 3,
+      "name": "GETWINDOWTEXT"
+    },
+    {
+      "ordinal": 37,
+      "segment": 1,
+      "offset": 43781,
+      "flags": 3,
+      "name": "SETWINDOWTEXT"
+    },
+    {
+      "ordinal": 38,
+      "segment": 1,
+      "offset": 43849,
+      "flags": 3,
+      "name": "GETWINDOWTEXTLENGTH"
+    },
+    {
+      "ordinal": 39,
+      "segment": 1,
+      "offset": 43377,
+      "flags": 3,
+      "name": "BEGINPAINT"
+    },
+    {
+      "ordinal": 40,
+      "segment": 1,
+      "offset": 43409,
+      "flags": 3,
+      "name": "ENDPAINT"
+    },
+    {
+      "ordinal": 41,
+      "segment": 8,
+      "offset": 3867,
+      "flags": 3,
+      "name": "CREATEWINDOW"
+    },
+    {
+      "ordinal": 42,
+      "segment": 14,
+      "offset": 4158,
+      "flags": 3,
+      "name": "SHOWWINDOW"
+    },
+    {
+      "ordinal": 43,
+      "segment": 14,
+      "offset": 4232,
+      "flags": 3,
+      "name": "CLOSEWINDOW"
+    },
+    {
+      "ordinal": 44,
+      "segment": 14,
+      "offset": 4212,
+      "flags": 3,
+      "name": "OPENICON"
+    },
+    {
+      "ordinal": 45,
+      "segment": 7,
+      "offset": 6198,
+      "flags": 3,
+      "name": "BRINGWINDOWTOTOP"
+    },
+    {
+      "ordinal": 46,
+      "segment": 2,
+      "offset": 3550,
+      "flags": 3,
+      "name": "GETPARENT"
+    },
+    {
+      "ordinal": 47,
+      "segment": 1,
+      "offset": 6146,
+      "flags": 3,
+      "name": "ISWINDOW"
+    },
+    {
+      "ordinal": 48,
+      "segment": 1,
+      "offset": 7123,
+      "flags": 3,
+      "name": "ISCHILD"
+    },
+    {
+      "ordinal": 49,
+      "segment": 1,
+      "offset": 7208,
+      "flags": 3,
+      "name": "ISWINDOWVISIBLE"
+    },
+    {
+      "ordinal": 50,
+      "segment": 6,
+      "offset": 8050,
+      "flags": 3,
+      "name": "FINDWINDOW"
+    },
+    {
+      "ordinal": 51,
+      "segment": 1,
+      "offset": 6764,
+      "flags": 3,
+      "name": "BEAR51"
+    },
+    {
+      "ordinal": 52,
+      "segment": 14,
+      "offset": 1008,
+      "flags": 3,
+      "name": "ANYPOPUP"
+    },
+    {
+      "ordinal": 53,
+      "segment": 8,
+      "offset": 4010,
+      "flags": 3,
+      "name": "DESTROYWINDOW"
+    },
+    {
+      "ordinal": 54,
+      "segment": 1,
+      "offset": 44320,
+      "flags": 3,
+      "name": "ENUMWINDOWS"
+    },
+    {
+      "ordinal": 55,
+      "segment": 1,
+      "offset": 44291,
+      "flags": 3,
+      "name": "ENUMCHILDWINDOWS"
+    },
+    {
+      "ordinal": 56,
+      "segment": 7,
+      "offset": 6054,
+      "flags": 3,
+      "name": "MOVEWINDOW"
+    },
+    {
+      "ordinal": 57,
+      "segment": 8,
+      "offset": 3708,
+      "flags": 3,
+      "name": "REGISTERCLASS"
+    },
+    {
+      "ordinal": 58,
+      "segment": 8,
+      "offset": 3819,
+      "flags": 3,
+      "name": "GETCLASSNAME"
+    },
+    {
+      "ordinal": 59,
+      "segment": 1,
+      "offset": 43337,
+      "flags": 3,
+      "name": "SETACTIVEWINDOW"
+    },
+    {
+      "ordinal": 60,
+      "segment": 1,
+      "offset": 33165,
+      "flags": 3,
+      "name": "GETACTIVEWINDOW"
+    },
+    {
+      "ordinal": 61,
+      "segment": 13,
+      "offset": 9181,
+      "flags": 3,
+      "name": "SCROLLWINDOW"
+    },
+    {
+      "ordinal": 62,
+      "segment": 18,
+      "offset": 6656,
+      "flags": 3,
+      "name": "SETSCROLLPOS"
+    },
+    {
+      "ordinal": 63,
+      "segment": 18,
+      "offset": 6690,
+      "flags": 3,
+      "name": "GETSCROLLPOS"
+    },
+    {
+      "ordinal": 64,
+      "segment": 18,
+      "offset": 6724,
+      "flags": 3,
+      "name": "SETSCROLLRANGE"
+    },
+    {
+      "ordinal": 65,
+      "segment": 18,
+      "offset": 6758,
+      "flags": 3,
+      "name": "GETSCROLLRANGE"
+    },
+    {
+      "ordinal": 66,
+      "segment": 1,
+      "offset": 42507,
+      "flags": 3,
+      "name": "GETDC"
+    },
+    {
+      "ordinal": 67,
+      "segment": 1,
+      "offset": 42487,
+      "flags": 3,
+      "name": "GETWINDOWDC"
+    },
+    {
+      "ordinal": 68,
+      "segment": 1,
+      "offset": 42527,
+      "flags": 3,
+      "name": "RELEASEDC"
+    },
+    {
+      "ordinal": 69,
+      "segment": 1,
+      "offset": 43927,
+      "flags": 3,
+      "name": "SETCURSOR"
+    },
+    {
+      "ordinal": 70,
+      "segment": 1,
+      "offset": 33324,
+      "flags": 3,
+      "name": "SETCURSORPOS"
+    },
+    {
+      "ordinal": 71,
+      "segment": 1,
+      "offset": 5388,
+      "flags": 3,
+      "name": "SHOWCURSOR"
+    },
+    {
+      "ordinal": 72,
+      "segment": 1,
+      "offset": 7485,
+      "flags": 3,
+      "name": "SETRECT"
+    },
+    {
+      "ordinal": 73,
+      "segment": 1,
+      "offset": 7524,
+      "flags": 3,
+      "name": "SETRECTEMPTY"
+    },
+    {
+      "ordinal": 74,
+      "segment": 1,
+      "offset": 7549,
+      "flags": 3,
+      "name": "COPYRECT"
+    },
+    {
+      "ordinal": 75,
+      "segment": 1,
+      "offset": 7578,
+      "flags": 3,
+      "name": "ISRECTEMPTY"
+    },
+    {
+      "ordinal": 76,
+      "segment": 1,
+      "offset": 7616,
+      "flags": 3,
+      "name": "PTINRECT"
+    },
+    {
+      "ordinal": 77,
+      "segment": 1,
+      "offset": 7668,
+      "flags": 3,
+      "name": "OFFSETRECT"
+    },
+    {
+      "ordinal": 78,
+      "segment": 1,
+      "offset": 7705,
+      "flags": 3,
+      "name": "INFLATERECT"
+    },
+    {
+      "ordinal": 79,
+      "segment": 1,
+      "offset": 7742,
+      "flags": 3,
+      "name": "INTERSECTRECT"
+    },
+    {
+      "ordinal": 80,
+      "segment": 1,
+      "offset": 7846,
+      "flags": 3,
+      "name": "UNIONRECT"
+    },
+    {
+      "ordinal": 81,
+      "segment": 1,
+      "offset": 44096,
+      "flags": 3,
+      "name": "FILLRECT"
+    },
+    {
+      "ordinal": 82,
+      "segment": 1,
+      "offset": 44240,
+      "flags": 3,
+      "name": "INVERTRECT"
+    },
+    {
+      "ordinal": 83,
+      "segment": 1,
+      "offset": 44168,
+      "flags": 3,
+      "name": "FRAMERECT"
+    },
+    {
+      "ordinal": 84,
+      "segment": 13,
+      "offset": 9116,
+      "flags": 3,
+      "name": "DRAWICON"
+    },
+    {
+      "ordinal": 85,
+      "segment": 6,
+      "offset": 7825,
+      "flags": 3,
+      "name": "DRAWTEXT"
+    },
+    {
+      "ordinal": 86,
+      "segment": 13,
+      "offset": 553,
+      "flags": 3,
+      "name": "BEAR86"
+    },
+    {
+      "ordinal": 87,
+      "segment": 25,
+      "offset": 9787,
+      "flags": 3,
+      "name": "DIALOGBOX"
+    },
+    {
+      "ordinal": 88,
+      "segment": 25,
+      "offset": 9957,
+      "flags": 3,
+      "name": "ENDDIALOG"
+    },
+    {
+      "ordinal": 89,
+      "segment": 24,
+      "offset": 2510,
+      "flags": 3,
+      "name": "CREATEDIALOG"
+    },
+    {
+      "ordinal": 90,
+      "segment": 25,
+      "offset": 10244,
+      "flags": 3,
+      "name": "ISDIALOGMESSAGE"
+    },
+    {
+      "ordinal": 91,
+      "segment": 25,
+      "offset": 9977,
+      "flags": 3,
+      "name": "GETDLGITEM"
+    },
+    {
+      "ordinal": 92,
+      "segment": 25,
+      "offset": 10049,
+      "flags": 3,
+      "name": "SETDLGITEMTEXT"
+    },
+    {
+      "ordinal": 93,
+      "segment": 25,
+      "offset": 10081,
+      "flags": 3,
+      "name": "GETDLGITEMTEXT"
+    },
+    {
+      "ordinal": 94,
+      "segment": 25,
+      "offset": 9997,
+      "flags": 3,
+      "name": "SETDLGITEMINT"
+    },
+    {
+      "ordinal": 95,
+      "segment": 25,
+      "offset": 10017,
+      "flags": 3,
+      "name": "GETDLGITEMINT"
+    },
+    {
+      "ordinal": 96,
+      "segment": 25,
+      "offset": 10121,
+      "flags": 3,
+      "name": "CHECKRADIOBUTTON"
+    },
+    {
+      "ordinal": 97,
+      "segment": 25,
+      "offset": 10101,
+      "flags": 3,
+      "name": "CHECKDLGBUTTON"
+    },
+    {
+      "ordinal": 98,
+      "segment": 25,
+      "offset": 10141,
+      "flags": 3,
+      "name": "ISDLGBUTTONCHECKED"
+    },
+    {
+      "ordinal": 99,
+      "segment": 37,
+      "offset": 4063,
+      "flags": 3,
+      "name": "DLGDIRSELECT"
+    },
+    {
+      "ordinal": 100,
+      "segment": 37,
+      "offset": 4017,
+      "flags": 3,
+      "name": "DLGDIRLIST"
+    },
+    {
+      "ordinal": 101,
+      "segment": 25,
+      "offset": 10161,
+      "flags": 3,
+      "name": "SENDDLGITEMMESSAGE"
+    },
+    {
+      "ordinal": 102,
+      "segment": 2,
+      "offset": 3282,
+      "flags": 3,
+      "name": "ADJUSTWINDOWRECT"
+    },
+    {
+      "ordinal": 103,
+      "segment": 25,
+      "offset": 10323,
+      "flags": 3,
+      "name": "MAPDIALOGRECT"
+    },
+    {
+      "ordinal": 104,
+      "segment": 1,
+      "offset": 7083,
+      "flags": 3,
+      "name": "MESSAGEBEEP"
+    },
+    {
+      "ordinal": 105,
+      "segment": 6,
+      "offset": 8030,
+      "flags": 3,
+      "name": "FLASHWINDOW"
+    },
+    {
+      "ordinal": 106,
+      "segment": 1,
+      "offset": 20294,
+      "flags": 3,
+      "name": "GETKEYSTATE"
+    },
+    {
+      "ordinal": 107,
+      "segment": 1,
+      "offset": 43004,
+      "flags": 3,
+      "name": "DEFWINDOWPROC"
+    },
+    {
+      "ordinal": 108,
+      "segment": 1,
+      "offset": 42639,
+      "flags": 3,
+      "name": "GETMESSAGE"
+    },
+    {
+      "ordinal": 109,
+      "segment": 1,
+      "offset": 42820,
+      "flags": 3,
+      "name": "PEEKMESSAGE"
+    },
+    {
+      "ordinal": 110,
+      "segment": 1,
+      "offset": 42935,
+      "flags": 3,
+      "name": "POSTMESSAGE"
+    },
+    {
+      "ordinal": 111,
+      "segment": 1,
+      "offset": 42886,
+      "flags": 3,
+      "name": "SENDMESSAGE"
+    },
+    {
+      "ordinal": 112,
+      "segment": 1,
+      "offset": 15812,
+      "flags": 3,
+      "name": "WAITMESSAGE"
+    },
+    {
+      "ordinal": 113,
+      "segment": 1,
+      "offset": 42674,
+      "flags": 3,
+      "name": "TRANSLATEMESSAGE"
+    },
+    {
+      "ordinal": 114,
+      "segment": 1,
+      "offset": 42747,
+      "flags": 3,
+      "name": "DISPATCHMESSAGE"
+    },
+    {
+      "ordinal": 115,
+      "segment": 1,
+      "offset": 15415,
+      "flags": 3,
+      "name": "REPLYMESSAGE"
+    },
+    {
+      "ordinal": 116,
+      "segment": 1,
+      "offset": 42984,
+      "flags": 3,
+      "name": "POSTAPPMESSAGE"
+    },
+    {
+      "ordinal": 118,
+      "segment": 1,
+      "offset": 33300,
+      "flags": 3,
+      "name": "REGISTERWINDOWMESSAGE"
+    },
+    {
+      "ordinal": 119,
+      "segment": 1,
+      "offset": 33198,
+      "flags": 3,
+      "name": "GETMESSAGEPOS"
+    },
+    {
+      "ordinal": 120,
+      "segment": 1,
+      "offset": 33185,
+      "flags": 3,
+      "name": "GETMESSAGETIME"
+    },
+    {
+      "ordinal": 121,
+      "segment": 1,
+      "offset": 44392,
+      "flags": 3,
+      "name": "SETWINDOWSHOOK"
+    },
+    {
+      "ordinal": 122,
+      "segment": 1,
+      "offset": 43047,
+      "flags": 3,
+      "name": "CALLWINDOWPROC"
+    },
+    {
+      "ordinal": 123,
+      "segment": 1,
+      "offset": 43099,
+      "flags": 3,
+      "name": "CALLMSGFILTER"
+    },
+    {
+      "ordinal": 124,
+      "segment": 1,
+      "offset": 43357,
+      "flags": 3,
+      "name": "UPDATEWINDOW"
+    },
+    {
+      "ordinal": 125,
+      "segment": 1,
+      "offset": 43559,
+      "flags": 3,
+      "name": "INVALIDATERECT"
+    },
+    {
+      "ordinal": 126,
+      "segment": 1,
+      "offset": 43623,
+      "flags": 3,
+      "name": "INVALIDATERGN"
+    },
+    {
+      "ordinal": 127,
+      "segment": 1,
+      "offset": 43591,
+      "flags": 3,
+      "name": "VALIDATERECT"
+    },
+    {
+      "ordinal": 128,
+      "segment": 1,
+      "offset": 43667,
+      "flags": 3,
+      "name": "VALIDATERGN"
+    },
+    {
+      "ordinal": 129,
+      "segment": 2,
+      "offset": 3470,
+      "flags": 3,
+      "name": "GETCLASSWORD"
+    },
+    {
+      "ordinal": 130,
+      "segment": 2,
+      "offset": 3490,
+      "flags": 3,
+      "name": "SETCLASSWORD"
+    },
+    {
+      "ordinal": 131,
+      "segment": 2,
+      "offset": 3510,
+      "flags": 3,
+      "name": "GETCLASSLONG"
+    },
+    {
+      "ordinal": 132,
+      "segment": 2,
+      "offset": 3530,
+      "flags": 3,
+      "name": "SETCLASSLONG"
+    },
+    {
+      "ordinal": 133,
+      "segment": 2,
+      "offset": 3334,
+      "flags": 3,
+      "name": "GETWINDOWWORD"
+    },
+    {
+      "ordinal": 134,
+      "segment": 2,
+      "offset": 3354,
+      "flags": 3,
+      "name": "SETWINDOWWORD"
+    },
+    {
+      "ordinal": 135,
+      "segment": 2,
+      "offset": 3386,
+      "flags": 3,
+      "name": "GETWINDOWLONG"
+    },
+    {
+      "ordinal": 136,
+      "segment": 2,
+      "offset": 3406,
+      "flags": 3,
+      "name": "SETWINDOWLONG"
+    },
+    {
+      "ordinal": 137,
+      "segment": 39,
+      "offset": 1808,
+      "flags": 3,
+      "name": "OPENCLIPBOARD"
+    },
+    {
+      "ordinal": 138,
+      "segment": 39,
+      "offset": 1603,
+      "flags": 3,
+      "name": "CLOSECLIPBOARD"
+    },
+    {
+      "ordinal": 139,
+      "segment": 39,
+      "offset": 609,
+      "flags": 3,
+      "name": "EMPTYCLIPBOARD"
+    },
+    {
+      "ordinal": 140,
+      "segment": 39,
+      "offset": 238,
+      "flags": 3,
+      "name": "GETCLIPBOARDOWNER"
+    },
+    {
+      "ordinal": 141,
+      "segment": 39,
+      "offset": 756,
+      "flags": 3,
+      "name": "SETCLIPBOARDDATA"
+    },
+    {
+      "ordinal": 142,
+      "segment": 39,
+      "offset": 1061,
+      "flags": 3,
+      "name": "GETCLIPBOARDDATA"
+    },
+    {
+      "ordinal": 143,
+      "segment": 39,
+      "offset": 117,
+      "flags": 3,
+      "name": "COUNTCLIPBOARDFORMATS"
+    },
+    {
+      "ordinal": 144,
+      "segment": 39,
+      "offset": 1723,
+      "flags": 3,
+      "name": "ENUMCLIPBOARDFORMATS"
+    },
+    {
+      "ordinal": 145,
+      "segment": 1,
+      "offset": 33300,
+      "flags": 3,
+      "name": "REGISTERCLIPBOARDFORMAT"
+    },
+    {
+      "ordinal": 146,
+      "segment": 39,
+      "offset": 1874,
+      "flags": 3,
+      "name": "GETCLIPBOARDFORMATNAME"
+    },
+    {
+      "ordinal": 147,
+      "segment": 39,
+      "offset": 1828,
+      "flags": 3,
+      "name": "SETCLIPBOARDVIEWER"
+    },
+    {
+      "ordinal": 148,
+      "segment": 39,
+      "offset": 249,
+      "flags": 3,
+      "name": "GETCLIPBOARDVIEWER"
+    },
+    {
+      "ordinal": 149,
+      "segment": 39,
+      "offset": 1848,
+      "flags": 3,
+      "name": "CHANGECLIPBOARDCHAIN"
+    },
+    {
+      "ordinal": 150,
+      "segment": 9,
+      "offset": 4214,
+      "flags": 3,
+      "name": "LOADMENU"
+    },
+    {
+      "ordinal": 151,
+      "segment": 9,
+      "offset": 2054,
+      "flags": 3,
+      "name": "CREATEMENU"
+    },
+    {
+      "ordinal": 152,
+      "segment": 9,
+      "offset": 4494,
+      "flags": 3,
+      "name": "DESTROYMENU"
+    },
+    {
+      "ordinal": 153,
+      "segment": 9,
+      "offset": 4315,
+      "flags": 3,
+      "name": "CHANGEMENU"
+    },
+    {
+      "ordinal": 154,
+      "segment": 9,
+      "offset": 4514,
+      "flags": 3,
+      "name": "CHECKMENUITEM"
+    },
+    {
+      "ordinal": 155,
+      "segment": 9,
+      "offset": 4551,
+      "flags": 3,
+      "name": "ENABLEMENUITEM"
+    },
+    {
+      "ordinal": 156,
+      "segment": 9,
+      "offset": 4448,
+      "flags": 3,
+      "name": "GETSYSTEMMENU"
+    },
+    {
+      "ordinal": 157,
+      "segment": 9,
+      "offset": 4269,
+      "flags": 3,
+      "name": "GETMENU"
+    },
+    {
+      "ordinal": 158,
+      "segment": 9,
+      "offset": 4289,
+      "flags": 3,
+      "name": "SETMENU"
+    },
+    {
+      "ordinal": 159,
+      "segment": 9,
+      "offset": 4588,
+      "flags": 3,
+      "name": "GETSUBMENU"
+    },
+    {
+      "ordinal": 160,
+      "segment": 10,
+      "offset": 12483,
+      "flags": 3,
+      "name": "DRAWMENUBAR"
+    },
+    {
+      "ordinal": 161,
+      "segment": 9,
+      "offset": 4349,
+      "flags": 3,
+      "name": "GETMENUSTRING"
+    },
+    {
+      "ordinal": 162,
+      "segment": 19,
+      "offset": 2889,
+      "flags": 3,
+      "name": "HILITEMENUITEM"
+    },
+    {
+      "ordinal": 163,
+      "segment": 13,
+      "offset": 9505,
+      "flags": 3,
+      "name": "CREATECARET"
+    },
+    {
+      "ordinal": 164,
+      "segment": 13,
+      "offset": 3066,
+      "flags": 3,
+      "name": "DESTROYCARET"
+    },
+    {
+      "ordinal": 165,
+      "segment": 13,
+      "offset": 3512,
+      "flags": 3,
+      "name": "SETCARETPOS"
+    },
+    {
+      "ordinal": 166,
+      "segment": 13,
+      "offset": 9551,
+      "flags": 3,
+      "name": "HIDECARET"
+    },
+    {
+      "ordinal": 167,
+      "segment": 13,
+      "offset": 9571,
+      "flags": 3,
+      "name": "SHOWCARET"
+    },
+    {
+      "ordinal": 168,
+      "segment": 3,
+      "offset": 9469,
+      "flags": 3,
+      "name": "SETCARETBLINKTIME"
+    },
+    {
+      "ordinal": 169,
+      "segment": 13,
+      "offset": 3471,
+      "flags": 3,
+      "name": "GETCARETBLINKTIME"
+    },
+    {
+      "ordinal": 170,
+      "segment": 4,
+      "offset": 1216,
+      "flags": 3,
+      "name": "ARRANGEICONICWINDOWS"
+    },
+    {
+      "ordinal": 171,
+      "segment": 2,
+      "offset": 3644,
+      "flags": 3,
+      "name": "WINHELP"
+    },
+    {
+      "ordinal": 172,
+      "segment": 23,
+      "offset": 3307,
+      "flags": 3,
+      "name": "SWITCHTOTHISWINDOW"
+    },
+    {
+      "ordinal": 173,
+      "segment": 12,
+      "offset": 5787,
+      "flags": 3,
+      "name": "LOADCURSOR"
+    },
+    {
+      "ordinal": 174,
+      "segment": 12,
+      "offset": 5906,
+      "flags": 3,
+      "name": "LOADICON"
+    },
+    {
+      "ordinal": 175,
+      "segment": 12,
+      "offset": 5758,
+      "flags": 3,
+      "name": "LOADBITMAP"
+    },
+    {
+      "ordinal": 176,
+      "segment": 12,
+      "offset": 6063,
+      "flags": 3,
+      "name": "LOADSTRING"
+    },
+    {
+      "ordinal": 177,
+      "segment": 12,
+      "offset": 5729,
+      "flags": 3,
+      "name": "LOADACCELERATORS"
+    },
+    {
+      "ordinal": 178,
+      "segment": 19,
+      "offset": 2804,
+      "flags": 3,
+      "name": "TRANSLATEACCELERATOR"
+    },
+    {
+      "ordinal": 179,
+      "segment": 1,
+      "offset": 43309,
+      "flags": 3,
+      "name": "GETSYSTEMMETRICS"
+    },
+    {
+      "ordinal": 180,
+      "segment": 1,
+      "offset": 33077,
+      "flags": 3,
+      "name": "GETSYSCOLOR"
+    },
+    {
+      "ordinal": 181,
+      "segment": 41,
+      "offset": 6255,
+      "flags": 3,
+      "name": "SETSYSCOLORS"
+    },
+    {
+      "ordinal": 182,
+      "segment": 1,
+      "offset": 29940,
+      "flags": 3,
+      "name": "BEAR182"
+    },
+    {
+      "ordinal": 183,
+      "segment": 13,
+      "offset": 3482,
+      "flags": 3,
+      "name": "GETCARETPOS"
+    },
+    {
+      "ordinal": 184,
+      "segment": 1,
+      "offset": 18702,
+      "flags": 3,
+      "name": "QUERYSENDMESSAGE"
+    },
+    {
+      "ordinal": 185,
+      "segment": 10,
+      "offset": 12503,
+      "flags": 3,
+      "name": "GRAYSTRING"
+    },
+    {
+      "ordinal": 186,
+      "segment": 1,
+      "offset": 7406,
+      "flags": 1,
+      "name": "SWAPMOUSEBUTTON"
+    },
+    {
+      "ordinal": 187,
+      "segment": 9,
+      "offset": 254,
+      "flags": 3,
+      "name": "ENDMENU"
+    },
+    {
+      "ordinal": 188,
+      "segment": 1,
+      "offset": 42866,
+      "flags": 3,
+      "name": "SETSYSMODALWINDOW"
+    },
+    {
+      "ordinal": 189,
+      "segment": 1,
+      "offset": 6612,
+      "flags": 3,
+      "name": "GETSYSMODALWINDOW"
+    },
+    {
+      "ordinal": 190,
+      "segment": 1,
+      "offset": 43441,
+      "flags": 3,
+      "name": "GETUPDATERECT"
+    },
+    {
+      "ordinal": 191,
+      "segment": 1,
+      "offset": 44025,
+      "flags": 3,
+      "name": "CHILDWINDOWFROMPOINT"
+    },
+    {
+      "ordinal": 192,
+      "segment": 1,
+      "offset": 15802,
+      "flags": 3,
+      "name": "INSENDMESSAGE"
+    },
+    {
+      "ordinal": 193,
+      "segment": 39,
+      "offset": 48,
+      "flags": 3,
+      "name": "ISCLIPBOARDFORMATAVAILABLE"
+    },
+    {
+      "ordinal": 194,
+      "segment": 37,
+      "offset": 4173,
+      "flags": 3,
+      "name": "DLGDIRSELECTCOMBOBOX"
+    },
+    {
+      "ordinal": 195,
+      "segment": 37,
+      "offset": 4127,
+      "flags": 3,
+      "name": "DLGDIRLISTCOMBOBOX"
+    },
+    {
+      "ordinal": 196,
+      "segment": 6,
+      "offset": 7965,
+      "flags": 3,
+      "name": "TABBEDTEXTOUT"
+    },
+    {
+      "ordinal": 197,
+      "segment": 6,
+      "offset": 7900,
+      "flags": 3,
+      "name": "GETTABBEDTEXTEXTENT"
+    },
+    {
+      "ordinal": 198,
+      "segment": 15,
+      "offset": 2165,
+      "flags": 3,
+      "name": "CASCADECHILDWINDOWS"
+    },
+    {
+      "ordinal": 199,
+      "segment": 15,
+      "offset": 2390,
+      "flags": 3,
+      "name": "TILECHILDWINDOWS"
+    },
+    {
+      "ordinal": 200,
+      "segment": 40,
+      "offset": 2521,
+      "flags": 3,
+      "name": "OPENCOMM"
+    },
+    {
+      "ordinal": 201,
+      "segment": 40,
+      "offset": 2550,
+      "flags": 3,
+      "name": "SETCOMMSTATE"
+    },
+    {
+      "ordinal": 202,
+      "segment": 40,
+      "offset": 2579,
+      "flags": 3,
+      "name": "GETCOMMSTATE"
+    },
+    {
+      "ordinal": 203,
+      "segment": 40,
+      "offset": 2765,
+      "flags": 3,
+      "name": "GETCOMMERROR"
+    },
+    {
+      "ordinal": 204,
+      "segment": 40,
+      "offset": 2621,
+      "flags": 3,
+      "name": "READCOMM"
+    },
+    {
+      "ordinal": 205,
+      "segment": 40,
+      "offset": 2693,
+      "flags": 3,
+      "name": "WRITECOMM"
+    },
+    {
+      "ordinal": 206,
+      "segment": 40,
+      "offset": 2845,
+      "flags": 3,
+      "name": "TRANSMITCOMMCHAR"
+    },
+    {
+      "ordinal": 207,
+      "segment": 40,
+      "offset": 2735,
+      "flags": 3,
+      "name": "CLOSECOMM"
+    },
+    {
+      "ordinal": 208,
+      "segment": 40,
+      "offset": 2875,
+      "flags": 3,
+      "name": "SETCOMMEVENTMASK"
+    },
+    {
+      "ordinal": 209,
+      "segment": 40,
+      "offset": 2916,
+      "flags": 3,
+      "name": "GETCOMMEVENTMASK"
+    },
+    {
+      "ordinal": 210,
+      "segment": 40,
+      "offset": 2957,
+      "flags": 3,
+      "name": "SETCOMMBREAK"
+    },
+    {
+      "ordinal": 211,
+      "segment": 40,
+      "offset": 2987,
+      "flags": 3,
+      "name": "CLEARCOMMBREAK"
+    },
+    {
+      "ordinal": 212,
+      "segment": 40,
+      "offset": 2663,
+      "flags": 3,
+      "name": "UNGETCOMMCHAR"
+    },
+    {
+      "ordinal": 213,
+      "segment": 40,
+      "offset": 2804,
+      "flags": 3,
+      "name": "BUILDCOMMDCB"
+    },
+    {
+      "ordinal": 214,
+      "segment": 40,
+      "offset": 3047,
+      "flags": 3,
+      "name": "ESCAPECOMMFUNCTION"
+    },
+    {
+      "ordinal": 215,
+      "segment": 40,
+      "offset": 3017,
+      "flags": 3,
+      "name": "FLUSHCOMM"
+    },
+    {
+      "ordinal": 216,
+      "segment": 41,
+      "offset": 6174,
+      "flags": 3,
+      "name": "USERSEEUSERDO"
+    },
+    {
+      "ordinal": 217,
+      "segment": 9,
+      "offset": 355,
+      "flags": 3,
+      "name": "LOOKUPMENUHANDLE"
+    },
+    {
+      "ordinal": 218,
+      "segment": 25,
+      "offset": 9831,
+      "flags": 3,
+      "name": "DIALOGBOXINDIRECT"
+    },
+    {
+      "ordinal": 219,
+      "segment": 24,
+      "offset": 2554,
+      "flags": 3,
+      "name": "CREATEDIALOGINDIRECT"
+    },
+    {
+      "ordinal": 220,
+      "segment": 9,
+      "offset": 4243,
+      "flags": 3,
+      "name": "LOADMENUINDIRECT"
+    },
+    {
+      "ordinal": 221,
+      "segment": 13,
+      "offset": 9225,
+      "flags": 3,
+      "name": "SCROLLDC"
+    },
+    {
+      "ordinal": 222,
+      "segment": 1,
+      "offset": 43145,
+      "flags": 3,
+      "name": "GETKEYBOARDSTATE"
+    },
+    {
+      "ordinal": 223,
+      "segment": 1,
+      "offset": 43171,
+      "flags": 3,
+      "name": "SETKEYBOARDSTATE"
+    },
+    {
+      "ordinal": 224,
+      "segment": 1,
+      "offset": 44372,
+      "flags": 3,
+      "name": "GETWINDOWTASK"
+    },
+    {
+      "ordinal": 225,
+      "segment": 1,
+      "offset": 44343,
+      "flags": 3,
+      "name": "ENUMTASKWINDOWS"
+    },
+    {
+      "ordinal": 226,
+      "segment": 1,
+      "offset": 18819,
+      "flags": 3,
+      "name": "LOCKINPUT"
+    },
+    {
+      "ordinal": 227,
+      "segment": 19,
+      "offset": 2752,
+      "flags": 3,
+      "name": "GETNEXTDLGGROUPITEM"
+    },
+    {
+      "ordinal": 228,
+      "segment": 19,
+      "offset": 2778,
+      "flags": 3,
+      "name": "GETNEXTDLGTABITEM"
+    },
+    {
+      "ordinal": 229,
+      "segment": 2,
+      "offset": 3570,
+      "flags": 3,
+      "name": "GETTOPWINDOW"
+    },
+    {
+      "ordinal": 230,
+      "segment": 2,
+      "offset": 2290,
+      "flags": 3,
+      "name": "GETNEXTWINDOW"
+    },
+    {
+      "ordinal": 231,
+      "segment": 1,
+      "offset": 19195,
+      "flags": 3,
+      "name": "GETSYSTEMDEBUGSTATE"
+    },
+    {
+      "ordinal": 232,
+      "segment": 7,
+      "offset": 6074,
+      "flags": 3,
+      "name": "SETWINDOWPOS"
+    },
+    {
+      "ordinal": 233,
+      "segment": 14,
+      "offset": 4252,
+      "flags": 3,
+      "name": "SETPARENT"
+    },
+    {
+      "ordinal": 234,
+      "segment": 1,
+      "offset": 44442,
+      "flags": 3,
+      "name": "UNHOOKWINDOWSHOOK"
+    },
+    {
+      "ordinal": 235,
+      "segment": 1,
+      "offset": 44484,
+      "flags": 3,
+      "name": "DEFHOOKPROC"
+    },
+    {
+      "ordinal": 236,
+      "segment": 1,
+      "offset": 33175,
+      "flags": 3,
+      "name": "GETCAPTURE"
+    },
+    {
+      "ordinal": 237,
+      "segment": 1,
+      "offset": 43473,
+      "flags": 3,
+      "name": "GETUPDATERGN"
+    },
+    {
+      "ordinal": 238,
+      "segment": 1,
+      "offset": 43514,
+      "flags": 3,
+      "name": "EXCLUDEUPDATERGN"
+    },
+    {
+      "ordinal": 239,
+      "segment": 25,
+      "offset": 9872,
+      "flags": 3,
+      "name": "DIALOGBOXPARAM"
+    },
+    {
+      "ordinal": 240,
+      "segment": 25,
+      "offset": 9916,
+      "flags": 3,
+      "name": "DIALOGBOXINDIRECTPARAM"
+    },
+    {
+      "ordinal": 241,
+      "segment": 24,
+      "offset": 2601,
+      "flags": 3,
+      "name": "CREATEDIALOGPARAM"
+    },
+    {
+      "ordinal": 242,
+      "segment": 24,
+      "offset": 2645,
+      "flags": 3,
+      "name": "CREATEDIALOGINDIRECTPARAM"
+    },
+    {
+      "ordinal": 243,
+      "segment": 25,
+      "offset": 2723,
+      "flags": 3,
+      "name": "GETDIALOGBASEUNITS"
+    },
+    {
+      "ordinal": 244,
+      "segment": 1,
+      "offset": 8340,
+      "flags": 3,
+      "name": "EQUALRECT"
+    },
+    {
+      "ordinal": 245,
+      "segment": 40,
+      "offset": 3078,
+      "flags": 3,
+      "name": "ENABLECOMMNOTIFICATION"
+    },
+    {
+      "ordinal": 246,
+      "segment": 5,
+      "offset": 1502,
+      "flags": 3,
+      "name": "EXITWINDOWSEXEC"
+    },
+    {
+      "ordinal": 247,
+      "segment": 1,
+      "offset": 5322,
+      "flags": 3,
+      "name": "GETCURSOR"
+    },
+    {
+      "ordinal": 248,
+      "segment": 39,
+      "offset": 1536,
+      "flags": 3,
+      "name": "GETOPENCLIPBOARDWINDOW"
+    },
+    {
+      "ordinal": 249,
+      "segment": 1,
+      "offset": 20313,
+      "flags": 3,
+      "name": "GETASYNCKEYSTATE"
+    },
+    {
+      "ordinal": 250,
+      "segment": 9,
+      "offset": 4411,
+      "flags": 3,
+      "name": "GETMENUSTATE"
+    },
+    {
+      "ordinal": 251,
+      "segment": 2,
+      "offset": 3676,
+      "flags": 3,
+      "name": "SENDDRIVERMESSAGE"
+    },
+    {
+      "ordinal": 252,
+      "segment": 41,
+      "offset": 6347,
+      "flags": 3,
+      "name": "OPENDRIVER"
+    },
+    {
+      "ordinal": 253,
+      "segment": 41,
+      "offset": 6385,
+      "flags": 3,
+      "name": "CLOSEDRIVER"
+    },
+    {
+      "ordinal": 254,
+      "segment": 41,
+      "offset": 6405,
+      "flags": 3,
+      "name": "GETDRIVERMODULEHANDLE"
+    },
+    {
+      "ordinal": 255,
+      "segment": 2,
+      "offset": 3696,
+      "flags": 3,
+      "name": "DEFDRIVERPROC"
+    },
+    {
+      "ordinal": 256,
+      "segment": 2,
+      "offset": 3759,
+      "flags": 3,
+      "name": "GETDRIVERINFO"
+    },
+    {
+      "ordinal": 257,
+      "segment": 2,
+      "offset": 3716,
+      "flags": 3,
+      "name": "GETNEXTDRIVER"
+    },
+    {
+      "ordinal": 258,
+      "segment": 1,
+      "offset": 6344,
+      "flags": 3,
+      "name": "MAPWINDOWPOINTS"
+    },
+    {
+      "ordinal": 259,
+      "segment": 7,
+      "offset": 181,
+      "flags": 3,
+      "name": "BEGINDEFERWINDOWPOS"
+    },
+    {
+      "ordinal": 260,
+      "segment": 7,
+      "offset": 6123,
+      "flags": 3,
+      "name": "DEFERWINDOWPOS"
+    },
+    {
+      "ordinal": 261,
+      "segment": 7,
+      "offset": 6178,
+      "flags": 3,
+      "name": "ENDDEFERWINDOWPOS"
+    },
+    {
+      "ordinal": 262,
+      "segment": 2,
+      "offset": 3610,
+      "flags": 3,
+      "name": "GETWINDOW"
+    },
+    {
+      "ordinal": 263,
+      "segment": 9,
+      "offset": 4631,
+      "flags": 3,
+      "name": "GETMENUITEMCOUNT"
+    },
+    {
+      "ordinal": 264,
+      "segment": 9,
+      "offset": 4608,
+      "flags": 3,
+      "name": "GETMENUITEMID"
+    },
+    {
+      "ordinal": 265,
+      "segment": 14,
+      "offset": 4192,
+      "flags": 3,
+      "name": "SHOWOWNEDPOPUPS"
+    },
+    {
+      "ordinal": 266,
+      "segment": 1,
+      "offset": 22192,
+      "flags": 3,
+      "name": "SETMESSAGEQUEUE"
+    },
+    {
+      "ordinal": 267,
+      "segment": 18,
+      "offset": 6816,
+      "flags": 3,
+      "name": "SHOWSCROLLBAR"
+    },
+    {
+      "ordinal": 268,
+      "segment": 1,
+      "offset": 8653,
+      "flags": 3,
+      "name": "GLOBALADDATOM"
+    },
+    {
+      "ordinal": 269,
+      "segment": 1,
+      "offset": 8758,
+      "flags": 3,
+      "name": "GLOBALDELETEATOM"
+    },
+    {
+      "ordinal": 270,
+      "segment": 1,
+      "offset": 8785,
+      "flags": 3,
+      "name": "GLOBALFINDATOM"
+    },
+    {
+      "ordinal": 271,
+      "segment": 1,
+      "offset": 8815,
+      "flags": 3,
+      "name": "GLOBALGETATOMNAME"
+    },
+    {
+      "ordinal": 272,
+      "segment": 1,
+      "offset": 6448,
+      "flags": 3,
+      "name": "ISZOOMED"
+    },
+    {
+      "ordinal": 273,
+      "segment": 41,
+      "offset": 5910,
+      "flags": 3,
+      "name": "CONTROLPANELINFO"
+    },
+    {
+      "ordinal": 274,
+      "segment": 23,
+      "offset": 3470,
+      "flags": 3,
+      "name": "GETNEXTQUEUEWINDOW"
+    },
+    {
+      "ordinal": 275,
+      "segment": 1,
+      "offset": 30631,
+      "flags": 3,
+      "name": "REPAINTSCREEN"
+    },
+    {
+      "ordinal": 276,
+      "segment": 1,
+      "offset": 28394,
+      "flags": 3,
+      "name": "LOCKMYTASK"
+    },
+    {
+      "ordinal": 277,
+      "segment": 25,
+      "offset": 10181,
+      "flags": 3,
+      "name": "GETDLGCTRLID"
+    },
+    {
+      "ordinal": 278,
+      "segment": 1,
+      "offset": 6602,
+      "flags": 3,
+      "name": "GETDESKTOPHWND"
+    },
+    {
+      "ordinal": 279,
+      "segment": 41,
+      "offset": 2641,
+      "flags": 3,
+      "name": "OLDSETDESKPATTERN"
+    },
+    {
+      "ordinal": 280,
+      "segment": 9,
+      "offset": 4468,
+      "flags": 3,
+      "name": "SETSYSTEMMENU"
+    },
+    {
+      "ordinal": 282,
+      "segment": 6,
+      "offset": 8085,
+      "flags": 3,
+      "name": "SELECTPALETTE"
+    },
+    {
+      "ordinal": 283,
+      "segment": 6,
+      "offset": 8145,
+      "flags": 3,
+      "name": "REALIZEPALETTE"
+    },
+    {
+      "ordinal": 284,
+      "segment": 41,
+      "offset": 5952,
+      "flags": 3,
+      "name": "GETFREESYSTEMRESOURCES"
+    },
+    {
+      "ordinal": 285,
+      "segment": 41,
+      "offset": 5942,
+      "flags": 3,
+      "name": "BEAR285"
+    },
+    {
+      "ordinal": 286,
+      "segment": 1,
+      "offset": 6602,
+      "flags": 3,
+      "name": "GETDESKTOPWINDOW"
+    },
+    {
+      "ordinal": 287,
+      "segment": 2,
+      "offset": 3590,
+      "flags": 3,
+      "name": "GETLASTACTIVEPOPUP"
+    },
+    {
+      "ordinal": 288,
+      "segment": 1,
+      "offset": 33211,
+      "flags": 3,
+      "name": "GETMESSAGEEXTRAINFO"
+    },
+    {
+      "ordinal": 289,
+      "segment": 1,
+      "offset": 19289,
+      "flags": 3,
+      "name": "KEYBD_EVENT"
+    },
+    {
+      "ordinal": 290,
+      "segment": 1,
+      "offset": 43711,
+      "flags": 3,
+      "name": "REDRAWWINDOW"
+    },
+    {
+      "ordinal": 291,
+      "segment": 1,
+      "offset": 44510,
+      "flags": 3,
+      "name": "SETWINDOWSHOOKEX"
+    },
+    {
+      "ordinal": 292,
+      "segment": 1,
+      "offset": 44564,
+      "flags": 3,
+      "name": "UNHOOKWINDOWSHOOKEX"
+    },
+    {
+      "ordinal": 293,
+      "segment": 1,
+      "offset": 44597,
+      "flags": 3,
+      "name": "CALLNEXTHOOKEX"
+    },
+    {
+      "ordinal": 294,
+      "segment": 13,
+      "offset": 9161,
+      "flags": 3,
+      "name": "LOCKWINDOWUPDATE"
+    },
+    {
+      "ordinal": 299,
+      "segment": 1,
+      "offset": 20602,
+      "flags": 3,
+      "name": "MOUSE_EVENT"
+    },
+    {
+      "ordinal": 301,
+      "segment": 26,
+      "offset": 0,
+      "flags": 3,
+      "name": "BOZOSLIVEHERE"
+    },
+    {
+      "ordinal": 306,
+      "segment": 10,
+      "offset": 5511,
+      "flags": 3,
+      "name": "BEAR306"
+    },
+    {
+      "ordinal": 308,
+      "segment": 25,
+      "offset": 10201,
+      "flags": 3,
+      "name": "DEFDLGPROC"
+    },
+    {
+      "ordinal": 309,
+      "segment": 1,
+      "offset": 43999,
+      "flags": 3,
+      "name": "GETCLIPCURSOR"
+    },
+    {
+      "ordinal": 314,
+      "segment": 1,
+      "offset": 2492,
+      "flags": 3,
+      "name": "SIGNALPROC"
+    },
+    {
+      "ordinal": 319,
+      "segment": 13,
+      "offset": 9324,
+      "flags": 3,
+      "name": "SCROLLWINDOWEX"
+    },
+    {
+      "ordinal": 320,
+      "segment": 1,
+      "offset": 37669,
+      "flags": 3,
+      "name": "SYSERRORBOX"
+    },
+    {
+      "ordinal": 321,
+      "segment": 1,
+      "offset": 43197,
+      "flags": 3,
+      "name": "SETEVENTHOOK"
+    },
+    {
+      "ordinal": 322,
+      "segment": 41,
+      "offset": 3694,
+      "flags": 3,
+      "name": "WINOLDAPPHACKOMATIC"
+    },
+    {
+      "ordinal": 323,
+      "segment": 1,
+      "offset": 9295,
+      "flags": 3,
+      "name": "GETMESSAGE2"
+    },
+    {
+      "ordinal": 324,
+      "segment": 1,
+      "offset": 30566,
+      "flags": 3,
+      "name": "FILLWINDOW"
+    },
+    {
+      "ordinal": 325,
+      "segment": 1,
+      "offset": 30443,
+      "flags": 3,
+      "name": "PAINTRECT"
+    },
+    {
+      "ordinal": 326,
+      "segment": 6,
+      "offset": 722,
+      "flags": 3,
+      "name": "GETCONTROLBRUSH"
+    },
+    {
+      "ordinal": 331,
+      "segment": 1,
+      "offset": 20278,
+      "flags": 1,
+      "name": "ENABLEHARDWAREINPUT"
+    },
+    {
+      "ordinal": 332,
+      "segment": 1,
+      "offset": 15858,
+      "flags": 3,
+      "name": "USERYIELD"
+    },
+    {
+      "ordinal": 333,
+      "segment": 1,
+      "offset": 13134,
+      "flags": 3,
+      "name": "ISUSERIDLE"
+    },
+    {
+      "ordinal": 334,
+      "segment": 1,
+      "offset": 20461,
+      "flags": 3,
+      "name": "GETQUEUESTATUS"
+    },
+    {
+      "ordinal": 335,
+      "segment": 1,
+      "offset": 20508,
+      "flags": 3,
+      "name": "GETINPUTSTATE"
+    },
+    {
+      "ordinal": 336,
+      "segment": 12,
+      "offset": 3563,
+      "flags": 3,
+      "name": "LOADCURSORICONHANDLER"
+    },
+    {
+      "ordinal": 337,
+      "segment": 1,
+      "offset": 21258,
+      "flags": 3,
+      "name": "GETMOUSEEVENTPROC"
+    },
+    {
+      "ordinal": 341,
+      "segment": 1,
+      "offset": 6040,
+      "flags": 3,
+      "name": "_FFFE_FARFRAME"
+    },
+    {
+      "ordinal": 343,
+      "segment": 1,
+      "offset": 40060,
+      "flags": 3,
+      "name": "GETFILEPORTNAME"
+    },
+    {
+      "ordinal": 356,
+      "segment": 12,
+      "offset": 4081,
+      "flags": 3,
+      "name": "LOADDIBCURSORHANDLER"
+    },
+    {
+      "ordinal": 357,
+      "segment": 12,
+      "offset": 4109,
+      "flags": 3,
+      "name": "LOADDIBICONHANDLER"
+    },
+    {
+      "ordinal": 358,
+      "segment": 9,
+      "offset": 4000,
+      "flags": 3,
+      "name": "ISMENU"
+    },
+    {
+      "ordinal": 359,
+      "segment": 1,
+      "offset": 42572,
+      "flags": 3,
+      "name": "GETDCEX"
+    },
+    {
+      "ordinal": 362,
+      "segment": 1,
+      "offset": 35328,
+      "flags": 3,
+      "name": "DCHOOK"
+    },
+    {
+      "ordinal": 368,
+      "segment": 12,
+      "offset": 5999,
+      "flags": 3,
+      "name": "COPYICON"
+    },
+    {
+      "ordinal": 369,
+      "segment": 12,
+      "offset": 5880,
+      "flags": 3,
+      "name": "COPYCURSOR"
+    },
+    {
+      "ordinal": 370,
+      "segment": 14,
+      "offset": 4062,
+      "flags": 3,
+      "name": "GETWINDOWPLACEMENT"
+    },
+    {
+      "ordinal": 371,
+      "segment": 14,
+      "offset": 4110,
+      "flags": 3,
+      "name": "SETWINDOWPLACEMENT"
+    },
+    {
+      "ordinal": 372,
+      "segment": 12,
+      "offset": 6025,
+      "flags": 3,
+      "name": "GETINTERNALICONHEADER"
+    },
+    {
+      "ordinal": 373,
+      "segment": 1,
+      "offset": 8376,
+      "flags": 3,
+      "name": "SUBTRACTRECT"
+    },
+    {
+      "ordinal": 400,
+      "segment": 3,
+      "offset": 9584,
+      "flags": 3,
+      "name": "FINALUSERINIT"
+    },
+    {
+      "ordinal": 402,
+      "segment": 39,
+      "offset": 1916,
+      "flags": 3,
+      "name": "GETPRIORITYCLIPBOARDFORMAT"
+    },
+    {
+      "ordinal": 403,
+      "segment": 8,
+      "offset": 3749,
+      "flags": 3,
+      "name": "UNREGISTERCLASS"
+    },
+    {
+      "ordinal": 404,
+      "segment": 8,
+      "offset": 3778,
+      "flags": 3,
+      "name": "GETCLASSINFO"
+    },
+    {
+      "ordinal": 406,
+      "segment": 12,
+      "offset": 5816,
+      "flags": 3,
+      "name": "CREATECURSOR"
+    },
+    {
+      "ordinal": 407,
+      "segment": 12,
+      "offset": 5935,
+      "flags": 3,
+      "name": "CREATEICON"
+    },
+    {
+      "ordinal": 408,
+      "segment": 12,
+      "offset": 0,
+      "flags": 3,
+      "name": "CREATECURSORICONINDIRECT"
+    },
+    {
+      "ordinal": 410,
+      "segment": 9,
+      "offset": 4654,
+      "flags": 3,
+      "name": "INSERTMENU"
+    },
+    {
+      "ordinal": 411,
+      "segment": 9,
+      "offset": 4688,
+      "flags": 3,
+      "name": "APPENDMENU"
+    },
+    {
+      "ordinal": 412,
+      "segment": 9,
+      "offset": 4756,
+      "flags": 3,
+      "name": "REMOVEMENU"
+    },
+    {
+      "ordinal": 413,
+      "segment": 9,
+      "offset": 4790,
+      "flags": 3,
+      "name": "DELETEMENU"
+    },
+    {
+      "ordinal": 414,
+      "segment": 9,
+      "offset": 4722,
+      "flags": 3,
+      "name": "MODIFYMENU"
+    },
+    {
+      "ordinal": 415,
+      "segment": 9,
+      "offset": 2067,
+      "flags": 3,
+      "name": "CREATEPOPUPMENU"
+    },
+    {
+      "ordinal": 416,
+      "segment": 9,
+      "offset": 4906,
+      "flags": 3,
+      "name": "TRACKPOPUPMENU"
+    },
+    {
+      "ordinal": 417,
+      "segment": 9,
+      "offset": 1963,
+      "flags": 3,
+      "name": "GETMENUCHECKMARKDIMENSIONS"
+    },
+    {
+      "ordinal": 418,
+      "segment": 9,
+      "offset": 4824,
+      "flags": 3,
+      "name": "SETMENUITEMBITMAPS"
+    },
+    {
+      "ordinal": 420,
+      "segment": 16,
+      "offset": 1370,
+      "flags": 3,
+      "name": "_WSPRINTF"
+    },
+    {
+      "ordinal": 421,
+      "segment": 16,
+      "offset": 1304,
+      "flags": 3,
+      "name": "WVSPRINTF"
+    },
+    {
+      "ordinal": 422,
+      "segment": 37,
+      "offset": 4095,
+      "flags": 3,
+      "name": "DLGDIRSELECTEX"
+    },
+    {
+      "ordinal": 423,
+      "segment": 37,
+      "offset": 4205,
+      "flags": 3,
+      "name": "DLGDIRSELECTCOMBOBOXEX"
+    },
+    {
+      "ordinal": 430,
+      "segment": 11,
+      "offset": 857,
+      "flags": 3,
+      "name": "LSTRCMP"
+    },
+    {
+      "ordinal": 431,
+      "segment": 11,
+      "offset": 869,
+      "flags": 3,
+      "name": "ANSIUPPER"
+    },
+    {
+      "ordinal": 432,
+      "segment": 11,
+      "offset": 897,
+      "flags": 3,
+      "name": "ANSILOWER"
+    },
+    {
+      "ordinal": 433,
+      "segment": 11,
+      "offset": 515,
+      "flags": 3,
+      "name": "ISCHARALPHA"
+    },
+    {
+      "ordinal": 434,
+      "segment": 11,
+      "offset": 520,
+      "flags": 3,
+      "name": "ISCHARALPHANUMERIC"
+    },
+    {
+      "ordinal": 435,
+      "segment": 11,
+      "offset": 525,
+      "flags": 3,
+      "name": "ISCHARUPPER"
+    },
+    {
+      "ordinal": 436,
+      "segment": 11,
+      "offset": 530,
+      "flags": 3,
+      "name": "ISCHARLOWER"
+    },
+    {
+      "ordinal": 437,
+      "segment": 11,
+      "offset": 925,
+      "flags": 3,
+      "name": "ANSIUPPERBUFF"
+    },
+    {
+      "ordinal": 438,
+      "segment": 11,
+      "offset": 951,
+      "flags": 3,
+      "name": "ANSILOWERBUFF"
+    },
+    {
+      "ordinal": 445,
+      "segment": 15,
+      "offset": 6766,
+      "flags": 3,
+      "name": "DEFFRAMEPROC"
+    },
+    {
+      "ordinal": 447,
+      "segment": 15,
+      "offset": 6786,
+      "flags": 3,
+      "name": "DEFMDICHILDPROC"
+    },
+    {
+      "ordinal": 451,
+      "segment": 15,
+      "offset": 6829,
+      "flags": 3,
+      "name": "TRANSLATEMDISYSACCEL"
+    },
+    {
+      "ordinal": 452,
+      "segment": 8,
+      "offset": 3927,
+      "flags": 3,
+      "name": "CREATEWINDOWEX"
+    },
+    {
+      "ordinal": 454,
+      "segment": 2,
+      "offset": 3308,
+      "flags": 3,
+      "name": "ADJUSTWINDOWRECTEX"
+    },
+    {
+      "ordinal": 455,
+      "segment": 12,
+      "offset": 1323,
+      "flags": 3,
+      "name": "GETICONID"
+    },
+    {
+      "ordinal": 456,
+      "segment": 12,
+      "offset": 808,
+      "flags": 3,
+      "name": "LOADICONHANDLER"
+    },
+    {
+      "ordinal": 457,
+      "segment": 12,
+      "offset": 5979,
+      "flags": 3,
+      "name": "DESTROYICON"
+    },
+    {
+      "ordinal": 458,
+      "segment": 12,
+      "offset": 5860,
+      "flags": 3,
+      "name": "DESTROYCURSOR"
+    },
+    {
+      "ordinal": 459,
+      "segment": 12,
+      "offset": 443,
+      "flags": 3,
+      "name": "DUMPICON"
+    },
+    {
+      "ordinal": 460,
+      "segment": 14,
+      "offset": 2693,
+      "flags": 3,
+      "name": "GETINTERNALWINDOWPOS"
+    },
+    {
+      "ordinal": 461,
+      "segment": 14,
+      "offset": 2799,
+      "flags": 3,
+      "name": "SETINTERNALWINDOWPOS"
+    },
+    {
+      "ordinal": 462,
+      "segment": 15,
+      "offset": 630,
+      "flags": 3,
+      "name": "CALCCHILDSCROLL"
+    },
+    {
+      "ordinal": 463,
+      "segment": 15,
+      "offset": 1343,
+      "flags": 3,
+      "name": "SCROLLCHILDREN"
+    },
+    {
+      "ordinal": 464,
+      "segment": 14,
+      "offset": 4030,
+      "flags": 3,
+      "name": "DRAGOBJECT"
+    },
+    {
+      "ordinal": 465,
+      "segment": 14,
+      "offset": 862,
+      "flags": 3,
+      "name": "DRAGDETECT"
+    },
+    {
+      "ordinal": 466,
+      "segment": 1,
+      "offset": 44045,
+      "flags": 3,
+      "name": "DRAWFOCUSRECT"
+    },
+    {
+      "ordinal": 470,
+      "segment": 11,
+      "offset": 743,
+      "flags": 3,
+      "name": "STRINGFUNC"
+    },
+    {
+      "ordinal": 471,
+      "segment": 11,
+      "offset": 863,
+      "flags": 3,
+      "name": "LSTRCMPI"
+    },
+    {
+      "ordinal": 472,
+      "segment": 11,
+      "offset": 977,
+      "flags": 3,
+      "name": "ANSINEXT"
+    },
+    {
+      "ordinal": 473,
+      "segment": 11,
+      "offset": 1003,
+      "flags": 3,
+      "name": "ANSIPREV"
+    },
+    {
+      "ordinal": 480,
+      "segment": 1,
+      "offset": 7480,
+      "flags": 3,
+      "name": "GETUSERLOCALOBJTYPE"
+    },
+    {
+      "ordinal": 481,
+      "segment": 1,
+      "offset": 19820,
+      "flags": 3,
+      "name": "HARDWARE_EVENT"
+    },
+    {
+      "ordinal": 482,
+      "segment": 18,
+      "offset": 6850,
+      "flags": 3,
+      "name": "ENABLESCROLLBAR"
+    },
+    {
+      "ordinal": 483,
+      "segment": 41,
+      "offset": 6293,
+      "flags": 3,
+      "name": "SYSTEMPARAMETERSINFO"
+    },
+    {
+      "ordinal": 484,
+      "segment": 1,
+      "offset": 46692,
+      "flags": 3,
+      "name": "__GP"
+    },
+    {
+      "ordinal": 499,
+      "segment": 22,
+      "offset": 92,
+      "flags": 3,
+      "name": "WNETERRORTEXT"
+    },
+    {
+      "ordinal": 501,
+      "segment": 22,
+      "offset": 2664,
+      "flags": 3,
+      "name": "WNETOPENJOB"
+    },
+    {
+      "ordinal": 502,
+      "segment": 22,
+      "offset": 2717,
+      "flags": 3,
+      "name": "WNETCLOSEJOB"
+    },
+    {
+      "ordinal": 503,
+      "segment": 22,
+      "offset": 2880,
+      "flags": 3,
+      "name": "WNETABORTJOB"
+    },
+    {
+      "ordinal": 504,
+      "segment": 22,
+      "offset": 2764,
+      "flags": 3,
+      "name": "WNETHOLDJOB"
+    },
+    {
+      "ordinal": 505,
+      "segment": 22,
+      "offset": 2793,
+      "flags": 3,
+      "name": "WNETRELEASEJOB"
+    },
+    {
+      "ordinal": 506,
+      "segment": 22,
+      "offset": 2822,
+      "flags": 3,
+      "name": "WNETCANCELJOB"
+    },
+    {
+      "ordinal": 507,
+      "segment": 22,
+      "offset": 2851,
+      "flags": 3,
+      "name": "WNETSETJOBCOPIES"
+    },
+    {
+      "ordinal": 508,
+      "segment": 22,
+      "offset": 2506,
+      "flags": 3,
+      "name": "WNETWATCHQUEUE"
+    },
+    {
+      "ordinal": 509,
+      "segment": 22,
+      "offset": 2553,
+      "flags": 3,
+      "name": "WNETUNWATCHQUEUE"
+    },
+    {
+      "ordinal": 510,
+      "segment": 22,
+      "offset": 2582,
+      "flags": 3,
+      "name": "WNETLOCKQUEUEDATA"
+    },
+    {
+      "ordinal": 511,
+      "segment": 22,
+      "offset": 2635,
+      "flags": 3,
+      "name": "WNETUNLOCKQUEUEDATA"
+    },
+    {
+      "ordinal": 512,
+      "segment": 22,
+      "offset": 2450,
+      "flags": 3,
+      "name": "WNETGETCONNECTION"
+    },
+    {
+      "ordinal": 513,
+      "segment": 22,
+      "offset": 2214,
+      "flags": 3,
+      "name": "WNETGETCAPS"
+    },
+    {
+      "ordinal": 514,
+      "segment": 22,
+      "offset": 2247,
+      "flags": 3,
+      "name": "WNETDEVICEMODE"
+    },
+    {
+      "ordinal": 515,
+      "segment": 22,
+      "offset": 2270,
+      "flags": 3,
+      "name": "WNETBROWSEDIALOG"
+    },
+    {
+      "ordinal": 516,
+      "segment": 22,
+      "offset": 2324,
+      "flags": 3,
+      "name": "WNETGETUSER"
+    },
+    {
+      "ordinal": 517,
+      "segment": 22,
+      "offset": 2368,
+      "flags": 3,
+      "name": "WNETADDCONNECTION"
+    },
+    {
+      "ordinal": 518,
+      "segment": 22,
+      "offset": 2421,
+      "flags": 3,
+      "name": "WNETCANCELCONNECTION"
+    },
+    {
+      "ordinal": 519,
+      "segment": 22,
+      "offset": 2915,
+      "flags": 3,
+      "name": "WNETGETERROR"
+    },
+    {
+      "ordinal": 520,
+      "segment": 22,
+      "offset": 2944,
+      "flags": 3,
+      "name": "WNETGETERRORTEXT"
+    },
+    {
+      "ordinal": 521,
+      "segment": 22,
+      "offset": 2119,
+      "flags": 3,
+      "name": "WNETENABLE"
+    },
+    {
+      "ordinal": 522,
+      "segment": 22,
+      "offset": 2126,
+      "flags": 3,
+      "name": "WNETDISABLE"
+    },
+    {
+      "ordinal": 523,
+      "segment": 22,
+      "offset": 1144,
+      "flags": 3,
+      "name": "WNETRESTORECONNECTION"
+    },
+    {
+      "ordinal": 524,
+      "segment": 22,
+      "offset": 2133,
+      "flags": 3,
+      "name": "WNETWRITEJOB"
+    },
+    {
+      "ordinal": 525,
+      "segment": 22,
+      "offset": 2142,
+      "flags": 3,
+      "name": "WNETCONNECTDIALOG"
+    },
+    {
+      "ordinal": 526,
+      "segment": 22,
+      "offset": 2151,
+      "flags": 3,
+      "name": "WNETDISCONNECTDIALOG"
+    },
+    {
+      "ordinal": 527,
+      "segment": 22,
+      "offset": 2160,
+      "flags": 3,
+      "name": "WNETCONNECTIONDIALOG"
+    },
+    {
+      "ordinal": 528,
+      "segment": 22,
+      "offset": 2169,
+      "flags": 3,
+      "name": "WNETVIEWQUEUEDIALOG"
+    },
+    {
+      "ordinal": 529,
+      "segment": 22,
+      "offset": 2187,
+      "flags": 3,
+      "name": "WNETPROPERTYDIALOG"
+    },
+    {
+      "ordinal": 530,
+      "segment": 22,
+      "offset": 2196,
+      "flags": 3,
+      "name": "WNETGETDIRECTORYTYPE"
+    },
+    {
+      "ordinal": 531,
+      "segment": 22,
+      "offset": 2205,
+      "flags": 3,
+      "name": "WNETDIRECTORYNOTIFY"
+    },
+    {
+      "ordinal": 532,
+      "segment": 22,
+      "offset": 2178,
+      "flags": 3,
+      "name": "WNETGETPROPERTYTEXT"
+    }
+  ],
+  "segments": [
+    {
+      "number": 1,
+      "offset": 11072,
+      "size": 47662,
+      "flags": 3392,
+      "minimum_allocation": 47662,
+      "relocation_count": 147
+    },
+    {
+      "number": 2,
+      "offset": 59936,
+      "size": 4019,
+      "flags": 7504,
+      "minimum_allocation": 4019,
+      "relocation_count": 23
+    },
+    {
+      "number": 3,
+      "offset": 64160,
+      "size": 10140,
+      "flags": 7504,
+      "minimum_allocation": 10140,
+      "relocation_count": 83
+    },
+    {
+      "number": 4,
+      "offset": 75008,
+      "size": 1281,
+      "flags": 7504,
+      "minimum_allocation": 1281,
+      "relocation_count": 4
+    },
+    {
+      "number": 5,
+      "offset": 76352,
+      "size": 1606,
+      "flags": 7504,
+      "minimum_allocation": 1606,
+      "relocation_count": 31
+    },
+    {
+      "number": 6,
+      "offset": 78240,
+      "size": 8338,
+      "flags": 7504,
+      "minimum_allocation": 8338,
+      "relocation_count": 32
+    },
+    {
+      "number": 7,
+      "offset": 86880,
+      "size": 6294,
+      "flags": 7504,
+      "minimum_allocation": 6294,
+      "relocation_count": 19
+    },
+    {
+      "number": 8,
+      "offset": 93344,
+      "size": 4351,
+      "flags": 7504,
+      "minimum_allocation": 4351,
+      "relocation_count": 27
+    },
+    {
+      "number": 9,
+      "offset": 97952,
+      "size": 5279,
+      "flags": 7504,
+      "minimum_allocation": 5279,
+      "relocation_count": 22
+    },
+    {
+      "number": 10,
+      "offset": 103456,
+      "size": 12652,
+      "flags": 7504,
+      "minimum_allocation": 12652,
+      "relocation_count": 35
+    },
+    {
+      "number": 11,
+      "offset": 116416,
+      "size": 1189,
+      "flags": 7504,
+      "minimum_allocation": 1189,
+      "relocation_count": 2
+    },
+    {
+      "number": 12,
+      "offset": 117664,
+      "size": 6359,
+      "flags": 7504,
+      "minimum_allocation": 6359,
+      "relocation_count": 31
+    },
+    {
+      "number": 13,
+      "offset": 124320,
+      "size": 9801,
+      "flags": 7504,
+      "minimum_allocation": 9801,
+      "relocation_count": 53
+    },
+    {
+      "number": 14,
+      "offset": 134592,
+      "size": 4398,
+      "flags": 7504,
+      "minimum_allocation": 4398,
+      "relocation_count": 14
+    },
+    {
+      "number": 15,
+      "offset": 139136,
+      "size": 7004,
+      "flags": 7504,
+      "minimum_allocation": 7004,
+      "relocation_count": 17
+    },
+    {
+      "number": 16,
+      "offset": 146304,
+      "size": 1556,
+      "flags": 7504,
+      "minimum_allocation": 1556,
+      "relocation_count": 3
+    },
+    {
+      "number": 17,
+      "offset": 147904,
+      "size": 2319,
+      "flags": 7504,
+      "minimum_allocation": 2319,
+      "relocation_count": 8
+    },
+    {
+      "number": 18,
+      "offset": 150336,
+      "size": 6994,
+      "flags": 7504,
+      "minimum_allocation": 6994,
+      "relocation_count": 14
+    },
+    {
+      "number": 19,
+      "offset": 157472,
+      "size": 3085,
+      "flags": 7504,
+      "minimum_allocation": 3085,
+      "relocation_count": 11
+    },
+    {
+      "number": 20,
+      "offset": 160672,
+      "size": 1364,
+      "flags": 7504,
+      "minimum_allocation": 1364,
+      "relocation_count": 7
+    },
+    {
+      "number": 21,
+      "offset": 162112,
+      "size": 2341,
+      "flags": 7504,
+      "minimum_allocation": 2341,
+      "relocation_count": 37
+    },
+    {
+      "number": 22,
+      "offset": 173600,
+      "size": 3152,
+      "flags": 7440,
+      "minimum_allocation": 3152,
+      "relocation_count": 23
+    },
+    {
+      "number": 23,
+      "offset": 176944,
+      "size": 3533,
+      "flags": 7440,
+      "minimum_allocation": 3535,
+      "relocation_count": 24
+    },
+    {
+      "number": 24,
+      "offset": 180672,
+      "size": 2902,
+      "flags": 7440,
+      "minimum_allocation": 2902,
+      "relocation_count": 25
+    },
+    {
+      "number": 25,
+      "offset": 183776,
+      "size": 10565,
+      "flags": 7440,
+      "minimum_allocation": 10565,
+      "relocation_count": 33
+    },
+    {
+      "number": 26,
+      "offset": 194608,
+      "size": 4316,
+      "flags": 7440,
+      "minimum_allocation": 4317,
+      "relocation_count": 30
+    },
+    {
+      "number": 27,
+      "offset": 199168,
+      "size": 1143,
+      "flags": 7440,
+      "minimum_allocation": 1144,
+      "relocation_count": 20
+    },
+    {
+      "number": 28,
+      "offset": 200480,
+      "size": 5675,
+      "flags": 7440,
+      "minimum_allocation": 5676,
+      "relocation_count": 19
+    },
+    {
+      "number": 29,
+      "offset": 206320,
+      "size": 835,
+      "flags": 7440,
+      "minimum_allocation": 836,
+      "relocation_count": 9
+    },
+    {
+      "number": 30,
+      "offset": 207232,
+      "size": 10343,
+      "flags": 7440,
+      "minimum_allocation": 10344,
+      "relocation_count": 23
+    },
+    {
+      "number": 31,
+      "offset": 217776,
+      "size": 517,
+      "flags": 7440,
+      "minimum_allocation": 518,
+      "relocation_count": 7
+    },
+    {
+      "number": 32,
+      "offset": 218352,
+      "size": 1320,
+      "flags": 7440,
+      "minimum_allocation": 1321,
+      "relocation_count": 14
+    },
+    {
+      "number": 33,
+      "offset": 219792,
+      "size": 4868,
+      "flags": 7440,
+      "minimum_allocation": 4869,
+      "relocation_count": 15
+    },
+    {
+      "number": 34,
+      "offset": 224784,
+      "size": 1879,
+      "flags": 7440,
+      "minimum_allocation": 1880,
+      "relocation_count": 10
+    },
+    {
+      "number": 35,
+      "offset": 226752,
+      "size": 9825,
+      "flags": 7440,
+      "minimum_allocation": 9826,
+      "relocation_count": 24
+    },
+    {
+      "number": 36,
+      "offset": 236784,
+      "size": 1088,
+      "flags": 7440,
+      "minimum_allocation": 1089,
+      "relocation_count": 5
+    },
+    {
+      "number": 37,
+      "offset": 237920,
+      "size": 4474,
+      "flags": 7440,
+      "minimum_allocation": 4474,
+      "relocation_count": 20
+    },
+    {
+      "number": 38,
+      "offset": 242560,
+      "size": 1987,
+      "flags": 7440,
+      "minimum_allocation": 1988,
+      "relocation_count": 15
+    },
+    {
+      "number": 39,
+      "offset": 244672,
+      "size": 2146,
+      "flags": 7440,
+      "minimum_allocation": 2146,
+      "relocation_count": 22
+    },
+    {
+      "number": 40,
+      "offset": 247008,
+      "size": 3355,
+      "flags": 7440,
+      "minimum_allocation": 3355,
+      "relocation_count": 26
+    },
+    {
+      "number": 41,
+      "offset": 250576,
+      "size": 6570,
+      "flags": 7440,
+      "minimum_allocation": 6570,
+      "relocation_count": 47
+    },
+    {
+      "number": 42,
+      "offset": 257536,
+      "size": 2097,
+      "flags": 7440,
+      "minimum_allocation": 2098,
+      "relocation_count": 12
+    },
+    {
+      "number": 43,
+      "offset": 259744,
+      "size": 2876,
+      "flags": 7440,
+      "minimum_allocation": 2877,
+      "relocation_count": 13
+    },
+    {
+      "number": 44,
+      "offset": 164768,
+      "size": 886,
+      "flags": 3185,
+      "minimum_allocation": 886,
+      "relocation_count": 0
+    },
+    {
+      "number": 45,
+      "offset": 165696,
+      "size": 2744,
+      "flags": 3441,
+      "minimum_allocation": 2744,
+      "relocation_count": 1
+    }
+  ],
+  "relocations": {
+    "import_ordinal": 701,
+    "internal": 356
+  },
+  "resources": [
+    {
+      "type_id": 12,
+      "resource_id": 32646,
+      "offset": 168480,
+      "size": 32,
+      "flags": 7280,
+      "sha256": "74b1868ec91ce0ae5bd1608542773bb1c56175d935264494b0a507dbb7c893ae",
+      "file": null
+    },
+    {
+      "type_id": 12,
+      "resource_id": 100,
+      "offset": 168544,
+      "size": 32,
+      "flags": 7280,
+      "sha256": "a4ff7bbc12b3b0bee452b9a3101cd67a0ff7d68e0f3b8cfdfc64aabc38460b0b",
+      "file": null
+    },
+    {
+      "type_id": 14,
+      "resource_id": 32647,
+      "offset": 168608,
+      "size": 48,
+      "flags": 7280,
+      "sha256": "bcbc2f81a7bf91cc07df8ff96417607273b310c1e5c66168a6d1205bdd0501a1",
+      "file": null
+    },
+    {
+      "type_id": 4,
+      "resource_id": 1,
+      "offset": 168672,
+      "size": 128,
+      "flags": 7280,
+      "sha256": "22fb36ebebc3b5f24cb7390eb41e652c6a255fab24de5e1931375a3830b85186",
+      "file": null
+    },
+    {
+      "type_id": 4,
+      "resource_id": 2,
+      "offset": 168832,
+      "size": 128,
+      "flags": 7280,
+      "sha256": "91c4989ec37f70ca0b4a8a677382fbba4180aa699196c777f3c2cda1a9691fea",
+      "file": null
+    },
+    {
+      "type_id": 5,
+      "resource_id": 1,
+      "offset": 262736,
+      "size": 96,
+      "flags": 7216,
+      "sha256": "621f21216b935c1e9aee1391f5639b59572fdac9a27f6c38bc3f617ba9606eee",
+      "file": null
+    },
+    {
+      "type_id": 5,
+      "resource_id": 9,
+      "offset": 262832,
+      "size": 112,
+      "flags": 7216,
+      "sha256": "8a997979378a3ec36f2b6461e238c4e3bf172245ec63d39fc4165f4000c88b5c",
+      "file": null
+    },
+    {
+      "type_id": 5,
+      "resource_id": 10,
+      "offset": 262944,
+      "size": 144,
+      "flags": 7216,
+      "sha256": "cc72050d294e8ccf18fd52fc3a6e79016e3653fc135b866186142d9aba2fc8c8",
+      "file": null
+    },
+    {
+      "type_id": 5,
+      "resource_id": 101,
+      "offset": 263088,
+      "size": 288,
+      "flags": 7216,
+      "sha256": "9b759034ece46e284a504c2a521fe1b01bd41f075f2d5ef2ce3af28e15118603",
+      "file": null
+    },
+    {
+      "type_id": 5,
+      "resource_id": 100,
+      "offset": 263376,
+      "size": 160,
+      "flags": 7216,
+      "sha256": "7ab6c91afc7982811aa07bd323f14cf5ee40f70399ec1fa8d8a55aff2bbd5e2d",
+      "file": null
+    },
+    {
+      "type_id": 6,
+      "resource_id": 1,
+      "offset": 168992,
+      "size": 208,
+      "flags": 7280,
+      "sha256": "d6196c6cf49fedaa373478c81bc8f69a4501ecc95adac62980b009654179c26c",
+      "file": null
+    },
+    {
+      "type_id": 6,
+      "resource_id": 6,
+      "offset": 169216,
+      "size": 128,
+      "flags": 7280,
+      "sha256": "8ebe79159cba39dbbe8230c3951ae2f2807ff73e3f563980738a5fa3ace2d58a",
+      "file": null
+    },
+    {
+      "type_id": 6,
+      "resource_id": 7,
+      "offset": 169376,
+      "size": 320,
+      "flags": 7280,
+      "sha256": "01dddea829f610f2e345b9e5d7eae86a9ca1ccc8cc80e146820b1a319c7bb368",
+      "file": null
+    },
+    {
+      "type_id": 6,
+      "resource_id": 5,
+      "offset": 169728,
+      "size": 224,
+      "flags": 7280,
+      "sha256": "b104bdd31ba319a5acdcaf22c35e7ba07eec3b8610f734aa3099f4ab06d61658",
+      "file": null
+    },
+    {
+      "type_id": 6,
+      "resource_id": 2,
+      "offset": 169984,
+      "size": 80,
+      "flags": 7280,
+      "sha256": "c315d49e44bef1dd4020aaae0d708000a123e80df0f45ab518c66a9c204863ea",
+      "file": null
+    },
+    {
+      "type_id": 6,
+      "resource_id": 3,
+      "offset": 170080,
+      "size": 176,
+      "flags": 7280,
+      "sha256": "96efed377fd0beebfaa37cc0f42457ccf7d20037a948aa2a181b9cd927c53ba8",
+      "file": null
+    },
+    {
+      "type_id": 6,
+      "resource_id": 4,
+      "offset": 170272,
+      "size": 224,
+      "flags": 7280,
+      "sha256": "fa9d107a1e96d95aefe1e5953e84f111129912673b69ae2c13d558a2751dc535",
+      "file": null
+    },
+    {
+      "type_id": 6,
+      "resource_id": 13,
+      "offset": 170528,
+      "size": 160,
+      "flags": 7280,
+      "sha256": "6df842903791fbc0fbaf9810eb88bb00ae89e168204182fd53cc78689b616aee",
+      "file": null
+    },
+    {
+      "type_id": 6,
+      "resource_id": 8,
+      "offset": 170720,
+      "size": 32,
+      "flags": 7280,
+      "sha256": "7cbb464c70de6e57d6e3a511089e2f3f60ed5a48002e6d12dca6f4259daf9e8c",
+      "file": null
+    },
+    {
+      "type_id": 6,
+      "resource_id": 14,
+      "offset": 170784,
+      "size": 64,
+      "flags": 7280,
+      "sha256": "89a0ff545276c4c03cf731e8615f8b9083cbbe2b0da19904d9c86833a7570c45",
+      "file": null
+    },
+    {
+      "type_id": 6,
+      "resource_id": 17,
+      "offset": 170880,
+      "size": 256,
+      "flags": 7280,
+      "sha256": "e273190bf6b5e6043146f60bd932164f14f1d7f394fe14a33ea46a487db66765",
+      "file": null
+    },
+    {
+      "type_id": 6,
+      "resource_id": 18,
+      "offset": 171168,
+      "size": 144,
+      "flags": 7280,
+      "sha256": "aca93e2e8c4e6591c0d9f047426a065b7d96ad09bf1b8a7aa14cd24270e8d536",
+      "file": null
+    },
+    {
+      "type_id": 6,
+      "resource_id": 21,
+      "offset": 171328,
+      "size": 192,
+      "flags": 7280,
+      "sha256": "35a6e821203d64e65e0882889da26558f81629a8e62813c13d1a8a5f9290b3bc",
+      "file": null
+    },
+    {
+      "type_id": 6,
+      "resource_id": 33,
+      "offset": 171552,
+      "size": 192,
+      "flags": 7280,
+      "sha256": "c4a90456c4f0d7de599f53dea326a5d1acb44ef5387b51e276d5d0e173a3fd37",
+      "file": null
+    },
+    {
+      "type_id": 16,
+      "resource_id": 1,
+      "offset": 263536,
+      "size": 480,
+      "flags": 3120,
+      "sha256": "817243e6835f5a145c85b37bbb8962a47e4153dfc842ec634c2d6944a34b8666",
+      "file": null
+    },
+    {
+      "type_id": 1,
+      "resource_id": 1,
+      "offset": 171776,
+      "size": 320,
+      "flags": 7280,
+      "sha256": "cd58d5e8ef497e15b2810723d1ec06bcce262ad3444efcfaf71e11fef43fb7cd",
+      "file": null
+    },
+    {
+      "type_id": 1,
+      "resource_id": 4,
+      "offset": 172128,
+      "size": 320,
+      "flags": 7280,
+      "sha256": "5cac2c504c4bea9d6690c8310ea0973affdf572c9058e9e51da2ab4d99e0515c",
+      "file": null
+    },
+    {
+      "type_id": 3,
+      "resource_id": 2,
+      "offset": 172480,
+      "size": 304,
+      "flags": 7280,
+      "sha256": "d289390c18964655d56bc1be2ecada48c489b611d43433d4e7f031437be993d1",
+      "file": null
+    },
+    {
+      "type_id": 3,
+      "resource_id": 3,
+      "offset": 172800,
+      "size": 752,
+      "flags": 7280,
+      "sha256": "57a69130d8f3f9dd4bea6bfdd9c8b4d66b9af414c67296c23fe02c4fbab75cff",
+      "file": null
+    }
+  ]
+}

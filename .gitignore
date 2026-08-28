@@ -1,0 +1,27 @@
+# Supplied game media and derived copyrighted assets
+/original/
+/analysis/manuals/
+/release-native/
+/port/generated/
+*.exe
+*.dll
+*.com
+*.hlp
+*.pack
+*.wav
+*.mid
+
+# External reference checkout (its license is preserved separately)
+/references/
+
+# Generated dependencies and build products
+/web/node_modules/
+/web/dist/
+/native/generated/
+/build/
+/dist/
+/.runtime/
+
+# Local caches
+**/__pycache__/
+*.pyc

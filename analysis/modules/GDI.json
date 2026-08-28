@@ -1,0 +1,4879 @@
+{
+  "metadata": {
+    "path": "original\\extracted\\WINDOWS\\SYSTEM\\GDI.EXE",
+    "sha256": "6d28146961ab4733e167b1657289206ce16a856e431f843e4ee3d504836dfb6f",
+    "size": 220800,
+    "ne_header_offset": 1024,
+    "flags": 33537,
+    "target_os": 2,
+    "segment_count": 48,
+    "module_count": 1,
+    "resource_count_header": 0,
+    "alignment_shift": 4,
+    "auto_data_segment": 48,
+    "initial_heap": 10000,
+    "initial_stack": 0,
+    "initial_cs": 2,
+    "initial_ip": 115,
+    "initial_ss": 0,
+    "initial_sp": 0,
+    "movable_entry_count": 159
+  },
+  "modules": [
+    "KERNEL"
+  ],
+  "imported_names": [
+    {
+      "offset": 1,
+      "name": "KERNEL"
+    }
+  ],
+  "external_imports": [
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 1,
+      "references": [
+        {
+          "segment": 19,
+          "offset": 5175,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 29,
+          "offset": 247,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 10,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 179,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 20,
+          "offset": 5906,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 22,
+          "offset": 715,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 101,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 21849,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 105,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 5208,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 107,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 2992,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 28,
+          "offset": 3508,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 111,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 16721,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 1047,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 112,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 16738,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 1055,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 113,
+      "references": [
+        {
+          "segment": 19,
+          "offset": 219,
+          "source_type": 5,
+          "flags": 1
+        },
+        {
+          "segment": 20,
+          "offset": 871,
+          "source_type": 5,
+          "flags": 1
+        },
+        {
+          "segment": 40,
+          "offset": 672,
+          "source_type": 5,
+          "flags": 1
+        },
+        {
+          "segment": 43,
+          "offset": 6011,
+          "source_type": 5,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 114,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 18234,
+          "source_type": 5,
+          "flags": 1
+        },
+        {
+          "segment": 12,
+          "offset": 4242,
+          "source_type": 5,
+          "flags": 1
+        },
+        {
+          "segment": 19,
+          "offset": 7352,
+          "source_type": 5,
+          "flags": 1
+        },
+        {
+          "segment": 20,
+          "offset": 8416,
+          "source_type": 5,
+          "flags": 1
+        },
+        {
+          "segment": 43,
+          "offset": 6037,
+          "source_type": 5,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 121,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 8194,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 128,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 4622,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 13,
+      "references": [
+        {
+          "segment": 21,
+          "offset": 6620,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 132,
+      "references": [
+        {
+          "segment": 36,
+          "offset": 460,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 134,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 4691,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 10208,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 28,
+          "offset": 6550,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 135,
+      "references": [
+        {
+          "segment": 3,
+          "offset": 8671,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 28,
+          "offset": 6628,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 15,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 8723,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 4977,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 12449,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 4,
+          "offset": 88,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 7,
+          "offset": 7754,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 15,
+          "offset": 84,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 17,
+          "offset": 473,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 19,
+          "offset": 6596,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 20,
+          "offset": 8337,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 21,
+          "offset": 4572,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 22,
+          "offset": 3238,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 24,
+          "offset": 3215,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 28,
+          "offset": 5607,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 32,
+          "offset": 3071,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 36,
+          "offset": 4357,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 43,
+          "offset": 909,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 16,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 29132,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 5359,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 11897,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 4,
+          "offset": 618,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 6,
+          "offset": 1820,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 17,
+          "offset": 103,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 20,
+          "offset": 8745,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 21,
+          "offset": 4787,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 22,
+          "offset": 2269,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 27,
+          "offset": 554,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 28,
+          "offset": 3877,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 36,
+          "offset": 4374,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 161,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 8168,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 162,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 8180,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 166,
+      "references": [
+        {
+          "segment": 28,
+          "offset": 6609,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 167,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 10930,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 489,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 17,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 29201,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 5288,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 11861,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 6,
+          "offset": 1658,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 7,
+          "offset": 8011,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 9,
+          "offset": 1522,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 15,
+          "offset": 356,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 19,
+          "offset": 7141,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 20,
+          "offset": 8960,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 21,
+          "offset": 6536,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 22,
+          "offset": 3311,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 24,
+          "offset": 4390,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 27,
+          "offset": 467,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 28,
+          "offset": 5986,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 32,
+          "offset": 4369,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 40,
+          "offset": 173,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 43,
+          "offset": 1123,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 175,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 30045,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 199,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 8,
+          "offset": 1155,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 19,
+          "offset": 7376,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 176,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 30104,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 8,
+          "offset": 1305,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 19,
+          "offset": 7402,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 177,
+      "references": [
+        {
+          "segment": 3,
+          "offset": 11137,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 19,
+          "offset": 7319,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 178,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 30945,
+          "source_type": 5,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 320,
+          "source_type": 5,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 18,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 29173,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 5372,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 12532,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 4,
+          "offset": 1398,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 6,
+          "offset": 1613,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 7,
+          "offset": 7774,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 9,
+          "offset": 1344,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 11,
+          "offset": 4405,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 17,
+          "offset": 497,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 19,
+          "offset": 6615,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 20,
+          "offset": 8841,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 21,
+          "offset": 5646,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 22,
+          "offset": 4158,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 23,
+          "offset": 830,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 24,
+          "offset": 3231,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 27,
+          "offset": 566,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 28,
+          "offset": 5934,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 29,
+          "offset": 1365,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 32,
+          "offset": 3257,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 36,
+          "offset": 4914,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 43,
+          "offset": 981,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 180,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 30055,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 8,
+          "offset": 1271,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 19,
+          "offset": 2179,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 186,
+      "references": [
+        {
+          "segment": 8,
+          "offset": 1172,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 187,
+      "references": [
+        {
+          "segment": 8,
+          "offset": 1182,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 19,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 29193,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 5409,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 11991,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 4,
+          "offset": 1438,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 6,
+          "offset": 1795,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 7,
+          "offset": 8003,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 9,
+          "offset": 1514,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 11,
+          "offset": 5036,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 17,
+          "offset": 837,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 19,
+          "offset": 7135,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 20,
+          "offset": 8952,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 21,
+          "offset": 6528,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 22,
+          "offset": 4198,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 23,
+          "offset": 866,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 24,
+          "offset": 4376,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 27,
+          "offset": 591,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 28,
+          "offset": 5978,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 29,
+          "offset": 1277,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 32,
+          "offset": 4360,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 36,
+          "offset": 6758,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 40,
+          "offset": 1533,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 43,
+          "offset": 1093,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 191,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 16730,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 360,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 197,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 30040,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 8,
+          "offset": 1109,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 19,
+          "offset": 6485,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 198,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 30112,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 8,
+          "offset": 1297,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 19,
+          "offset": 7149,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 20,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 15739,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 4,
+          "offset": 68,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 7,
+          "offset": 1458,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 17,
+          "offset": 355,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 20,
+          "offset": 8324,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 22,
+          "offset": 3225,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 28,
+          "offset": 6416,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 29,
+          "offset": 1520,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 21,
+      "references": [
+        {
+          "segment": 7,
+          "offset": 880,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 19,
+          "offset": 1010,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 20,
+          "offset": 8688,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 22,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 26470,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 11804,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 6,
+          "offset": 1633,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 324,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 7222,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 20,
+          "offset": 7601,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 327,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 20649,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 3648,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 5901,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 4,
+          "offset": 2130,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 5,
+          "offset": 1625,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 6,
+          "offset": 1314,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 7,
+          "offset": 2317,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 9,
+          "offset": 4286,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 11,
+          "offset": 711,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 15,
+          "offset": 2416,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 16,
+          "offset": 3248,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 19,
+          "offset": 5880,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 20,
+          "offset": 9560,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 21,
+          "offset": 3929,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 22,
+          "offset": 389,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 23,
+          "offset": 1061,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 24,
+          "offset": 141,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 25,
+          "offset": 82,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 26,
+          "offset": 194,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 31,
+          "offset": 351,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 46,
+          "offset": 4,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 334,
+      "references": [
+        {
+          "segment": 11,
+          "offset": 1090,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 335,
+      "references": [
+        {
+          "segment": 11,
+          "offset": 1097,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 346,
+      "references": [
+        {
+          "segment": 11,
+          "offset": 1129,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 19,
+          "offset": 6533,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 347,
+      "references": [
+        {
+          "segment": 7,
+          "offset": 2077,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 11,
+          "offset": 1136,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 354,
+      "references": [
+        {
+          "segment": 5,
+          "offset": 492,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 36,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 4325,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 2710,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 4,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 1159,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 46,
+      "references": [
+        {
+          "segment": 6,
+          "offset": 473,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 47,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 3006,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 6,
+          "offset": 950,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 28,
+          "offset": 6523,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 29,
+          "offset": 234,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 5,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 22879,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 2503,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 2767,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 5,
+          "offset": 619,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 19,
+          "offset": 4340,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 20,
+          "offset": 7373,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 21,
+          "offset": 6598,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 22,
+          "offset": 695,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 28,
+          "offset": 1027,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 43,
+          "offset": 961,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 50,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 18450,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 719,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 19,
+          "offset": 2487,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 29,
+          "offset": 257,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 57,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 4472,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 29,
+          "offset": 926,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 58,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 4578,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 28,
+          "offset": 6034,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 29,
+          "offset": 758,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 30,
+          "offset": 492,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 6,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 24050,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 3202,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 2746,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 20,
+          "offset": 9859,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 22,
+          "offset": 729,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 60,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 3963,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 2546,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 61,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 3976,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 2557,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 62,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 16277,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 465,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 17,
+          "offset": 309,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 63,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 4345,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 6,
+          "offset": 1080,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 17,
+          "offset": 854,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 68,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 1166,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 69,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 8537,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 249,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 7,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 8155,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 3678,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 5,
+          "offset": 980,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 6,
+          "offset": 1201,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 18,
+          "offset": 178,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 20,
+          "offset": 10040,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 21,
+          "offset": 6610,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 22,
+          "offset": 824,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 25,
+          "offset": 2082,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 26,
+          "offset": 1299,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 30,
+          "offset": 378,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 35,
+          "offset": 810,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 43,
+          "offset": 1107,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 70,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 8485,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 71,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 8513,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 72,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 8567,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 74,
+      "references": [
+        {
+          "segment": 19,
+          "offset": 6195,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 20,
+          "offset": 8780,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 28,
+          "offset": 5437,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 76,
+      "references": [
+        {
+          "segment": 28,
+          "offset": 5944,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 77,
+      "references": [
+        {
+          "segment": 14,
+          "offset": 1153,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 78,
+      "references": [
+        {
+          "segment": 4,
+          "offset": 1128,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 8,
+      "references": [
+        {
+          "segment": 20,
+          "offset": 9910,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 22,
+          "offset": 2159,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 81,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 5163,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 7,
+          "offset": 5818,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 19,
+          "offset": 6099,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 20,
+          "offset": 8976,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 28,
+          "offset": 5467,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 36,
+          "offset": 4527,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 40,
+          "offset": 799,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 82,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 5187,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 19,
+          "offset": 6092,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 20,
+          "offset": 8868,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 36,
+          "offset": 4663,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 40,
+          "offset": 769,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 83,
+      "references": [
+        {
+          "segment": 7,
+          "offset": 5788,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 84,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 4930,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 19,
+          "offset": 5246,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 20,
+          "offset": 7894,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 28,
+          "offset": 5455,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 36,
+          "offset": 4645,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 40,
+          "offset": 783,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 85,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 5092,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 7,
+          "offset": 5764,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 36,
+          "offset": 4603,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 40,
+          "offset": 743,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 86,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 4913,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 7,
+          "offset": 5813,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 20,
+          "offset": 8888,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 28,
+          "offset": 261,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 87,
+      "references": [
+        {
+          "segment": 3,
+          "offset": 4324,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 28,
+          "offset": 573,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 29,
+          "offset": 571,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 88,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 704,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 20,
+          "offset": 5775,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 30,
+          "offset": 446,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 89,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 716,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 28,
+          "offset": 6581,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 9,
+      "references": [
+        {
+          "segment": 20,
+          "offset": 10032,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 22,
+          "offset": 2194,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 90,
+      "references": [
+        {
+          "segment": 14,
+          "offset": 254,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 20,
+          "offset": 6498,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 28,
+          "offset": 6561,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 31,
+          "offset": 450,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 92,
+      "references": [
+        {
+          "segment": 28,
+          "offset": 6061,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 95,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 18445,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 2985,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 96,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 18611,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 3460,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 6,
+          "offset": 1005,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 97,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 1101,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 7,
+          "offset": 961,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 28,
+          "offset": 2008,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "ordinal": 1,
+      "segment": 1,
+      "offset": 19980,
+      "flags": 3,
+      "name": "SETBKCOLOR"
+    },
+    {
+      "ordinal": 2,
+      "segment": 1,
+      "offset": 20002,
+      "flags": 1,
+      "name": "SETBKMODE"
+    },
+    {
+      "ordinal": 3,
+      "segment": 1,
+      "offset": 19270,
+      "flags": 3,
+      "name": "SETMAPMODE"
+    },
+    {
+      "ordinal": 4,
+      "segment": 1,
+      "offset": 20075,
+      "flags": 1,
+      "name": "SETROP2"
+    },
+    {
+      "ordinal": 5,
+      "segment": 1,
+      "offset": 21016,
+      "flags": 1,
+      "name": "SETRELABS"
+    },
+    {
+      "ordinal": 6,
+      "segment": 1,
+      "offset": 20153,
+      "flags": 1,
+      "name": "SETPOLYFILLMODE"
+    },
+    {
+      "ordinal": 7,
+      "segment": 1,
+      "offset": 20114,
+      "flags": 1,
+      "name": "SETSTRETCHBLTMODE"
+    },
+    {
+      "ordinal": 8,
+      "segment": 1,
+      "offset": 18944,
+      "flags": 3,
+      "name": "SETTEXTCHARACTEREXTRA"
+    },
+    {
+      "ordinal": 9,
+      "segment": 1,
+      "offset": 19960,
+      "flags": 3,
+      "name": "SETTEXTCOLOR"
+    },
+    {
+      "ordinal": 10,
+      "segment": 1,
+      "offset": 18924,
+      "flags": 3,
+      "name": "SETTEXTJUSTIFICATION"
+    },
+    {
+      "ordinal": 11,
+      "segment": 1,
+      "offset": 20192,
+      "flags": 3,
+      "name": "SETWINDOWORG"
+    },
+    {
+      "ordinal": 12,
+      "segment": 4,
+      "offset": 1736,
+      "flags": 1,
+      "name": "SETWINDOWEXT"
+    },
+    {
+      "ordinal": 13,
+      "segment": 1,
+      "offset": 20244,
+      "flags": 3,
+      "name": "SETVIEWPORTORG"
+    },
+    {
+      "ordinal": 14,
+      "segment": 4,
+      "offset": 1788,
+      "flags": 1,
+      "name": "SETVIEWPORTEXT"
+    },
+    {
+      "ordinal": 15,
+      "segment": 1,
+      "offset": 19218,
+      "flags": 1,
+      "name": "OFFSETWINDOWORG"
+    },
+    {
+      "ordinal": 16,
+      "segment": 4,
+      "offset": 1892,
+      "flags": 1,
+      "name": "SCALEWINDOWEXT"
+    },
+    {
+      "ordinal": 17,
+      "segment": 1,
+      "offset": 19166,
+      "flags": 1,
+      "name": "OFFSETVIEWPORTORG"
+    },
+    {
+      "ordinal": 18,
+      "segment": 4,
+      "offset": 1840,
+      "flags": 1,
+      "name": "SCALEVIEWPORTEXT"
+    },
+    {
+      "ordinal": 19,
+      "segment": 21,
+      "offset": 3734,
+      "flags": 3,
+      "name": "LINETO"
+    },
+    {
+      "ordinal": 20,
+      "segment": 21,
+      "offset": 3754,
+      "flags": 3,
+      "name": "MOVETO"
+    },
+    {
+      "ordinal": 21,
+      "segment": 1,
+      "offset": 19536,
+      "flags": 1,
+      "name": "EXCLUDECLIPRECT"
+    },
+    {
+      "ordinal": 22,
+      "segment": 1,
+      "offset": 19588,
+      "flags": 1,
+      "name": "INTERSECTCLIPRECT"
+    },
+    {
+      "ordinal": 23,
+      "segment": 9,
+      "offset": 4144,
+      "flags": 3,
+      "name": "ARC"
+    },
+    {
+      "ordinal": 24,
+      "segment": 9,
+      "offset": 4124,
+      "flags": 3,
+      "name": "ELLIPSE"
+    },
+    {
+      "ordinal": 25,
+      "segment": 15,
+      "offset": 2300,
+      "flags": 3,
+      "name": "FLOODFILL"
+    },
+    {
+      "ordinal": 26,
+      "segment": 9,
+      "offset": 4164,
+      "flags": 3,
+      "name": "PIE"
+    },
+    {
+      "ordinal": 27,
+      "segment": 25,
+      "offset": 0,
+      "flags": 3,
+      "name": "RECTANGLE"
+    },
+    {
+      "ordinal": 28,
+      "segment": 9,
+      "offset": 4204,
+      "flags": 3,
+      "name": "ROUNDRECT"
+    },
+    {
+      "ordinal": 29,
+      "segment": 1,
+      "offset": 19476,
+      "flags": 3,
+      "name": "PATBLT"
+    },
+    {
+      "ordinal": 30,
+      "segment": 1,
+      "offset": 18635,
+      "flags": 3,
+      "name": "SAVEDC"
+    },
+    {
+      "ordinal": 31,
+      "segment": 23,
+      "offset": 899,
+      "flags": 3,
+      "name": "SETPIXEL"
+    },
+    {
+      "ordinal": 32,
+      "segment": 1,
+      "offset": 19770,
+      "flags": 3,
+      "name": "OFFSETCLIPRGN"
+    },
+    {
+      "ordinal": 33,
+      "segment": 1,
+      "offset": 20373,
+      "flags": 3,
+      "name": "TEXTOUT"
+    },
+    {
+      "ordinal": 34,
+      "segment": 1,
+      "offset": 19450,
+      "flags": 3,
+      "name": "BITBLT"
+    },
+    {
+      "ordinal": 35,
+      "segment": 1,
+      "offset": 19424,
+      "flags": 3,
+      "name": "STRETCHBLT"
+    },
+    {
+      "ordinal": 36,
+      "segment": 24,
+      "offset": 0,
+      "flags": 3,
+      "name": "POLYGON"
+    },
+    {
+      "ordinal": 37,
+      "segment": 21,
+      "offset": 3806,
+      "flags": 3,
+      "name": "POLYLINE"
+    },
+    {
+      "ordinal": 38,
+      "segment": 7,
+      "offset": 1745,
+      "flags": 3,
+      "name": "ESCAPE"
+    },
+    {
+      "ordinal": 39,
+      "segment": 1,
+      "offset": 18615,
+      "flags": 3,
+      "name": "RESTOREDC"
+    },
+    {
+      "ordinal": 40,
+      "segment": 26,
+      "offset": 0,
+      "flags": 3,
+      "name": "FILLRGN"
+    },
+    {
+      "ordinal": 41,
+      "segment": 26,
+      "offset": 58,
+      "flags": 3,
+      "name": "FRAMERGN"
+    },
+    {
+      "ordinal": 42,
+      "segment": 1,
+      "offset": 19901,
+      "flags": 3,
+      "name": "INVERTRGN"
+    },
+    {
+      "ordinal": 43,
+      "segment": 26,
+      "offset": 32,
+      "flags": 3,
+      "name": "PAINTRGN"
+    },
+    {
+      "ordinal": 44,
+      "segment": 1,
+      "offset": 19608,
+      "flags": 3,
+      "name": "SELECTCLIPRGN"
+    },
+    {
+      "ordinal": 45,
+      "segment": 1,
+      "offset": 19927,
+      "flags": 3,
+      "name": "SELECTOBJECT"
+    },
+    {
+      "ordinal": 46,
+      "segment": 1,
+      "offset": 31220,
+      "flags": 3,
+      "name": "__GP"
+    },
+    {
+      "ordinal": 47,
+      "segment": 1,
+      "offset": 19790,
+      "flags": 3,
+      "name": "COMBINERGN"
+    },
+    {
+      "ordinal": 48,
+      "segment": 1,
+      "offset": 18729,
+      "flags": 3,
+      "name": "CREATEBITMAP"
+    },
+    {
+      "ordinal": 49,
+      "segment": 1,
+      "offset": 18755,
+      "flags": 3,
+      "name": "CREATEBITMAPINDIRECT"
+    },
+    {
+      "ordinal": 50,
+      "segment": 4,
+      "offset": 1495,
+      "flags": 3,
+      "name": "CREATEBRUSHINDIRECT"
+    },
+    {
+      "ordinal": 51,
+      "segment": 4,
+      "offset": 1521,
+      "flags": 1,
+      "name": "CREATECOMPATIBLEBITMAP"
+    },
+    {
+      "ordinal": 52,
+      "segment": 1,
+      "offset": 18372,
+      "flags": 3,
+      "name": "CREATECOMPATIBLEDC"
+    },
+    {
+      "ordinal": 53,
+      "segment": 1,
+      "offset": 18442,
+      "flags": 1,
+      "name": "CREATEDC"
+    },
+    {
+      "ordinal": 54,
+      "segment": 9,
+      "offset": 526,
+      "flags": 3,
+      "name": "CREATEELLIPTICRGN"
+    },
+    {
+      "ordinal": 55,
+      "segment": 9,
+      "offset": 3993,
+      "flags": 3,
+      "name": "CREATEELLIPTICRGNINDIRECT"
+    },
+    {
+      "ordinal": 56,
+      "segment": 3,
+      "offset": 5513,
+      "flags": 3,
+      "name": "CREATEFONT"
+    },
+    {
+      "ordinal": 57,
+      "segment": 3,
+      "offset": 5553,
+      "flags": 3,
+      "name": "CREATEFONTINDIRECT"
+    },
+    {
+      "ordinal": 58,
+      "segment": 4,
+      "offset": 1447,
+      "flags": 3,
+      "name": "CREATEHATCHBRUSH"
+    },
+    {
+      "ordinal": 59,
+      "segment": 1,
+      "offset": 7872,
+      "flags": 3,
+      "name": "WEP"
+    },
+    {
+      "ordinal": 60,
+      "segment": 4,
+      "offset": 1475,
+      "flags": 3,
+      "name": "CREATEPATTERNBRUSH"
+    },
+    {
+      "ordinal": 61,
+      "segment": 1,
+      "offset": 18675,
+      "flags": 3,
+      "name": "CREATEPEN"
+    },
+    {
+      "ordinal": 62,
+      "segment": 1,
+      "offset": 18703,
+      "flags": 3,
+      "name": "CREATEPENINDIRECT"
+    },
+    {
+      "ordinal": 63,
+      "segment": 9,
+      "offset": 4019,
+      "flags": 3,
+      "name": "CREATEPOLYGONRGN"
+    },
+    {
+      "ordinal": 64,
+      "segment": 1,
+      "offset": 22989,
+      "flags": 3,
+      "name": "CREATERECTRGN"
+    },
+    {
+      "ordinal": 65,
+      "segment": 1,
+      "offset": 19634,
+      "flags": 3,
+      "name": "CREATERECTRGNINDIRECT"
+    },
+    {
+      "ordinal": 66,
+      "segment": 4,
+      "offset": 378,
+      "flags": 3,
+      "name": "CREATESOLIDBRUSH"
+    },
+    {
+      "ordinal": 67,
+      "segment": 1,
+      "offset": 18964,
+      "flags": 1,
+      "name": "DPTOLP"
+    },
+    {
+      "ordinal": 68,
+      "segment": 1,
+      "offset": 18583,
+      "flags": 3,
+      "name": "DELETEDC"
+    },
+    {
+      "ordinal": 69,
+      "segment": 1,
+      "offset": 18655,
+      "flags": 3,
+      "name": "DELETEOBJECT"
+    },
+    {
+      "ordinal": 70,
+      "segment": 5,
+      "offset": 1447,
+      "flags": 3,
+      "name": "ENUMFONTS"
+    },
+    {
+      "ordinal": 71,
+      "segment": 4,
+      "offset": 1656,
+      "flags": 3,
+      "name": "ENUMOBJECTS"
+    },
+    {
+      "ordinal": 72,
+      "segment": 1,
+      "offset": 19660,
+      "flags": 3,
+      "name": "EQUALRGN"
+    },
+    {
+      "ordinal": 73,
+      "segment": 1,
+      "offset": 5797,
+      "flags": 1,
+      "name": "EXCLUDEVISRECT"
+    },
+    {
+      "ordinal": 74,
+      "segment": 1,
+      "offset": 19062,
+      "flags": 1,
+      "name": "GETBITMAPBITS"
+    },
+    {
+      "ordinal": 75,
+      "segment": 1,
+      "offset": 20829,
+      "flags": 3,
+      "name": "GETBKCOLOR"
+    },
+    {
+      "ordinal": 76,
+      "segment": 1,
+      "offset": 20802,
+      "flags": 1,
+      "name": "GETBKMODE"
+    },
+    {
+      "ordinal": 77,
+      "segment": 1,
+      "offset": 19556,
+      "flags": 3,
+      "name": "GETCLIPBOX"
+    },
+    {
+      "ordinal": 78,
+      "segment": 1,
+      "offset": 20823,
+      "flags": 1,
+      "name": "GETCURRENTPOSITION"
+    },
+    {
+      "ordinal": 79,
+      "segment": 1,
+      "offset": 20820,
+      "flags": 1,
+      "name": "GETDCORG"
+    },
+    {
+      "ordinal": 80,
+      "segment": 1,
+      "offset": 19094,
+      "flags": 3,
+      "name": "GETDEVICECAPS"
+    },
+    {
+      "ordinal": 81,
+      "segment": 1,
+      "offset": 20799,
+      "flags": 1,
+      "name": "GETMAPMODE"
+    },
+    {
+      "ordinal": 82,
+      "segment": 4,
+      "offset": 1704,
+      "flags": 3,
+      "name": "GETOBJECT"
+    },
+    {
+      "ordinal": 83,
+      "segment": 23,
+      "offset": 879,
+      "flags": 3,
+      "name": "GETPIXEL"
+    },
+    {
+      "ordinal": 84,
+      "segment": 1,
+      "offset": 20793,
+      "flags": 1,
+      "name": "GETPOLYFILLMODE"
+    },
+    {
+      "ordinal": 85,
+      "segment": 1,
+      "offset": 20787,
+      "flags": 1,
+      "name": "GETROP2"
+    },
+    {
+      "ordinal": 86,
+      "segment": 1,
+      "offset": 20805,
+      "flags": 1,
+      "name": "GETRELABS"
+    },
+    {
+      "ordinal": 87,
+      "segment": 1,
+      "offset": 19034,
+      "flags": 3,
+      "name": "GETSTOCKOBJECT"
+    },
+    {
+      "ordinal": 88,
+      "segment": 1,
+      "offset": 20796,
+      "flags": 1,
+      "name": "GETSTRETCHBLTMODE"
+    },
+    {
+      "ordinal": 89,
+      "segment": 16,
+      "offset": 3171,
+      "flags": 3,
+      "name": "GETTEXTCHARACTEREXTRA"
+    },
+    {
+      "ordinal": 90,
+      "segment": 1,
+      "offset": 20832,
+      "flags": 3,
+      "name": "GETTEXTCOLOR"
+    },
+    {
+      "ordinal": 91,
+      "segment": 1,
+      "offset": 19341,
+      "flags": 3,
+      "name": "GETTEXTEXTENT"
+    },
+    {
+      "ordinal": 92,
+      "segment": 3,
+      "offset": 5738,
+      "flags": 3,
+      "name": "GETTEXTFACE"
+    },
+    {
+      "ordinal": 93,
+      "segment": 3,
+      "offset": 5786,
+      "flags": 3,
+      "name": "GETTEXTMETRICS"
+    },
+    {
+      "ordinal": 94,
+      "segment": 1,
+      "offset": 20817,
+      "flags": 1,
+      "name": "GETVIEWPORTEXT"
+    },
+    {
+      "ordinal": 95,
+      "segment": 1,
+      "offset": 20811,
+      "flags": 1,
+      "name": "GETVIEWPORTORG"
+    },
+    {
+      "ordinal": 96,
+      "segment": 1,
+      "offset": 20814,
+      "flags": 1,
+      "name": "GETWINDOWEXT"
+    },
+    {
+      "ordinal": 97,
+      "segment": 1,
+      "offset": 20808,
+      "flags": 1,
+      "name": "GETWINDOWORG"
+    },
+    {
+      "ordinal": 98,
+      "segment": 1,
+      "offset": 5794,
+      "flags": 1,
+      "name": "INTERSECTVISRECT"
+    },
+    {
+      "ordinal": 99,
+      "segment": 1,
+      "offset": 18999,
+      "flags": 1,
+      "name": "LPTODP"
+    },
+    {
+      "ordinal": 100,
+      "segment": 23,
+      "offset": 923,
+      "flags": 3,
+      "name": "LINEDDA"
+    },
+    {
+      "ordinal": 101,
+      "segment": 1,
+      "offset": 19750,
+      "flags": 3,
+      "name": "OFFSETRGN"
+    },
+    {
+      "ordinal": 102,
+      "segment": 1,
+      "offset": 10537,
+      "flags": 3,
+      "name": "OFFSETVISRGN"
+    },
+    {
+      "ordinal": 103,
+      "segment": 1,
+      "offset": 19881,
+      "flags": 3,
+      "name": "PTVISIBLE"
+    },
+    {
+      "ordinal": 104,
+      "segment": 1,
+      "offset": 19718,
+      "flags": 3,
+      "name": "RECTVISIBLE"
+    },
+    {
+      "ordinal": 105,
+      "segment": 1,
+      "offset": 5685,
+      "flags": 3,
+      "name": "SELECTVISRGN"
+    },
+    {
+      "ordinal": 106,
+      "segment": 1,
+      "offset": 19114,
+      "flags": 1,
+      "name": "SETBITMAPBITS"
+    },
+    {
+      "ordinal": 117,
+      "segment": 1,
+      "offset": 4376,
+      "flags": 3,
+      "name": "SETDCORG"
+    },
+    {
+      "ordinal": 119,
+      "segment": 2,
+      "offset": 3621,
+      "flags": 3,
+      "name": "ADDFONTRESOURCE"
+    },
+    {
+      "ordinal": 121,
+      "segment": 1,
+      "offset": 8295,
+      "flags": 3,
+      "name": "DEATH"
+    },
+    {
+      "ordinal": 122,
+      "segment": 1,
+      "offset": 8334,
+      "flags": 3,
+      "name": "RESURRECTION"
+    },
+    {
+      "ordinal": 123,
+      "segment": 19,
+      "offset": 5635,
+      "flags": 3,
+      "name": "PLAYMETAFILE"
+    },
+    {
+      "ordinal": 124,
+      "segment": 19,
+      "offset": 5668,
+      "flags": 3,
+      "name": "GETMETAFILE"
+    },
+    {
+      "ordinal": 125,
+      "segment": 20,
+      "offset": 9355,
+      "flags": 3,
+      "name": "CREATEMETAFILE"
+    },
+    {
+      "ordinal": 126,
+      "segment": 20,
+      "offset": 9381,
+      "flags": 3,
+      "name": "CLOSEMETAFILE"
+    },
+    {
+      "ordinal": 127,
+      "segment": 19,
+      "offset": 5615,
+      "flags": 3,
+      "name": "DELETEMETAFILE"
+    },
+    {
+      "ordinal": 128,
+      "segment": 1,
+      "offset": 16816,
+      "flags": 3,
+      "name": "MULDIV"
+    },
+    {
+      "ordinal": 129,
+      "segment": 1,
+      "offset": 1900,
+      "flags": 3,
+      "name": "SAVEVISRGN"
+    },
+    {
+      "ordinal": 130,
+      "segment": 1,
+      "offset": 1970,
+      "flags": 3,
+      "name": "RESTOREVISRGN"
+    },
+    {
+      "ordinal": 131,
+      "segment": 1,
+      "offset": 8202,
+      "flags": 3,
+      "name": "INQUIREVISRGN"
+    },
+    {
+      "ordinal": 132,
+      "segment": 7,
+      "offset": 1853,
+      "flags": 3,
+      "name": "SETENVIRONMENT"
+    },
+    {
+      "ordinal": 133,
+      "segment": 7,
+      "offset": 1799,
+      "flags": 3,
+      "name": "GETENVIRONMENT"
+    },
+    {
+      "ordinal": 134,
+      "segment": 1,
+      "offset": 19309,
+      "flags": 3,
+      "name": "GETRGNBOX"
+    },
+    {
+      "ordinal": 135,
+      "segment": 15,
+      "offset": 2175,
+      "flags": 3,
+      "name": "SCANLR"
+    },
+    {
+      "ordinal": 136,
+      "segment": 6,
+      "offset": 1287,
+      "flags": 3,
+      "name": "REMOVEFONTRESOURCE"
+    },
+    {
+      "ordinal": 148,
+      "segment": 1,
+      "offset": 19496,
+      "flags": 3,
+      "name": "SETBRUSHORG"
+    },
+    {
+      "ordinal": 149,
+      "segment": 1,
+      "offset": 20826,
+      "flags": 1,
+      "name": "GETBRUSHORG"
+    },
+    {
+      "ordinal": 150,
+      "segment": 1,
+      "offset": 19516,
+      "flags": 3,
+      "name": "UNREALIZEOBJECT"
+    },
+    {
+      "ordinal": 151,
+      "segment": 20,
+      "offset": 9323,
+      "flags": 3,
+      "name": "COPYMETAFILE"
+    },
+    {
+      "ordinal": 153,
+      "segment": 1,
+      "offset": 18392,
+      "flags": 1,
+      "name": "CREATEIC"
+    },
+    {
+      "ordinal": 154,
+      "segment": 1,
+      "offset": 19146,
+      "flags": 3,
+      "name": "GETNEARESTCOLOR"
+    },
+    {
+      "ordinal": 155,
+      "segment": 7,
+      "offset": 1325,
+      "flags": 3,
+      "name": "QUERYABORT"
+    },
+    {
+      "ordinal": 156,
+      "segment": 4,
+      "offset": 1541,
+      "flags": 1,
+      "name": "CREATEDISCARDABLEBITMAP"
+    },
+    {
+      "ordinal": 159,
+      "segment": 20,
+      "offset": 9401,
+      "flags": 3,
+      "name": "GETMETAFILEBITS"
+    },
+    {
+      "ordinal": 160,
+      "segment": 20,
+      "offset": 9421,
+      "flags": 3,
+      "name": "SETMETAFILEBITS"
+    },
+    {
+      "ordinal": 161,
+      "segment": 1,
+      "offset": 19861,
+      "flags": 3,
+      "name": "PTINREGION"
+    },
+    {
+      "ordinal": 162,
+      "segment": 1,
+      "offset": 18872,
+      "flags": 3,
+      "name": "GETBITMAPDIMENSION"
+    },
+    {
+      "ordinal": 163,
+      "segment": 1,
+      "offset": 18820,
+      "flags": 3,
+      "name": "SETBITMAPDIMENSION"
+    },
+    {
+      "ordinal": 169,
+      "segment": 1,
+      "offset": 17234,
+      "flags": 3,
+      "name": "ISDCDIRTY"
+    },
+    {
+      "ordinal": 170,
+      "segment": 1,
+      "offset": 17307,
+      "flags": 3,
+      "name": "SETDCSTATUS"
+    },
+    {
+      "ordinal": 172,
+      "segment": 1,
+      "offset": 19841,
+      "flags": 3,
+      "name": "SETRECTRGN"
+    },
+    {
+      "ordinal": 173,
+      "segment": 1,
+      "offset": 20784,
+      "flags": 3,
+      "name": "GETCLIPRGN"
+    },
+    {
+      "ordinal": 175,
+      "segment": 19,
+      "offset": 5738,
+      "flags": 3,
+      "name": "ENUMMETAFILE"
+    },
+    {
+      "ordinal": 176,
+      "segment": 19,
+      "offset": 5694,
+      "flags": 3,
+      "name": "PLAYMETAFILERECORD"
+    },
+    {
+      "ordinal": 179,
+      "segment": 1,
+      "offset": 1537,
+      "flags": 3,
+      "name": "GETDCSTATE"
+    },
+    {
+      "ordinal": 180,
+      "segment": 1,
+      "offset": 1557,
+      "flags": 3,
+      "name": "SETDCSTATE"
+    },
+    {
+      "ordinal": 181,
+      "segment": 1,
+      "offset": 19686,
+      "flags": 3,
+      "name": "RECTINREGION"
+    },
+    {
+      "ordinal": 190,
+      "segment": 31,
+      "offset": 1260,
+      "flags": 3,
+      "name": "SETDCHOOK"
+    },
+    {
+      "ordinal": 191,
+      "segment": 31,
+      "offset": 1205,
+      "flags": 3,
+      "name": "GETDCHOOK"
+    },
+    {
+      "ordinal": 192,
+      "segment": 1,
+      "offset": 30384,
+      "flags": 3,
+      "name": "SETHOOKFLAGS"
+    },
+    {
+      "ordinal": 193,
+      "segment": 31,
+      "offset": 1318,
+      "flags": 3,
+      "name": "SETBOUNDSRECT"
+    },
+    {
+      "ordinal": 194,
+      "segment": 1,
+      "offset": 30436,
+      "flags": 3,
+      "name": "GETBOUNDSRECT"
+    },
+    {
+      "ordinal": 195,
+      "segment": 1,
+      "offset": 6854,
+      "flags": 3,
+      "name": "SELECTBITMAP"
+    },
+    {
+      "ordinal": 196,
+      "segment": 20,
+      "offset": 9441,
+      "flags": 3,
+      "name": "SETMETAFILEBITSBETTER"
+    },
+    {
+      "ordinal": 201,
+      "segment": 13,
+      "offset": 330,
+      "flags": 1,
+      "name": "DMBITBLT"
+    },
+    {
+      "ordinal": 202,
+      "segment": 13,
+      "offset": 335,
+      "flags": 1,
+      "name": "DMCOLORINFO"
+    },
+    {
+      "ordinal": 206,
+      "segment": 13,
+      "offset": 355,
+      "flags": 1,
+      "name": "DMENUMDFONTS"
+    },
+    {
+      "ordinal": 207,
+      "segment": 13,
+      "offset": 361,
+      "flags": 1,
+      "name": "DMENUMOBJ"
+    },
+    {
+      "ordinal": 208,
+      "segment": 13,
+      "offset": 345,
+      "flags": 1,
+      "name": "DMOUTPUT"
+    },
+    {
+      "ordinal": 209,
+      "segment": 13,
+      "offset": 340,
+      "flags": 1,
+      "name": "DMPIXEL"
+    },
+    {
+      "ordinal": 210,
+      "segment": 13,
+      "offset": 350,
+      "flags": 1,
+      "name": "DMREALIZEOBJECT"
+    },
+    {
+      "ordinal": 211,
+      "segment": 13,
+      "offset": 223,
+      "flags": 3,
+      "name": "DMSTRBLT"
+    },
+    {
+      "ordinal": 212,
+      "segment": 13,
+      "offset": 366,
+      "flags": 1,
+      "name": "DMSCANLR"
+    },
+    {
+      "ordinal": 213,
+      "segment": 13,
+      "offset": 369,
+      "flags": 3,
+      "name": "BRUTE"
+    },
+    {
+      "ordinal": 214,
+      "segment": 13,
+      "offset": 0,
+      "flags": 3,
+      "name": "DMEXTTEXTOUT"
+    },
+    {
+      "ordinal": 215,
+      "segment": 13,
+      "offset": 304,
+      "flags": 3,
+      "name": "DMGETCHARWIDTH"
+    },
+    {
+      "ordinal": 216,
+      "segment": 13,
+      "offset": 310,
+      "flags": 3,
+      "name": "DMSTRETCHBLT"
+    },
+    {
+      "ordinal": 217,
+      "segment": 13,
+      "offset": 315,
+      "flags": 3,
+      "name": "DMDIBBITS"
+    },
+    {
+      "ordinal": 218,
+      "segment": 13,
+      "offset": 320,
+      "flags": 3,
+      "name": "DMSTRETCHDIBITS"
+    },
+    {
+      "ordinal": 219,
+      "segment": 13,
+      "offset": 325,
+      "flags": 3,
+      "name": "DMSETDIBTODEV"
+    },
+    {
+      "ordinal": 220,
+      "segment": 13,
+      "offset": 589,
+      "flags": 3,
+      "name": "DMTRANSPOSE"
+    },
+    {
+      "ordinal": 230,
+      "segment": 27,
+      "offset": 0,
+      "flags": 1,
+      "name": "CREATEPQ"
+    },
+    {
+      "ordinal": 231,
+      "segment": 27,
+      "offset": 251,
+      "flags": 1,
+      "name": "MINPQ"
+    },
+    {
+      "ordinal": 232,
+      "segment": 27,
+      "offset": 254,
+      "flags": 1,
+      "name": "EXTRACTPQ"
+    },
+    {
+      "ordinal": 233,
+      "segment": 27,
+      "offset": 69,
+      "flags": 1,
+      "name": "INSERTPQ"
+    },
+    {
+      "ordinal": 234,
+      "segment": 27,
+      "offset": 476,
+      "flags": 1,
+      "name": "SIZEPQ"
+    },
+    {
+      "ordinal": 235,
+      "segment": 27,
+      "offset": 459,
+      "flags": 1,
+      "name": "DELETEPQ"
+    },
+    {
+      "ordinal": 240,
+      "segment": 28,
+      "offset": 451,
+      "flags": 3,
+      "name": "OPENJOB"
+    },
+    {
+      "ordinal": 241,
+      "segment": 28,
+      "offset": 2283,
+      "flags": 3,
+      "name": "WRITESPOOL"
+    },
+    {
+      "ordinal": 242,
+      "segment": 28,
+      "offset": 3714,
+      "flags": 3,
+      "name": "WRITEDIALOG"
+    },
+    {
+      "ordinal": 243,
+      "segment": 28,
+      "offset": 4754,
+      "flags": 3,
+      "name": "CLOSEJOB"
+    },
+    {
+      "ordinal": 244,
+      "segment": 28,
+      "offset": 5088,
+      "flags": 3,
+      "name": "DELETEJOB"
+    },
+    {
+      "ordinal": 245,
+      "segment": 28,
+      "offset": 6146,
+      "flags": 3,
+      "name": "GETSPOOLJOB"
+    },
+    {
+      "ordinal": 246,
+      "segment": 28,
+      "offset": 1697,
+      "flags": 3,
+      "name": "STARTSPOOLPAGE"
+    },
+    {
+      "ordinal": 247,
+      "segment": 28,
+      "offset": 4370,
+      "flags": 3,
+      "name": "ENDSPOOLPAGE"
+    },
+    {
+      "ordinal": 248,
+      "segment": 28,
+      "offset": 6372,
+      "flags": 3,
+      "name": "QUERYJOB"
+    },
+    {
+      "ordinal": 250,
+      "segment": 28,
+      "offset": 0,
+      "flags": 3,
+      "name": "COPY"
+    },
+    {
+      "ordinal": 253,
+      "segment": 28,
+      "offset": 4083,
+      "flags": 3,
+      "name": "DELETESPOOLPAGE"
+    },
+    {
+      "ordinal": 254,
+      "segment": 28,
+      "offset": 5487,
+      "flags": 3,
+      "name": "SPOOLFILE"
+    },
+    {
+      "ordinal": 300,
+      "segment": 5,
+      "offset": 2364,
+      "flags": 3,
+      "name": "ENGINEENUMERATEFONT"
+    },
+    {
+      "ordinal": 301,
+      "segment": 6,
+      "offset": 1376,
+      "flags": 3,
+      "name": "ENGINEDELETEFONT"
+    },
+    {
+      "ordinal": 302,
+      "segment": 3,
+      "offset": 11053,
+      "flags": 3,
+      "name": "ENGINEREALIZEFONT"
+    },
+    {
+      "ordinal": 303,
+      "segment": 3,
+      "offset": 11402,
+      "flags": 3,
+      "name": "ENGINEGETCHARWIDTH"
+    },
+    {
+      "ordinal": 304,
+      "segment": 5,
+      "offset": 2451,
+      "flags": 3,
+      "name": "ENGINESETFONTCONTEXT"
+    },
+    {
+      "ordinal": 305,
+      "segment": 7,
+      "offset": 2537,
+      "flags": 3,
+      "name": "ENGINEGETGLYPHBMP"
+    },
+    {
+      "ordinal": 306,
+      "segment": 7,
+      "offset": 4484,
+      "flags": 3,
+      "name": "ENGINEMAKEFONTDIR"
+    },
+    {
+      "ordinal": 307,
+      "segment": 7,
+      "offset": 2109,
+      "flags": 3,
+      "name": "GETCHARABCWIDTHS"
+    },
+    {
+      "ordinal": 308,
+      "segment": 7,
+      "offset": 2166,
+      "flags": 3,
+      "name": "GETOUTLINETEXTMETRICS"
+    },
+    {
+      "ordinal": 309,
+      "segment": 7,
+      "offset": 1941,
+      "flags": 3,
+      "name": "GETGLYPHOUTLINE"
+    },
+    {
+      "ordinal": 310,
+      "segment": 7,
+      "offset": 1891,
+      "flags": 3,
+      "name": "CREATESCALABLEFONTRESOURCE"
+    },
+    {
+      "ordinal": 311,
+      "segment": 7,
+      "offset": 2044,
+      "flags": 3,
+      "name": "GETFONTDATA"
+    },
+    {
+      "ordinal": 312,
+      "segment": 7,
+      "offset": 3466,
+      "flags": 3,
+      "name": "CONVERTOUTLINEFONTFILE"
+    },
+    {
+      "ordinal": 313,
+      "segment": 7,
+      "offset": 3382,
+      "flags": 3,
+      "name": "GETRASTERIZERCAPS"
+    },
+    {
+      "ordinal": 314,
+      "segment": 1,
+      "offset": 26266,
+      "flags": 3,
+      "name": "ENGINEEXTTEXTOUT"
+    },
+    {
+      "ordinal": 330,
+      "segment": 5,
+      "offset": 1495,
+      "flags": 3,
+      "name": "ENUMFONTFAMILIES"
+    },
+    {
+      "ordinal": 332,
+      "segment": 7,
+      "offset": 2198,
+      "flags": 3,
+      "name": "GETKERNINGPAIRS"
+    },
+    {
+      "ordinal": 345,
+      "segment": 1,
+      "offset": 20790,
+      "flags": 3,
+      "name": "GETTEXTALIGN"
+    },
+    {
+      "ordinal": 346,
+      "segment": 1,
+      "offset": 20041,
+      "flags": 3,
+      "name": "SETTEXTALIGN"
+    },
+    {
+      "ordinal": 348,
+      "segment": 9,
+      "offset": 4184,
+      "flags": 3,
+      "name": "CHORD"
+    },
+    {
+      "ordinal": 349,
+      "segment": 3,
+      "offset": 5695,
+      "flags": 3,
+      "name": "SETMAPPERFLAGS"
+    },
+    {
+      "ordinal": 350,
+      "segment": 3,
+      "offset": 5579,
+      "flags": 3,
+      "name": "GETCHARWIDTH"
+    },
+    {
+      "ordinal": 351,
+      "segment": 1,
+      "offset": 20296,
+      "flags": 3,
+      "name": "EXTTEXTOUT"
+    },
+    {
+      "ordinal": 352,
+      "segment": 1,
+      "offset": 2606,
+      "flags": 3,
+      "name": "GETPHYSICALFONTHANDLE"
+    },
+    {
+      "ordinal": 353,
+      "segment": 3,
+      "offset": 5643,
+      "flags": 3,
+      "name": "GETASPECTRATIOFILTER"
+    },
+    {
+      "ordinal": 354,
+      "segment": 1,
+      "offset": 8159,
+      "flags": 3,
+      "name": "SHRINKGDIHEAP"
+    },
+    {
+      "ordinal": 355,
+      "segment": 48,
+      "offset": 751,
+      "flags": 3,
+      "name": "FTRAPPING0"
+    },
+    {
+      "ordinal": 360,
+      "segment": 22,
+      "offset": 35,
+      "flags": 3,
+      "name": "CREATEPALETTE"
+    },
+    {
+      "ordinal": 361,
+      "segment": 22,
+      "offset": 625,
+      "flags": 3,
+      "name": "GDISELECTPALETTE"
+    },
+    {
+      "ordinal": 362,
+      "segment": 22,
+      "offset": 4232,
+      "flags": 3,
+      "name": "GDIREALIZEPALETTE"
+    },
+    {
+      "ordinal": 363,
+      "segment": 22,
+      "offset": 80,
+      "flags": 3,
+      "name": "GETPALETTEENTRIES"
+    },
+    {
+      "ordinal": 364,
+      "segment": 22,
+      "offset": 210,
+      "flags": 3,
+      "name": "SETPALETTEENTRIES"
+    },
+    {
+      "ordinal": 365,
+      "segment": 22,
+      "offset": 4125,
+      "flags": 3,
+      "name": "REALIZEDEFAULTPALETTE"
+    },
+    {
+      "ordinal": 366,
+      "segment": 22,
+      "offset": 265,
+      "flags": 3,
+      "name": "UPDATECOLORS"
+    },
+    {
+      "ordinal": 367,
+      "segment": 22,
+      "offset": 0,
+      "flags": 3,
+      "name": "ANIMATEPALETTE"
+    },
+    {
+      "ordinal": 368,
+      "segment": 22,
+      "offset": 190,
+      "flags": 3,
+      "name": "RESIZEPALETTE"
+    },
+    {
+      "ordinal": 370,
+      "segment": 22,
+      "offset": 115,
+      "flags": 3,
+      "name": "GETNEARESTPALETTEINDEX"
+    },
+    {
+      "ordinal": 372,
+      "segment": 15,
+      "offset": 2320,
+      "flags": 3,
+      "name": "EXTFLOODFILL"
+    },
+    {
+      "ordinal": 373,
+      "segment": 22,
+      "offset": 245,
+      "flags": 3,
+      "name": "SETSYSTEMPALETTEUSE"
+    },
+    {
+      "ordinal": 374,
+      "segment": 22,
+      "offset": 170,
+      "flags": 3,
+      "name": "GETSYSTEMPALETTEUSE"
+    },
+    {
+      "ordinal": 375,
+      "segment": 22,
+      "offset": 135,
+      "flags": 3,
+      "name": "GETSYSTEMPALETTEENTRIES"
+    },
+    {
+      "ordinal": 376,
+      "segment": 31,
+      "offset": 156,
+      "flags": 3,
+      "name": "RESETDC"
+    },
+    {
+      "ordinal": 377,
+      "segment": 31,
+      "offset": 69,
+      "flags": 3,
+      "name": "STARTDOC"
+    },
+    {
+      "ordinal": 378,
+      "segment": 31,
+      "offset": 46,
+      "flags": 3,
+      "name": "ENDDOC"
+    },
+    {
+      "ordinal": 379,
+      "segment": 31,
+      "offset": 104,
+      "flags": 3,
+      "name": "STARTPAGE"
+    },
+    {
+      "ordinal": 380,
+      "segment": 31,
+      "offset": 23,
+      "flags": 3,
+      "name": "ENDPAGE"
+    },
+    {
+      "ordinal": 381,
+      "segment": 31,
+      "offset": 124,
+      "flags": 3,
+      "name": "SETABORTPROC"
+    },
+    {
+      "ordinal": 382,
+      "segment": 31,
+      "offset": 0,
+      "flags": 3,
+      "name": "ABORTDOC"
+    },
+    {
+      "ordinal": 400,
+      "segment": 1,
+      "offset": 16910,
+      "flags": 3,
+      "name": "FASTWINDOWFRAME"
+    },
+    {
+      "ordinal": 401,
+      "segment": 2,
+      "offset": 1027,
+      "flags": 3,
+      "name": "GDIMOVEBITMAP"
+    },
+    {
+      "ordinal": 403,
+      "segment": 2,
+      "offset": 1066,
+      "flags": 3,
+      "name": "GDIINIT2"
+    },
+    {
+      "ordinal": 405,
+      "segment": 2,
+      "offset": 302,
+      "flags": 3,
+      "name": "FINALGDIINIT"
+    },
+    {
+      "ordinal": 407,
+      "segment": 1,
+      "offset": 3777,
+      "flags": 1,
+      "name": "CREATEUSERBITMAP"
+    },
+    {
+      "ordinal": 409,
+      "segment": 4,
+      "offset": 512,
+      "flags": 1,
+      "name": "CREATEUSERDISCARDABLEBITMAP"
+    },
+    {
+      "ordinal": 410,
+      "segment": 19,
+      "offset": 5264,
+      "flags": 3,
+      "name": "ISVALIDMETAFILE"
+    },
+    {
+      "ordinal": 411,
+      "segment": 1,
+      "offset": 20762,
+      "flags": 3,
+      "name": "GETCURLOGFONT"
+    },
+    {
+      "ordinal": 412,
+      "segment": 22,
+      "offset": 2828,
+      "flags": 3,
+      "name": "ISDCCURRENTPALETTE"
+    },
+    {
+      "ordinal": 439,
+      "segment": 11,
+      "offset": 514,
+      "flags": 3,
+      "name": "STRETCHDIBITS"
+    },
+    {
+      "ordinal": 440,
+      "segment": 11,
+      "offset": 0,
+      "flags": 3,
+      "name": "SETDIBITS"
+    },
+    {
+      "ordinal": 441,
+      "segment": 11,
+      "offset": 406,
+      "flags": 3,
+      "name": "GETDIBITS"
+    },
+    {
+      "ordinal": 442,
+      "segment": 11,
+      "offset": 108,
+      "flags": 3,
+      "name": "CREATEDIBITMAP"
+    },
+    {
+      "ordinal": 443,
+      "segment": 11,
+      "offset": 266,
+      "flags": 3,
+      "name": "SETDIBITSTODEVICE"
+    },
+    {
+      "ordinal": 444,
+      "segment": 9,
+      "offset": 446,
+      "flags": 3,
+      "name": "CREATEROUNDRECTRGN"
+    },
+    {
+      "ordinal": 445,
+      "segment": 4,
+      "offset": 1561,
+      "flags": 3,
+      "name": "CREATEDIBPATTERNBRUSH"
+    },
+    {
+      "ordinal": 449,
+      "segment": 11,
+      "offset": 4117,
+      "flags": 3,
+      "name": "DEVICECOLORMATCH"
+    },
+    {
+      "ordinal": 450,
+      "segment": 24,
+      "offset": 35,
+      "flags": 3,
+      "name": "POLYPOLYGON"
+    },
+    {
+      "ordinal": 451,
+      "segment": 9,
+      "offset": 4067,
+      "flags": 3,
+      "name": "CREATEPOLYPOLYGONRGN"
+    },
+    {
+      "ordinal": 452,
+      "segment": 21,
+      "offset": 6560,
+      "flags": 3,
+      "name": "GDISEEGDIDO"
+    },
+    {
+      "ordinal": 460,
+      "segment": 1,
+      "offset": 30352,
+      "flags": 3,
+      "name": "GDITASKTERMINATION"
+    },
+    {
+      "ordinal": 461,
+      "segment": 1,
+      "offset": 30370,
+      "flags": 3,
+      "name": "SETOBJECTOWNER"
+    },
+    {
+      "ordinal": 462,
+      "segment": 1,
+      "offset": 7878,
+      "flags": 3,
+      "name": "ISGDIOBJECT"
+    },
+    {
+      "ordinal": 463,
+      "segment": 1,
+      "offset": 3688,
+      "flags": 3,
+      "name": "MAKEOBJECTPRIVATE"
+    },
+    {
+      "ordinal": 464,
+      "segment": 19,
+      "offset": 6242,
+      "flags": 3,
+      "name": "FIXUPBOGUSPUBLISHERMETAFILE"
+    },
+    {
+      "ordinal": 465,
+      "segment": 1,
+      "offset": 10679,
+      "flags": 3,
+      "name": "RECTVISIBLE_EHH"
+    },
+    {
+      "ordinal": 466,
+      "segment": 1,
+      "offset": 10923,
+      "flags": 3,
+      "name": "RECTINREGION_EHH"
+    },
+    {
+      "ordinal": 467,
+      "segment": 1,
+      "offset": 22179,
+      "flags": 3,
+      "name": "UNICODETOANSI"
+    },
+    {
+      "ordinal": 468,
+      "segment": 1,
+      "offset": 18892,
+      "flags": 3,
+      "name": "GETBITMAPDIMENSIONEX"
+    },
+    {
+      "ordinal": 469,
+      "segment": 1,
+      "offset": 24245,
+      "flags": 1,
+      "name": "GETBRUSHORGEX"
+    },
+    {
+      "ordinal": 470,
+      "segment": 1,
+      "offset": 24280,
+      "flags": 1,
+      "name": "GETCURRENTPOSITIONEX"
+    },
+    {
+      "ordinal": 471,
+      "segment": 1,
+      "offset": 19380,
+      "flags": 3,
+      "name": "GETTEXTEXTENTPOINT"
+    },
+    {
+      "ordinal": 472,
+      "segment": 1,
+      "offset": 24359,
+      "flags": 1,
+      "name": "GETVIEWPORTEXTEX"
+    },
+    {
+      "ordinal": 473,
+      "segment": 1,
+      "offset": 24394,
+      "flags": 1,
+      "name": "GETVIEWPORTORGEX"
+    },
+    {
+      "ordinal": 474,
+      "segment": 1,
+      "offset": 24429,
+      "flags": 1,
+      "name": "GETWINDOWEXTEX"
+    },
+    {
+      "ordinal": 475,
+      "segment": 1,
+      "offset": 24464,
+      "flags": 1,
+      "name": "GETWINDOWORGEX"
+    },
+    {
+      "ordinal": 476,
+      "segment": 1,
+      "offset": 19186,
+      "flags": 1,
+      "name": "OFFSETVIEWPORTORGEX"
+    },
+    {
+      "ordinal": 477,
+      "segment": 1,
+      "offset": 19238,
+      "flags": 1,
+      "name": "OFFSETWINDOWORGEX"
+    },
+    {
+      "ordinal": 478,
+      "segment": 1,
+      "offset": 18840,
+      "flags": 3,
+      "name": "SETBITMAPDIMENSIONEX"
+    },
+    {
+      "ordinal": 479,
+      "segment": 4,
+      "offset": 1808,
+      "flags": 1,
+      "name": "SETVIEWPORTEXTEX"
+    },
+    {
+      "ordinal": 480,
+      "segment": 1,
+      "offset": 20264,
+      "flags": 3,
+      "name": "SETVIEWPORTORGEX"
+    },
+    {
+      "ordinal": 481,
+      "segment": 4,
+      "offset": 1756,
+      "flags": 1,
+      "name": "SETWINDOWEXTEX"
+    },
+    {
+      "ordinal": 482,
+      "segment": 1,
+      "offset": 20212,
+      "flags": 3,
+      "name": "SETWINDOWORGEX"
+    },
+    {
+      "ordinal": 483,
+      "segment": 21,
+      "offset": 3774,
+      "flags": 3,
+      "name": "MOVETOEX"
+    },
+    {
+      "ordinal": 484,
+      "segment": 4,
+      "offset": 1860,
+      "flags": 1,
+      "name": "SCALEVIEWPORTEXTEX"
+    },
+    {
+      "ordinal": 485,
+      "segment": 4,
+      "offset": 1912,
+      "flags": 1,
+      "name": "SCALEWINDOWEXTEX"
+    },
+    {
+      "ordinal": 486,
+      "segment": 3,
+      "offset": 5663,
+      "flags": 3,
+      "name": "GETASPECTRATIOFILTEREX"
+    }
+  ],
+  "segments": [
+    {
+      "number": 1,
+      "offset": 7712,
+      "size": 31774,
+      "flags": 3392,
+      "minimum_allocation": 31774,
+      "relocation_count": 71
+    },
+    {
+      "number": 2,
+      "offset": 40096,
+      "size": 5418,
+      "flags": 7504,
+      "minimum_allocation": 5418,
+      "relocation_count": 41
+    },
+    {
+      "number": 3,
+      "offset": 45888,
+      "size": 12648,
+      "flags": 7504,
+      "minimum_allocation": 12648,
+      "relocation_count": 27
+    },
+    {
+      "number": 4,
+      "offset": 58784,
+      "size": 2580,
+      "flags": 7504,
+      "minimum_allocation": 2580,
+      "relocation_count": 12
+    },
+    {
+      "number": 5,
+      "offset": 126336,
+      "size": 2478,
+      "flags": 7440,
+      "minimum_allocation": 2479,
+      "relocation_count": 7
+    },
+    {
+      "number": 6,
+      "offset": 128880,
+      "size": 1829,
+      "flags": 7440,
+      "minimum_allocation": 1829,
+      "relocation_count": 16
+    },
+    {
+      "number": 7,
+      "offset": 130848,
+      "size": 8328,
+      "flags": 7440,
+      "minimum_allocation": 8329,
+      "relocation_count": 21
+    },
+    {
+      "number": 8,
+      "offset": 139360,
+      "size": 1355,
+      "flags": 7440,
+      "minimum_allocation": 1356,
+      "relocation_count": 11
+    },
+    {
+      "number": 9,
+      "offset": 140816,
+      "size": 5076,
+      "flags": 7440,
+      "minimum_allocation": 5076,
+      "relocation_count": 11
+    },
+    {
+      "number": 10,
+      "offset": 145984,
+      "size": 970,
+      "flags": 7184,
+      "minimum_allocation": 971,
+      "relocation_count": 0
+    },
+    {
+      "number": 11,
+      "offset": 61504,
+      "size": 5050,
+      "flags": 7504,
+      "minimum_allocation": 5050,
+      "relocation_count": 13
+    },
+    {
+      "number": 12,
+      "offset": 146960,
+      "size": 4261,
+      "flags": 7440,
+      "minimum_allocation": 4261,
+      "relocation_count": 3
+    },
+    {
+      "number": 13,
+      "offset": 151248,
+      "size": 741,
+      "flags": 7184,
+      "minimum_allocation": 742,
+      "relocation_count": 0
+    },
+    {
+      "number": 14,
+      "offset": 152000,
+      "size": 1182,
+      "flags": 7440,
+      "minimum_allocation": 1183,
+      "relocation_count": 5
+    },
+    {
+      "number": 15,
+      "offset": 153232,
+      "size": 2418,
+      "flags": 7440,
+      "minimum_allocation": 2420,
+      "relocation_count": 6
+    },
+    {
+      "number": 16,
+      "offset": 155712,
+      "size": 3250,
+      "flags": 7440,
+      "minimum_allocation": 3252,
+      "relocation_count": 9
+    },
+    {
+      "number": 17,
+      "offset": 159040,
+      "size": 1439,
+      "flags": 7440,
+      "minimum_allocation": 1440,
+      "relocation_count": 10
+    },
+    {
+      "number": 18,
+      "offset": 160576,
+      "size": 646,
+      "flags": 7440,
+      "minimum_allocation": 646,
+      "relocation_count": 4
+    },
+    {
+      "number": 19,
+      "offset": 161264,
+      "size": 7410,
+      "flags": 7440,
+      "minimum_allocation": 7411,
+      "relocation_count": 33
+    },
+    {
+      "number": 20,
+      "offset": 168944,
+      "size": 10055,
+      "flags": 7440,
+      "minimum_allocation": 10056,
+      "relocation_count": 29
+    },
+    {
+      "number": 21,
+      "offset": 66688,
+      "size": 7755,
+      "flags": 7504,
+      "minimum_allocation": 7755,
+      "relocation_count": 18
+    },
+    {
+      "number": 22,
+      "offset": 74624,
+      "size": 4354,
+      "flags": 7504,
+      "minimum_allocation": 4354,
+      "relocation_count": 16
+    },
+    {
+      "number": 23,
+      "offset": 179248,
+      "size": 1063,
+      "flags": 7440,
+      "minimum_allocation": 1065,
+      "relocation_count": 6
+    },
+    {
+      "number": 24,
+      "offset": 180368,
+      "size": 4407,
+      "flags": 7440,
+      "minimum_allocation": 4408,
+      "relocation_count": 12
+    },
+    {
+      "number": 25,
+      "offset": 184880,
+      "size": 2504,
+      "flags": 7440,
+      "minimum_allocation": 2505,
+      "relocation_count": 9
+    },
+    {
+      "number": 26,
+      "offset": 187472,
+      "size": 1350,
+      "flags": 7440,
+      "minimum_allocation": 1351,
+      "relocation_count": 5
+    },
+    {
+      "number": 27,
+      "offset": 188864,
+      "size": 646,
+      "flags": 7440,
+      "minimum_allocation": 646,
+      "relocation_count": 5
+    },
+    {
+      "number": 28,
+      "offset": 189552,
+      "size": 6702,
+      "flags": 7440,
+      "minimum_allocation": 6702,
+      "relocation_count": 29
+    },
+    {
+      "number": 29,
+      "offset": 196496,
+      "size": 1695,
+      "flags": 7440,
+      "minimum_allocation": 1696,
+      "relocation_count": 13
+    },
+    {
+      "number": 30,
+      "offset": 198304,
+      "size": 843,
+      "flags": 7440,
+      "minimum_allocation": 844,
+      "relocation_count": 3
+    },
+    {
+      "number": 31,
+      "offset": 79136,
+      "size": 1715,
+      "flags": 7504,
+      "minimum_allocation": 1715,
+      "relocation_count": 7
+    },
+    {
+      "number": 32,
+      "offset": 80928,
+      "size": 5542,
+      "flags": 7504,
+      "minimum_allocation": 5542,
+      "relocation_count": 8
+    },
+    {
+      "number": 33,
+      "offset": 199184,
+      "size": 373,
+      "flags": 7440,
+      "minimum_allocation": 373,
+      "relocation_count": 1
+    },
+    {
+      "number": 34,
+      "offset": 199568,
+      "size": 4537,
+      "flags": 7440,
+      "minimum_allocation": 4538,
+      "relocation_count": 5
+    },
+    {
+      "number": 35,
+      "offset": 204160,
+      "size": 819,
+      "flags": 7440,
+      "minimum_allocation": 820,
+      "relocation_count": 2
+    },
+    {
+      "number": 36,
+      "offset": 86560,
+      "size": 28843,
+      "flags": 7504,
+      "minimum_allocation": 28843,
+      "relocation_count": 17
+    },
+    {
+      "number": 37,
+      "offset": 205008,
+      "size": 1070,
+      "flags": 7184,
+      "minimum_allocation": 1071,
+      "relocation_count": 0
+    },
+    {
+      "number": 38,
+      "offset": 206080,
+      "size": 51,
+      "flags": 7184,
+      "minimum_allocation": 51,
+      "relocation_count": 0
+    },
+    {
+      "number": 39,
+      "offset": 206144,
+      "size": 303,
+      "flags": 7440,
+      "minimum_allocation": 303,
+      "relocation_count": 1
+    },
+    {
+      "number": 40,
+      "offset": 206464,
+      "size": 2285,
+      "flags": 7440,
+      "minimum_allocation": 2286,
+      "relocation_count": 11
+    },
+    {
+      "number": 41,
+      "offset": 208848,
+      "size": 785,
+      "flags": 7184,
+      "minimum_allocation": 786,
+      "relocation_count": 0
+    },
+    {
+      "number": 42,
+      "offset": 115584,
+      "size": 6587,
+      "flags": 7504,
+      "minimum_allocation": 6587,
+      "relocation_count": 5
+    },
+    {
+      "number": 43,
+      "offset": 209648,
+      "size": 7948,
+      "flags": 7440,
+      "minimum_allocation": 7949,
+      "relocation_count": 9
+    },
+    {
+      "number": 44,
+      "offset": 217680,
+      "size": 618,
+      "flags": 7440,
+      "minimum_allocation": 619,
+      "relocation_count": 3
+    },
+    {
+      "number": 45,
+      "offset": 218336,
+      "size": 885,
+      "flags": 7440,
+      "minimum_allocation": 886,
+      "relocation_count": 3
+    },
+    {
+      "number": 46,
+      "offset": 122240,
+      "size": 8,
+      "flags": 3408,
+      "minimum_allocation": 8,
+      "relocation_count": 1
+    },
+    {
+      "number": 47,
+      "offset": 122304,
+      "size": 1216,
+      "flags": 3441,
+      "minimum_allocation": 1216,
+      "relocation_count": 2
+    },
+    {
+      "number": 48,
+      "offset": 123584,
+      "size": 2654,
+      "flags": 3441,
+      "minimum_allocation": 2654,
+      "relocation_count": 3
+    }
+  ],
+  "relocations": {
+    "internal": 211,
+    "import_ordinal": 312
+  },
+  "resources": [
+    {
+      "type_id": 6,
+      "resource_id": 7,
+      "offset": 219248,
+      "size": 1056,
+      "flags": 7216,
+      "sha256": "44dd9620c753d60c5dfbfceb22a4feec0a14be04f63ad78f7b51f5a17cb468e3",
+      "file": null
+    },
+    {
+      "type_id": 16,
+      "resource_id": 1,
+      "offset": 220304,
+      "size": 496,
+      "flags": 3120,
+      "sha256": "881db9312422e4dafdf258952b3be0609d5f869b5117c056b753f82702f9996a",
+      "file": null
+    }
+  ]
+}

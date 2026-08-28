@@ -1,0 +1,2699 @@
+{
+  "metadata": {
+    "path": "original\\extracted\\WINDOWS\\SYSTEM\\MMSYSTEM.DLL",
+    "sha256": "4ba0b19b64b3de4e8c86a4412a8829741f25367d235f363e57508d9579094c86",
+    "size": 61648,
+    "ne_header_offset": 128,
+    "flags": 33545,
+    "target_os": 2,
+    "segment_count": 10,
+    "module_count": 3,
+    "resource_count_header": 0,
+    "alignment_shift": 4,
+    "auto_data_segment": 10,
+    "initial_heap": 128,
+    "initial_stack": 0,
+    "initial_cs": 2,
+    "initial_ip": 0,
+    "initial_ss": 0,
+    "initial_sp": 0,
+    "movable_entry_count": 120
+  },
+  "modules": [
+    "KERNEL",
+    "USER",
+    "KEYBOARD"
+  ],
+  "imported_names": [
+    {
+      "offset": 1,
+      "name": "KERNEL"
+    },
+    {
+      "offset": 8,
+      "name": "USER"
+    },
+    {
+      "offset": 13,
+      "name": "KEYBOARD"
+    }
+  ],
+  "external_imports": [
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 104,
+      "references": [
+        {
+          "segment": 4,
+          "offset": 1227,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 113,
+      "references": [
+        {
+          "segment": 4,
+          "offset": 2057,
+          "source_type": 5,
+          "flags": 1
+        },
+        {
+          "segment": 7,
+          "offset": 2998,
+          "source_type": 5,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 114,
+      "references": [
+        {
+          "segment": 4,
+          "offset": 2033,
+          "source_type": 5,
+          "flags": 1
+        },
+        {
+          "segment": 7,
+          "offset": 6267,
+          "source_type": 5,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 121,
+      "references": [
+        {
+          "segment": 4,
+          "offset": 555,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 122,
+      "references": [
+        {
+          "segment": 3,
+          "offset": 363,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 127,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 369,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 128,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 1984,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 5,
+          "offset": 8002,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 15,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 2534,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 1214,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 7,
+          "offset": 3181,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 159,
+      "references": [
+        {
+          "segment": 4,
+          "offset": 2027,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 16,
+      "references": [
+        {
+          "segment": 7,
+          "offset": 2934,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 161,
+      "references": [
+        {
+          "segment": 4,
+          "offset": 529,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 162,
+      "references": [
+        {
+          "segment": 4,
+          "offset": 544,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 17,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 2584,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 1106,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 7,
+          "offset": 3135,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 178,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 782,
+          "source_type": 5,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 344,
+          "source_type": 5,
+          "flags": 1
+        },
+        {
+          "segment": 6,
+          "offset": 18,
+          "source_type": 5,
+          "flags": 1
+        },
+        {
+          "segment": 7,
+          "offset": 6080,
+          "source_type": 5,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 18,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 2544,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 774,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 7,
+          "offset": 2940,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 19,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 2576,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 839,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 5,
+          "offset": 12426,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 7,
+          "offset": 2912,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 191,
+      "references": [
+        {
+          "segment": 6,
+          "offset": 9,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 192,
+      "references": [
+        {
+          "segment": 6,
+          "offset": 43,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 197,
+      "references": [
+        {
+          "segment": 4,
+          "offset": 2001,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 198,
+      "references": [
+        {
+          "segment": 4,
+          "offset": 2013,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 21,
+      "references": [
+        {
+          "segment": 7,
+          "offset": 2906,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 29,
+      "references": [
+        {
+          "segment": 4,
+          "offset": 1459,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 5,
+          "offset": 10944,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 320,
+      "references": [
+        {
+          "segment": 4,
+          "offset": 1198,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 325,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 602,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 4226,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 4,
+          "offset": 1392,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 6,
+          "offset": 1358,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 7,
+          "offset": 4995,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 335,
+      "references": [
+        {
+          "segment": 4,
+          "offset": 864,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 336,
+      "references": [
+        {
+          "segment": 4,
+          "offset": 1318,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 337,
+      "references": [
+        {
+          "segment": 4,
+          "offset": 1368,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 346,
+      "references": [
+        {
+          "segment": 4,
+          "offset": 1053,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 347,
+      "references": [
+        {
+          "segment": 4,
+          "offset": 1106,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 349,
+      "references": [
+        {
+          "segment": 3,
+          "offset": 1252,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 7,
+          "offset": 4541,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 350,
+      "references": [
+        {
+          "segment": 7,
+          "offset": 4590,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 36,
+      "references": [
+        {
+          "segment": 3,
+          "offset": 383,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 4,
+          "offset": 1466,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 5,
+          "offset": 6296,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 7,
+          "offset": 4009,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 4,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 2558,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 45,
+      "references": [
+        {
+          "segment": 4,
+          "offset": 1847,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 5,
+      "references": [
+        {
+          "segment": 3,
+          "offset": 290,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 4,
+          "offset": 755,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 5,
+          "offset": 14901,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 50,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 1843,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 58,
+      "references": [
+        {
+          "segment": 3,
+          "offset": 33,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 5,
+          "offset": 8879,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 6,
+      "references": [
+        {
+          "segment": 5,
+          "offset": 14934,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 60,
+      "references": [
+        {
+          "segment": 5,
+          "offset": 11806,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 61,
+      "references": [
+        {
+          "segment": 5,
+          "offset": 11856,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 62,
+      "references": [
+        {
+          "segment": 5,
+          "offset": 12488,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 63,
+      "references": [
+        {
+          "segment": 5,
+          "offset": 12358,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 7,
+      "references": [
+        {
+          "segment": 3,
+          "offset": 426,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 4,
+          "offset": 843,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 5,
+          "offset": 14962,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 74,
+      "references": [
+        {
+          "segment": 3,
+          "offset": 1135,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 5,
+          "offset": 11764,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 7,
+          "offset": 4728,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 81,
+      "references": [
+        {
+          "segment": 3,
+          "offset": 1301,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 7,
+          "offset": 4818,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 84,
+      "references": [
+        {
+          "segment": 3,
+          "offset": 1172,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 7,
+          "offset": 4797,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 88,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 1938,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 1323,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 5,
+          "offset": 11745,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 90,
+      "references": [
+        {
+          "segment": 3,
+          "offset": 1156,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 5,
+          "offset": 12184,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 95,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 40,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 5,
+          "offset": 11777,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 96,
+      "references": [
+        {
+          "segment": 5,
+          "offset": 12383,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 97,
+      "references": [
+        {
+          "segment": 7,
+          "offset": 4689,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KEYBOARD",
+      "kind": "ordinal",
+      "symbol": 6,
+      "references": [
+        {
+          "segment": 3,
+          "offset": 112,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 7,
+          "offset": 4782,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 1,
+      "references": [
+        {
+          "segment": 5,
+          "offset": 4945,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 10,
+      "references": [
+        {
+          "segment": 4,
+          "offset": 701,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 8,
+          "offset": 502,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 107,
+      "references": [
+        {
+          "segment": 4,
+          "offset": 620,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 108,
+      "references": [
+        {
+          "segment": 4,
+          "offset": 1486,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 109,
+      "references": [
+        {
+          "segment": 4,
+          "offset": 1450,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 5,
+          "offset": 11260,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 110,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 1041,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 8,
+          "offset": 1138,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 111,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 2492,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 410,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 5,
+          "offset": 2371,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 113,
+      "references": [
+        {
+          "segment": 4,
+          "offset": 1502,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 114,
+      "references": [
+        {
+          "segment": 4,
+          "offset": 1512,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 116,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 1049,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 12,
+      "references": [
+        {
+          "segment": 4,
+          "offset": 654,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 8,
+          "offset": 293,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 15,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 188,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 176,
+      "references": [
+        {
+          "segment": 3,
+          "offset": 2451,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 4,
+          "offset": 1557,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 5,
+          "offset": 12174,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 6,
+          "offset": 599,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 224,
+      "references": [
+        {
+          "segment": 3,
+          "offset": 376,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 249,
+      "references": [
+        {
+          "segment": 5,
+          "offset": 11234,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 251,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 2262,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 4,
+          "offset": 1422,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 5,
+          "offset": 490,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 8,
+          "offset": 83,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 252,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 2197,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 4,
+          "offset": 1407,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 5,
+          "offset": 8325,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 253,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 1884,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 4,
+          "offset": 1412,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 5,
+          "offset": 10686,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 254,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 1831,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 4,
+          "offset": 1417,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 5,
+          "offset": 8367,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 255,
+      "references": [
+        {
+          "segment": 4,
+          "offset": 1427,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 403,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 2462,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 420,
+      "references": [
+        {
+          "segment": 5,
+          "offset": 9412,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 431,
+      "references": [
+        {
+          "segment": 7,
+          "offset": 3916,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 432,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 2004,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 5,
+          "offset": 5667,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 452,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 2443,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 47,
+      "references": [
+        {
+          "segment": 4,
+          "offset": 1171,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 8,
+          "offset": 349,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 471,
+      "references": [
+        {
+          "segment": 3,
+          "offset": 488,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 5,
+          "offset": 14016,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 57,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 2370,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 60,
+      "references": [
+        {
+          "segment": 5,
+          "offset": 11222,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "ordinal": 1,
+      "segment": 2,
+      "offset": 20,
+      "flags": 3,
+      "name": "WEP"
+    },
+    {
+      "ordinal": 2,
+      "segment": 4,
+      "offset": 0,
+      "flags": 3,
+      "name": "SNDPLAYSOUND"
+    },
+    {
+      "ordinal": 5,
+      "segment": 2,
+      "offset": 688,
+      "flags": 3,
+      "name": "MMSYSTEMGETVERSION"
+    },
+    {
+      "ordinal": 6,
+      "segment": 4,
+      "offset": 40,
+      "flags": 3,
+      "name": "DRIVERPROC"
+    },
+    {
+      "ordinal": 30,
+      "segment": 1,
+      "offset": 778,
+      "flags": 3,
+      "name": "OUTPUTDEBUGSTR"
+    },
+    {
+      "ordinal": 31,
+      "segment": 1,
+      "offset": 939,
+      "flags": 3,
+      "name": "DRIVERCALLBACK"
+    },
+    {
+      "ordinal": 32,
+      "segment": 1,
+      "offset": 786,
+      "flags": 3,
+      "name": "STACKENTER"
+    },
+    {
+      "ordinal": 33,
+      "segment": 1,
+      "offset": 880,
+      "flags": 3,
+      "name": "STACKLEAVE"
+    },
+    {
+      "ordinal": 34,
+      "segment": 2,
+      "offset": 1156,
+      "flags": 3,
+      "name": "MMDRVINSTALL"
+    },
+    {
+      "ordinal": 101,
+      "segment": 8,
+      "offset": 93,
+      "flags": 3,
+      "name": "JOYGETNUMDEVS"
+    },
+    {
+      "ordinal": 102,
+      "segment": 8,
+      "offset": 26,
+      "flags": 3,
+      "name": "JOYGETDEVCAPS"
+    },
+    {
+      "ordinal": 103,
+      "segment": 8,
+      "offset": 115,
+      "flags": 3,
+      "name": "JOYGETPOS"
+    },
+    {
+      "ordinal": 104,
+      "segment": 8,
+      "offset": 181,
+      "flags": 3,
+      "name": "JOYGETTHRESHOLD"
+    },
+    {
+      "ordinal": 105,
+      "segment": 8,
+      "offset": 236,
+      "flags": 3,
+      "name": "JOYRELEASECAPTURE"
+    },
+    {
+      "ordinal": 106,
+      "segment": 8,
+      "offset": 318,
+      "flags": 3,
+      "name": "JOYSETCAPTURE"
+    },
+    {
+      "ordinal": 107,
+      "segment": 8,
+      "offset": 541,
+      "flags": 3,
+      "name": "JOYSETTHRESHOLD"
+    },
+    {
+      "ordinal": 109,
+      "segment": 8,
+      "offset": 593,
+      "flags": 3,
+      "name": "JOYSETCALIBRATION"
+    },
+    {
+      "ordinal": 201,
+      "segment": 6,
+      "offset": 351,
+      "flags": 3,
+      "name": "MIDIOUTGETNUMDEVS"
+    },
+    {
+      "ordinal": 202,
+      "segment": 6,
+      "offset": 362,
+      "flags": 3,
+      "name": "MIDIOUTGETDEVCAPS"
+    },
+    {
+      "ordinal": 203,
+      "segment": 6,
+      "offset": 614,
+      "flags": 3,
+      "name": "MIDIOUTGETERRORTEXT"
+    },
+    {
+      "ordinal": 204,
+      "segment": 6,
+      "offset": 679,
+      "flags": 3,
+      "name": "MIDIOUTOPEN"
+    },
+    {
+      "ordinal": 205,
+      "segment": 6,
+      "offset": 964,
+      "flags": 3,
+      "name": "MIDIOUTCLOSE"
+    },
+    {
+      "ordinal": 206,
+      "segment": 6,
+      "offset": 1040,
+      "flags": 3,
+      "name": "MIDIOUTPREPAREHEADER"
+    },
+    {
+      "ordinal": 207,
+      "segment": 6,
+      "offset": 1157,
+      "flags": 3,
+      "name": "MIDIOUTUNPREPAREHEADER"
+    },
+    {
+      "ordinal": 208,
+      "segment": 1,
+      "offset": 289,
+      "flags": 3,
+      "name": "MIDIOUTSHORTMSG"
+    },
+    {
+      "ordinal": 209,
+      "segment": 1,
+      "offset": 342,
+      "flags": 3,
+      "name": "MIDIOUTLONGMSG"
+    },
+    {
+      "ordinal": 210,
+      "segment": 1,
+      "offset": 436,
+      "flags": 3,
+      "name": "MIDIOUTRESET"
+    },
+    {
+      "ordinal": 211,
+      "segment": 6,
+      "offset": 438,
+      "flags": 3,
+      "name": "MIDIOUTGETVOLUME"
+    },
+    {
+      "ordinal": 212,
+      "segment": 6,
+      "offset": 503,
+      "flags": 3,
+      "name": "MIDIOUTSETVOLUME"
+    },
+    {
+      "ordinal": 213,
+      "segment": 6,
+      "offset": 1279,
+      "flags": 3,
+      "name": "MIDIOUTCACHEPATCHES"
+    },
+    {
+      "ordinal": 214,
+      "segment": 6,
+      "offset": 1393,
+      "flags": 3,
+      "name": "MIDIOUTCACHEDRUMPATCHES"
+    },
+    {
+      "ordinal": 215,
+      "segment": 6,
+      "offset": 2652,
+      "flags": 3,
+      "name": "MIDIOUTGETID"
+    },
+    {
+      "ordinal": 216,
+      "segment": 1,
+      "offset": 235,
+      "flags": 3,
+      "name": "MIDIOUTMESSAGE"
+    },
+    {
+      "ordinal": 301,
+      "segment": 6,
+      "offset": 1507,
+      "flags": 3,
+      "name": "MIDIINGETNUMDEVS"
+    },
+    {
+      "ordinal": 302,
+      "segment": 6,
+      "offset": 1573,
+      "flags": 3,
+      "name": "MIDIINGETDEVCAPS"
+    },
+    {
+      "ordinal": 303,
+      "segment": 6,
+      "offset": 1649,
+      "flags": 3,
+      "name": "MIDIINGETERRORTEXT"
+    },
+    {
+      "ordinal": 304,
+      "segment": 6,
+      "offset": 1714,
+      "flags": 3,
+      "name": "MIDIINOPEN"
+    },
+    {
+      "ordinal": 305,
+      "segment": 6,
+      "offset": 1999,
+      "flags": 3,
+      "name": "MIDIINCLOSE"
+    },
+    {
+      "ordinal": 306,
+      "segment": 6,
+      "offset": 2075,
+      "flags": 3,
+      "name": "MIDIINPREPAREHEADER"
+    },
+    {
+      "ordinal": 307,
+      "segment": 6,
+      "offset": 2192,
+      "flags": 3,
+      "name": "MIDIINUNPREPAREHEADER"
+    },
+    {
+      "ordinal": 308,
+      "segment": 6,
+      "offset": 2314,
+      "flags": 3,
+      "name": "MIDIINADDBUFFER"
+    },
+    {
+      "ordinal": 309,
+      "segment": 6,
+      "offset": 2422,
+      "flags": 3,
+      "name": "MIDIINSTART"
+    },
+    {
+      "ordinal": 310,
+      "segment": 6,
+      "offset": 2474,
+      "flags": 3,
+      "name": "MIDIINSTOP"
+    },
+    {
+      "ordinal": 311,
+      "segment": 6,
+      "offset": 2526,
+      "flags": 3,
+      "name": "MIDIINRESET"
+    },
+    {
+      "ordinal": 312,
+      "segment": 6,
+      "offset": 2578,
+      "flags": 3,
+      "name": "MIDIINGETID"
+    },
+    {
+      "ordinal": 313,
+      "segment": 6,
+      "offset": 1518,
+      "flags": 3,
+      "name": "MIDIINMESSAGE"
+    },
+    {
+      "ordinal": 350,
+      "segment": 8,
+      "offset": 1329,
+      "flags": 3,
+      "name": "AUXGETNUMDEVS"
+    },
+    {
+      "ordinal": 351,
+      "segment": 8,
+      "offset": 1340,
+      "flags": 3,
+      "name": "AUXGETDEVCAPS"
+    },
+    {
+      "ordinal": 352,
+      "segment": 8,
+      "offset": 1410,
+      "flags": 3,
+      "name": "AUXGETVOLUME"
+    },
+    {
+      "ordinal": 353,
+      "segment": 8,
+      "offset": 1469,
+      "flags": 3,
+      "name": "AUXSETVOLUME"
+    },
+    {
+      "ordinal": 354,
+      "segment": 8,
+      "offset": 1247,
+      "flags": 3,
+      "name": "AUXOUTMESSAGE"
+    },
+    {
+      "ordinal": 401,
+      "segment": 3,
+      "offset": 2150,
+      "flags": 3,
+      "name": "WAVEOUTGETNUMDEVS"
+    },
+    {
+      "ordinal": 402,
+      "segment": 3,
+      "offset": 2214,
+      "flags": 3,
+      "name": "WAVEOUTGETDEVCAPS"
+    },
+    {
+      "ordinal": 403,
+      "segment": 3,
+      "offset": 2466,
+      "flags": 3,
+      "name": "WAVEOUTGETERRORTEXT"
+    },
+    {
+      "ordinal": 404,
+      "segment": 3,
+      "offset": 2531,
+      "flags": 3,
+      "name": "WAVEOUTOPEN"
+    },
+    {
+      "ordinal": 405,
+      "segment": 3,
+      "offset": 2945,
+      "flags": 3,
+      "name": "WAVEOUTCLOSE"
+    },
+    {
+      "ordinal": 406,
+      "segment": 3,
+      "offset": 3016,
+      "flags": 3,
+      "name": "WAVEOUTPREPAREHEADER"
+    },
+    {
+      "ordinal": 407,
+      "segment": 3,
+      "offset": 3156,
+      "flags": 3,
+      "name": "WAVEOUTUNPREPAREHEADER"
+    },
+    {
+      "ordinal": 408,
+      "segment": 3,
+      "offset": 3293,
+      "flags": 3,
+      "name": "WAVEOUTWRITE"
+    },
+    {
+      "ordinal": 409,
+      "segment": 3,
+      "offset": 3402,
+      "flags": 3,
+      "name": "WAVEOUTPAUSE"
+    },
+    {
+      "ordinal": 410,
+      "segment": 3,
+      "offset": 3452,
+      "flags": 3,
+      "name": "WAVEOUTRESTART"
+    },
+    {
+      "ordinal": 411,
+      "segment": 3,
+      "offset": 3502,
+      "flags": 3,
+      "name": "WAVEOUTRESET"
+    },
+    {
+      "ordinal": 412,
+      "segment": 3,
+      "offset": 3602,
+      "flags": 3,
+      "name": "WAVEOUTGETPOSITION"
+    },
+    {
+      "ordinal": 413,
+      "segment": 3,
+      "offset": 3682,
+      "flags": 3,
+      "name": "WAVEOUTGETPITCH"
+    },
+    {
+      "ordinal": 414,
+      "segment": 3,
+      "offset": 3760,
+      "flags": 3,
+      "name": "WAVEOUTSETPITCH"
+    },
+    {
+      "ordinal": 415,
+      "segment": 3,
+      "offset": 2290,
+      "flags": 3,
+      "name": "WAVEOUTGETVOLUME"
+    },
+    {
+      "ordinal": 416,
+      "segment": 3,
+      "offset": 2355,
+      "flags": 3,
+      "name": "WAVEOUTSETVOLUME"
+    },
+    {
+      "ordinal": 417,
+      "segment": 3,
+      "offset": 3812,
+      "flags": 3,
+      "name": "WAVEOUTGETPLAYBACKRATE"
+    },
+    {
+      "ordinal": 418,
+      "segment": 3,
+      "offset": 3890,
+      "flags": 3,
+      "name": "WAVEOUTSETPLAYBACKRATE"
+    },
+    {
+      "ordinal": 419,
+      "segment": 3,
+      "offset": 3552,
+      "flags": 3,
+      "name": "WAVEOUTBREAKLOOP"
+    },
+    {
+      "ordinal": 420,
+      "segment": 3,
+      "offset": 5311,
+      "flags": 3,
+      "name": "WAVEOUTGETID"
+    },
+    {
+      "ordinal": 421,
+      "segment": 3,
+      "offset": 2161,
+      "flags": 3,
+      "name": "WAVEOUTMESSAGE"
+    },
+    {
+      "ordinal": 501,
+      "segment": 3,
+      "offset": 3942,
+      "flags": 3,
+      "name": "WAVEINGETNUMDEVS"
+    },
+    {
+      "ordinal": 502,
+      "segment": 3,
+      "offset": 4006,
+      "flags": 3,
+      "name": "WAVEINGETDEVCAPS"
+    },
+    {
+      "ordinal": 503,
+      "segment": 3,
+      "offset": 4082,
+      "flags": 3,
+      "name": "WAVEINGETERRORTEXT"
+    },
+    {
+      "ordinal": 504,
+      "segment": 3,
+      "offset": 4147,
+      "flags": 3,
+      "name": "WAVEINOPEN"
+    },
+    {
+      "ordinal": 505,
+      "segment": 3,
+      "offset": 4561,
+      "flags": 3,
+      "name": "WAVEINCLOSE"
+    },
+    {
+      "ordinal": 506,
+      "segment": 3,
+      "offset": 4632,
+      "flags": 3,
+      "name": "WAVEINPREPAREHEADER"
+    },
+    {
+      "ordinal": 507,
+      "segment": 3,
+      "offset": 4764,
+      "flags": 3,
+      "name": "WAVEINUNPREPAREHEADER"
+    },
+    {
+      "ordinal": 508,
+      "segment": 3,
+      "offset": 4901,
+      "flags": 3,
+      "name": "WAVEINADDBUFFER"
+    },
+    {
+      "ordinal": 509,
+      "segment": 3,
+      "offset": 5007,
+      "flags": 3,
+      "name": "WAVEINSTART"
+    },
+    {
+      "ordinal": 510,
+      "segment": 3,
+      "offset": 5057,
+      "flags": 3,
+      "name": "WAVEINSTOP"
+    },
+    {
+      "ordinal": 511,
+      "segment": 3,
+      "offset": 5107,
+      "flags": 3,
+      "name": "WAVEINRESET"
+    },
+    {
+      "ordinal": 512,
+      "segment": 3,
+      "offset": 5157,
+      "flags": 3,
+      "name": "WAVEINGETPOSITION"
+    },
+    {
+      "ordinal": 513,
+      "segment": 3,
+      "offset": 5237,
+      "flags": 3,
+      "name": "WAVEINGETID"
+    },
+    {
+      "ordinal": 514,
+      "segment": 3,
+      "offset": 3953,
+      "flags": 3,
+      "name": "WAVEINMESSAGE"
+    },
+    {
+      "ordinal": 601,
+      "segment": 1,
+      "offset": 0,
+      "flags": 3,
+      "name": "TIMEGETSYSTEMTIME"
+    },
+    {
+      "ordinal": 602,
+      "segment": 1,
+      "offset": 41,
+      "flags": 3,
+      "name": "TIMESETEVENT"
+    },
+    {
+      "ordinal": 603,
+      "segment": 1,
+      "offset": 658,
+      "flags": 3,
+      "name": "TIMEKILLEVENT"
+    },
+    {
+      "ordinal": 604,
+      "segment": 8,
+      "offset": 0,
+      "flags": 3,
+      "name": "TIMEGETDEVCAPS"
+    },
+    {
+      "ordinal": 605,
+      "segment": 1,
+      "offset": 648,
+      "flags": 3,
+      "name": "TIMEBEGINPERIOD"
+    },
+    {
+      "ordinal": 606,
+      "segment": 1,
+      "offset": 653,
+      "flags": 3,
+      "name": "TIMEENDPERIOD"
+    },
+    {
+      "ordinal": 607,
+      "segment": 1,
+      "offset": 666,
+      "flags": 3,
+      "name": "TIMEGETTIME"
+    },
+    {
+      "ordinal": 701,
+      "segment": 5,
+      "offset": 1199,
+      "flags": 3,
+      "name": "MCISENDCOMMAND"
+    },
+    {
+      "ordinal": 702,
+      "segment": 5,
+      "offset": 4696,
+      "flags": 3,
+      "name": "MCISENDSTRING"
+    },
+    {
+      "ordinal": 703,
+      "segment": 5,
+      "offset": 5512,
+      "flags": 3,
+      "name": "MCIGETDEVICEID"
+    },
+    {
+      "ordinal": 704,
+      "segment": 5,
+      "offset": 14740,
+      "flags": 3,
+      "name": "MCIPARSECOMMAND"
+    },
+    {
+      "ordinal": 705,
+      "segment": 5,
+      "offset": 11596,
+      "flags": 3,
+      "name": "MCILOADCOMMANDRESOURCE"
+    },
+    {
+      "ordinal": 706,
+      "segment": 5,
+      "offset": 4975,
+      "flags": 3,
+      "name": "MCIGETERRORSTRING"
+    },
+    {
+      "ordinal": 707,
+      "segment": 5,
+      "offset": 10781,
+      "flags": 3,
+      "name": "MCISETDRIVERDATA"
+    },
+    {
+      "ordinal": 708,
+      "segment": 5,
+      "offset": 10707,
+      "flags": 3,
+      "name": "MCIGETDRIVERDATA"
+    },
+    {
+      "ordinal": 710,
+      "segment": 5,
+      "offset": 10863,
+      "flags": 3,
+      "name": "MCIDRIVERYIELD"
+    },
+    {
+      "ordinal": 711,
+      "segment": 1,
+      "offset": 629,
+      "flags": 3,
+      "name": "MCIDRIVERNOTIFY"
+    },
+    {
+      "ordinal": 712,
+      "segment": 5,
+      "offset": 4755,
+      "flags": 3,
+      "name": "MCIEXECUTE"
+    },
+    {
+      "ordinal": 713,
+      "segment": 5,
+      "offset": 12217,
+      "flags": 3,
+      "name": "MCIFREECOMMANDRESOURCE"
+    },
+    {
+      "ordinal": 714,
+      "segment": 5,
+      "offset": 10957,
+      "flags": 3,
+      "name": "MCISETYIELDPROC"
+    },
+    {
+      "ordinal": 715,
+      "segment": 5,
+      "offset": 5204,
+      "flags": 3,
+      "name": "MCIGETDEVICEIDFROMELEMENTID"
+    },
+    {
+      "ordinal": 716,
+      "segment": 5,
+      "offset": 11068,
+      "flags": 3,
+      "name": "MCIGETYIELDPROC"
+    },
+    {
+      "ordinal": 717,
+      "segment": 5,
+      "offset": 5541,
+      "flags": 3,
+      "name": "MCIGETCREATORTASK"
+    },
+    {
+      "ordinal": 900,
+      "segment": 4,
+      "offset": 1530,
+      "flags": 3,
+      "name": "MMTASKCREATE"
+    },
+    {
+      "ordinal": 902,
+      "segment": 4,
+      "offset": 1470,
+      "flags": 3,
+      "name": "MMTASKBLOCK"
+    },
+    {
+      "ordinal": 903,
+      "segment": 1,
+      "offset": 612,
+      "flags": 3,
+      "name": "MMTASKSIGNAL"
+    },
+    {
+      "ordinal": 904,
+      "segment": 4,
+      "offset": 1465,
+      "flags": 3,
+      "name": "MMGETCURRENTTASK"
+    },
+    {
+      "ordinal": 905,
+      "segment": 4,
+      "offset": 1432,
+      "flags": 3,
+      "name": "MMTASKYIELD"
+    },
+    {
+      "ordinal": 1100,
+      "segment": 4,
+      "offset": 1406,
+      "flags": 3,
+      "name": "DRVOPEN"
+    },
+    {
+      "ordinal": 1101,
+      "segment": 4,
+      "offset": 1411,
+      "flags": 3,
+      "name": "DRVCLOSE"
+    },
+    {
+      "ordinal": 1102,
+      "segment": 4,
+      "offset": 1421,
+      "flags": 3,
+      "name": "DRVSENDMESSAGE"
+    },
+    {
+      "ordinal": 1103,
+      "segment": 4,
+      "offset": 1416,
+      "flags": 3,
+      "name": "DRVGETMODULEHANDLE"
+    },
+    {
+      "ordinal": 1104,
+      "segment": 4,
+      "offset": 1426,
+      "flags": 3,
+      "name": "DRVDEFDRIVERPROC"
+    },
+    {
+      "ordinal": 1210,
+      "segment": 7,
+      "offset": 677,
+      "flags": 3,
+      "name": "MMIOOPEN"
+    },
+    {
+      "ordinal": 1211,
+      "segment": 7,
+      "offset": 1111,
+      "flags": 3,
+      "name": "MMIOCLOSE"
+    },
+    {
+      "ordinal": 1212,
+      "segment": 7,
+      "offset": 1204,
+      "flags": 3,
+      "name": "MMIOREAD"
+    },
+    {
+      "ordinal": 1213,
+      "segment": 7,
+      "offset": 1579,
+      "flags": 3,
+      "name": "MMIOWRITE"
+    },
+    {
+      "ordinal": 1214,
+      "segment": 7,
+      "offset": 2025,
+      "flags": 3,
+      "name": "MMIOSEEK"
+    },
+    {
+      "ordinal": 1215,
+      "segment": 7,
+      "offset": 2345,
+      "flags": 3,
+      "name": "MMIOGETINFO"
+    },
+    {
+      "ordinal": 1216,
+      "segment": 7,
+      "offset": 2454,
+      "flags": 3,
+      "name": "MMIOSETINFO"
+    },
+    {
+      "ordinal": 1217,
+      "segment": 7,
+      "offset": 2664,
+      "flags": 3,
+      "name": "MMIOSETBUFFER"
+    },
+    {
+      "ordinal": 1218,
+      "segment": 7,
+      "offset": 3288,
+      "flags": 3,
+      "name": "MMIOFLUSH"
+    },
+    {
+      "ordinal": 1219,
+      "segment": 7,
+      "offset": 3495,
+      "flags": 3,
+      "name": "MMIOADVANCE"
+    },
+    {
+      "ordinal": 1220,
+      "segment": 7,
+      "offset": 3795,
+      "flags": 3,
+      "name": "MMIOSTRINGTOFOURCC"
+    },
+    {
+      "ordinal": 1221,
+      "segment": 7,
+      "offset": 3950,
+      "flags": 3,
+      "name": "MMIOINSTALLIOPROC"
+    },
+    {
+      "ordinal": 1222,
+      "segment": 7,
+      "offset": 4211,
+      "flags": 3,
+      "name": "MMIOSENDMESSAGE"
+    },
+    {
+      "ordinal": 1223,
+      "segment": 7,
+      "offset": 4960,
+      "flags": 3,
+      "name": "MMIODESCEND"
+    },
+    {
+      "ordinal": 1224,
+      "segment": 7,
+      "offset": 5474,
+      "flags": 3,
+      "name": "MMIOASCEND"
+    },
+    {
+      "ordinal": 1225,
+      "segment": 7,
+      "offset": 5797,
+      "flags": 3,
+      "name": "MMIOCREATECHUNK"
+    },
+    {
+      "ordinal": 1226,
+      "segment": 7,
+      "offset": 466,
+      "flags": 3,
+      "name": "MMIORENAME"
+    }
+  ],
+  "segments": [
+    {
+      "number": 1,
+      "offset": 3968,
+      "size": 1130,
+      "flags": 3392,
+      "minimum_allocation": 1130,
+      "relocation_count": 9
+    },
+    {
+      "number": 2,
+      "offset": 5216,
+      "size": 2594,
+      "flags": 7504,
+      "minimum_allocation": 2594,
+      "relocation_count": 25
+    },
+    {
+      "number": 3,
+      "offset": 8032,
+      "size": 5385,
+      "flags": 7504,
+      "minimum_allocation": 5385,
+      "relocation_count": 25
+    },
+    {
+      "number": 4,
+      "offset": 13664,
+      "size": 2158,
+      "flags": 7504,
+      "minimum_allocation": 2158,
+      "relocation_count": 43
+    },
+    {
+      "number": 5,
+      "offset": 17216,
+      "size": 15177,
+      "flags": 7440,
+      "minimum_allocation": 15178,
+      "relocation_count": 36
+    },
+    {
+      "number": 6,
+      "offset": 32688,
+      "size": 2725,
+      "flags": 7440,
+      "minimum_allocation": 2726,
+      "relocation_count": 9
+    },
+    {
+      "number": 7,
+      "offset": 35488,
+      "size": 6287,
+      "flags": 7440,
+      "minimum_allocation": 6288,
+      "relocation_count": 23
+    },
+    {
+      "number": 8,
+      "offset": 41968,
+      "size": 1501,
+      "flags": 7440,
+      "minimum_allocation": 1502,
+      "relocation_count": 9
+    },
+    {
+      "number": 9,
+      "offset": 16192,
+      "size": 16,
+      "flags": 3425,
+      "minimum_allocation": 16,
+      "relocation_count": 1
+    },
+    {
+      "number": 10,
+      "offset": 16256,
+      "size": 878,
+      "flags": 3441,
+      "minimum_allocation": 878,
+      "relocation_count": 2
+    }
+  ],
+  "relocations": {
+    "internal": 42,
+    "import_ordinal": 140
+  },
+  "resources": [
+    {
+      "type_id": 6,
+      "resource_id": 1,
+      "offset": 43552,
+      "size": 752,
+      "flags": 7216,
+      "sha256": "b700612e7d180c93c5d91a0fd99ee67e743eef76f29d8be5f1faede57cbbba1b",
+      "file": null
+    },
+    {
+      "type_id": 6,
+      "resource_id": 126,
+      "offset": 44304,
+      "size": 80,
+      "flags": 7216,
+      "sha256": "16f82656424e9c5e5f07aa8f1349967a8dffc8545b552cfde0eb3280d5d6d071",
+      "file": null
+    },
+    {
+      "type_id": 6,
+      "resource_id": 3,
+      "offset": 44384,
+      "size": 480,
+      "flags": 7216,
+      "sha256": "44b7d8a4c7f3603dd6b7fbad3cd620618cf33902106476a70c0d8b86562bd0b5",
+      "file": null
+    },
+    {
+      "type_id": 6,
+      "resource_id": 5,
+      "offset": 44864,
+      "size": 720,
+      "flags": 7216,
+      "sha256": "493e0b1649c70e75cef325b0e48285d9eee9e20dd4a0ed4bd99da5827339af19",
+      "file": null
+    },
+    {
+      "type_id": 6,
+      "resource_id": 17,
+      "offset": 45584,
+      "size": 1024,
+      "flags": 7216,
+      "sha256": "589b68a3b027811bb8930983d77890f9345cc872e22c9ed3b2718aba26c1d77e",
+      "file": null
+    },
+    {
+      "type_id": 6,
+      "resource_id": 18,
+      "offset": 46608,
+      "size": 1104,
+      "flags": 7216,
+      "sha256": "ee137edb52f6a8b3f1e3158bd2d09d4ca10c5e590ada6bd1090fc2cd291d5ee2",
+      "file": null
+    },
+    {
+      "type_id": 6,
+      "resource_id": 19,
+      "offset": 47712,
+      "size": 1264,
+      "flags": 7216,
+      "sha256": "c76244107092b652c004eb5878257e94588aa782e68d5f262df654ef1ca9ad08",
+      "file": null
+    },
+    {
+      "type_id": 6,
+      "resource_id": 22,
+      "offset": 48976,
+      "size": 1008,
+      "flags": 7216,
+      "sha256": "1dfa5e861e7cd1c2874a2bc87c67d697d9ba2c6146f6765980854da8f8257d19",
+      "file": null
+    },
+    {
+      "type_id": 6,
+      "resource_id": 20,
+      "offset": 49984,
+      "size": 816,
+      "flags": 7216,
+      "sha256": "bf482b5745b30f00dd7120516ec90774c0cd011589e72261dcce516e9025f57e",
+      "file": null
+    },
+    {
+      "type_id": 6,
+      "resource_id": 21,
+      "offset": 50800,
+      "size": 1024,
+      "flags": 7216,
+      "sha256": "22c1de0ee0f76e2730ecab95bae81c48ae61a7066ad34eaea482b54a5e7244bb",
+      "file": null
+    },
+    {
+      "type_id": 6,
+      "resource_id": 34,
+      "offset": 51824,
+      "size": 128,
+      "flags": 7216,
+      "sha256": "2d61e34a1e72dca5ce995b80370ebc69ab91f08e1f09082a3ea82b8fcf170903",
+      "file": null
+    },
+    {
+      "type_id": 6,
+      "resource_id": 33,
+      "offset": 51952,
+      "size": 128,
+      "flags": 7216,
+      "sha256": "410e78acda06b8cbf98fbc235dc64294b63a983675a3586ef94622381544e3b2",
+      "file": null
+    },
+    {
+      "type_id": 6,
+      "resource_id": 65,
+      "offset": 52080,
+      "size": 48,
+      "flags": 7216,
+      "sha256": "c99aedb47396cac1989e2887cb84868e23cd8e540822b6980cd7b4ff3d4bab49",
+      "file": null
+    },
+    {
+      "type_id": 6,
+      "resource_id": 77,
+      "offset": 52128,
+      "size": 128,
+      "flags": 7216,
+      "sha256": "2073401091e8f433b8fab0f1957e5a9ff0278aa30d297bb3fc53310a392aa2bd",
+      "file": null
+    },
+    {
+      "type_id": 6,
+      "resource_id": 73,
+      "offset": 52256,
+      "size": 32,
+      "flags": 7216,
+      "sha256": "20e6070f09a7ca4ea6e9a2a8f1cf67b4098b3018aaac0c30599661fd775dab05",
+      "file": null
+    },
+    {
+      "type_id": 10,
+      "resource_id": "CORE",
+      "offset": 52288,
+      "size": 1536,
+      "flags": 3120,
+      "sha256": "682af012ef9d362ea0edea1fac9b6ef1e424b4c1d5822c2519bc02c57dc7365c",
+      "file": null
+    },
+    {
+      "type_id": 10,
+      "resource_id": "VIDEODISC",
+      "offset": 53824,
+      "size": 1264,
+      "flags": 3120,
+      "sha256": "25978f1cd5ca48ef09d2e7468c2d2759b4eea9dc8201d83f56ac5f389c21edf7",
+      "file": null
+    },
+    {
+      "type_id": 10,
+      "resource_id": "WAVEAUDIO",
+      "offset": 55088,
+      "size": 1392,
+      "flags": 3120,
+      "sha256": "8687aea4440ca1a409dfed2b367ae8f453d4bae9b9505ba6c276cd82b51dd3b3",
+      "file": null
+    },
+    {
+      "type_id": 10,
+      "resource_id": "CDAUDIO",
+      "offset": 56480,
+      "size": 464,
+      "flags": 3120,
+      "sha256": "8d37ef0b5f372f503a2d7057ad6604627e5601661a128fe9032adcbad4abc12b",
+      "file": null
+    },
+    {
+      "type_id": 10,
+      "resource_id": "SEQUENCER",
+      "offset": 56944,
+      "size": 864,
+      "flags": 3120,
+      "sha256": "238b7997f8849506b95d66e8c76dcd0beaad10937146fb9da62c9f155b0b4d4b",
+      "file": null
+    },
+    {
+      "type_id": 10,
+      "resource_id": "ANIMATION",
+      "offset": 57808,
+      "size": 1920,
+      "flags": 3120,
+      "sha256": "608ce587917b1e61c8224e7c10166d710eb975caad99908dbcfc8219b54f8214",
+      "file": null
+    },
+    {
+      "type_id": 10,
+      "resource_id": "OVERLAY",
+      "offset": 59728,
+      "size": 1472,
+      "flags": 3120,
+      "sha256": "b7c18691263260ea6109bf5fe3656672bac54ea847cfec7915b5994ef33977f8",
+      "file": null
+    },
+    {
+      "type_id": 16,
+      "resource_id": 1,
+      "offset": 61200,
+      "size": 448,
+      "flags": 3120,
+      "sha256": "a662dfb5edf51b9865b41b719df6a4062b9f894a080c590f1973124aae043c3b",
+      "file": null
+    }
+  ]
+}

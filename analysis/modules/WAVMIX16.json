@@ -1,0 +1,1059 @@
+{
+  "metadata": {
+    "path": "original\\extracted\\WINDOWS\\SYSTEM\\WAVMIX16.DLL",
+    "sha256": "1e40eee4846f65343bcfd18ba1b0644b7828666829fbcbeecbc8db8622b63985",
+    "size": 27136,
+    "ne_header_offset": 128,
+    "flags": 33545,
+    "target_os": 2,
+    "segment_count": 2,
+    "module_count": 4,
+    "resource_count_header": 0,
+    "alignment_shift": 9,
+    "auto_data_segment": 2,
+    "initial_heap": 16192,
+    "initial_stack": 0,
+    "initial_cs": 1,
+    "initial_ip": 15747,
+    "initial_ss": 0,
+    "initial_sp": 0,
+    "movable_entry_count": 0
+  },
+  "modules": [
+    "KERNEL",
+    "GDI",
+    "USER",
+    "MMSYSTEM"
+  ],
+  "imported_names": [
+    {
+      "offset": 1,
+      "name": "KERNEL"
+    },
+    {
+      "offset": 8,
+      "name": "GDI"
+    },
+    {
+      "offset": 12,
+      "name": "USER"
+    },
+    {
+      "offset": 17,
+      "name": "MMSYSTEM"
+    }
+  ],
+  "external_imports": [
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 87,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 15615,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 1,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 1927,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 10,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 2439,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 102,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 1476,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 113,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 11018,
+          "source_type": 5,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 114,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 1257,
+          "source_type": 5,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 127,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 15519,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 131,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 1547,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 132,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 15549,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 134,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 15298,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 135,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 15421,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 137,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 1918,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 15,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 13212,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 16,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 2126,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 17,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 13614,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 178,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 612,
+          "source_type": 5,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 18,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 13218,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 19,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 13602,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 20,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 2140,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 21,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 13596,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 23,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 2248,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 24,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 2272,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 3,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 721,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 348,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 16007,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 4,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 712,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 48,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 642,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 49,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 15341,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 5,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 2260,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 6,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 2409,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 60,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 11799,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 61,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 11805,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 62,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 11894,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 63,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 12734,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 7,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 2323,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 74,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 13859,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 88,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 15312,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 90,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 12871,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 91,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 15699,
+          "source_type": 3,
+          "flags": 5
+        },
+        {
+          "segment": 1,
+          "offset": 624,
+          "source_type": 3,
+          "flags": 5
+        }
+      ]
+    },
+    {
+      "module": "MMSYSTEM",
+      "kind": "ordinal",
+      "symbol": 1210,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 11996,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "MMSYSTEM",
+      "kind": "ordinal",
+      "symbol": 1211,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 12635,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "MMSYSTEM",
+      "kind": "ordinal",
+      "symbol": 1212,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 12528,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "MMSYSTEM",
+      "kind": "ordinal",
+      "symbol": 1223,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 12203,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "MMSYSTEM",
+      "kind": "ordinal",
+      "symbol": 1224,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 12369,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "MMSYSTEM",
+      "kind": "ordinal",
+      "symbol": 2,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 4187,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "MMSYSTEM",
+      "kind": "ordinal",
+      "symbol": 401,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 14132,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "MMSYSTEM",
+      "kind": "ordinal",
+      "symbol": 402,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 14444,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "MMSYSTEM",
+      "kind": "ordinal",
+      "symbol": 404,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 13159,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "MMSYSTEM",
+      "kind": "ordinal",
+      "symbol": 405,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 13580,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "MMSYSTEM",
+      "kind": "ordinal",
+      "symbol": 406,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 13354,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "MMSYSTEM",
+      "kind": "ordinal",
+      "symbol": 407,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 13566,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "MMSYSTEM",
+      "kind": "ordinal",
+      "symbol": 408,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 13408,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "MMSYSTEM",
+      "kind": "ordinal",
+      "symbol": 409,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 13368,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "MMSYSTEM",
+      "kind": "ordinal",
+      "symbol": 410,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 13437,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "MMSYSTEM",
+      "kind": "ordinal",
+      "symbol": 411,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 13533,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "MMSYSTEM",
+      "kind": "ordinal",
+      "symbol": 412,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 2680,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "MMSYSTEM",
+      "kind": "ordinal",
+      "symbol": 607,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 2777,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 1,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 15115,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 104,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 15179,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 107,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 15842,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 110,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 5834,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 173,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 15584,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 41,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 3881,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 420,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 15193,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 430,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 15452,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 53,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 3977,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 57,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 15657,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "ordinal": 1,
+      "segment": 1,
+      "offset": 16024,
+      "flags": 3,
+      "name": "WEP"
+    },
+    {
+      "ordinal": 2,
+      "segment": 1,
+      "offset": 15808,
+      "flags": 3,
+      "name": "WNDPROC"
+    },
+    {
+      "ordinal": 3,
+      "segment": 1,
+      "offset": 15918,
+      "flags": 3,
+      "name": "WAVEMIXINIT"
+    },
+    {
+      "ordinal": 4,
+      "segment": 1,
+      "offset": 4052,
+      "flags": 3,
+      "name": "WAVEMIXACTIVATE"
+    },
+    {
+      "ordinal": 5,
+      "segment": 1,
+      "offset": 11552,
+      "flags": 3,
+      "name": "WAVEMIXOPENWAVE"
+    },
+    {
+      "ordinal": 6,
+      "segment": 1,
+      "offset": 4442,
+      "flags": 3,
+      "name": "WAVEMIXOPENCHANNEL"
+    },
+    {
+      "ordinal": 7,
+      "segment": 1,
+      "offset": 6758,
+      "flags": 3,
+      "name": "WAVEMIXPLAY"
+    },
+    {
+      "ordinal": 8,
+      "segment": 1,
+      "offset": 7990,
+      "flags": 3,
+      "name": "WAVEMIXFLUSHCHANNEL"
+    },
+    {
+      "ordinal": 9,
+      "segment": 1,
+      "offset": 8276,
+      "flags": 3,
+      "name": "WAVEMIXCLOSECHANNEL"
+    },
+    {
+      "ordinal": 10,
+      "segment": 1,
+      "offset": 8468,
+      "flags": 3,
+      "name": "WAVEMIXFREEWAVE"
+    },
+    {
+      "ordinal": 11,
+      "segment": 1,
+      "offset": 15134,
+      "flags": 3,
+      "name": "WAVEMIXCLOSESESSION"
+    },
+    {
+      "ordinal": 12,
+      "segment": 1,
+      "offset": 5878,
+      "flags": 3,
+      "name": "WAVEMIXPUMP"
+    },
+    {
+      "ordinal": 13,
+      "segment": 1,
+      "offset": 15880,
+      "flags": 3,
+      "name": "FIGUREPROC"
+    },
+    {
+      "ordinal": 14,
+      "segment": 1,
+      "offset": 15968,
+      "flags": 3,
+      "name": "WAVEMIXGETINFO"
+    },
+    {
+      "ordinal": 15,
+      "segment": 1,
+      "offset": 14058,
+      "flags": 3,
+      "name": "WAVEMIXCONFIGUREINIT"
+    },
+    {
+      "ordinal": 16,
+      "segment": 1,
+      "offset": 2448,
+      "flags": 3,
+      "name": "___EXPORTEDSTUB"
+    }
+  ],
+  "segments": [
+    {
+      "number": 1,
+      "offset": 1536,
+      "size": 16046,
+      "flags": 3392,
+      "minimum_allocation": 16046,
+      "relocation_count": 68
+    },
+    {
+      "number": 2,
+      "offset": 18432,
+      "size": 7526,
+      "flags": 3169,
+      "minimum_allocation": 7526,
+      "relocation_count": 0
+    }
+  ],
+  "relocations": {
+    "import_ordinal": 67,
+    "internal": 1
+  },
+  "resources": [
+    {
+      "type_id": 16,
+      "resource_id": 1,
+      "offset": 26624,
+      "size": 512,
+      "flags": 3120,
+      "sha256": "b1ad4e490d158acef2f24f08bb0a4de795c42dd42f4f5e9b4925273cdb8fd6df",
+      "file": null
+    }
+  ]
+}

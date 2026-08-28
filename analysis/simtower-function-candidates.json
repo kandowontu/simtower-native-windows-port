@@ -1,0 +1,7824 @@
+[
+  {
+    "segment": 1,
+    "offset": 0,
+    "evidence": [
+      "NE initial CS:IP"
+    ],
+    "name": "PROGRAM_ENTRY"
+  },
+  {
+    "segment": 1,
+    "offset": 201,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 219,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 220,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 221,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 242,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 245,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 313,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 378,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 560,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 1026,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 2000,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 2542,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 2572,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 2839,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 2843,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 3546,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 3594,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 3610,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 3798,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 3868,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 3896,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 3966,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 4169,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 4214,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 4276,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 4314,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 4354,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 4390,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 4479,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 4518,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 4584,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 4662,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 4704,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 4742,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 4782,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 4818,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 4907,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 4946,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 5012,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 5078,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 5128,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 5172,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 5208,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 5318,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 5445,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 5868,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 6067,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 6234,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 6774,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 6803,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 6852,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 6916,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 6967,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 7166,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 7291,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 7562,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 7813,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 7898,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 8284,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 8358,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 8420,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 8440,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 8464,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 8512,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 8542,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 8549,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 8558,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 8566,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 8592,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 8605,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 8614,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 9784,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 9828,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 10026,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 10236,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 10314,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 10446,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 10656,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 10864,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 10938,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 10994,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 11080,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 11215,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 11706,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 11740,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 12157,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 12676,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 13035,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 13112,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 13598,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 13634,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 13690,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 13721,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 13743,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 14140,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 14250,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 14386,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 14540,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 14566,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 14573,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 14740,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 14773,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 14802,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 14826,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 14895,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 14936,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 15064,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 15096,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 15353,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 15358,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 15384,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 15587,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 16158,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 16286,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 16314,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 16381,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 16410,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 16420,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 16521,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 16923,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 17027,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 17049,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 17241,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 17299,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 17322,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 17342,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 17413,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 17535,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 17585,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 17835,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 17869,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 17902,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 17928,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 18001,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 18125,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 18146,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 18196,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 18243,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 18298,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 18386,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 18478,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 18604,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 18742,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 18869,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 1,
+    "offset": 19001,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 2,
+    "offset": 0,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 2,
+    "offset": 133,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 3,
+    "offset": 24,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 3,
+    "offset": 253,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 3,
+    "offset": 332,
+    "evidence": [
+      "NE entry table"
+    ],
+    "name": "SETUPSTARTUPDLGA"
+  },
+  {
+    "segment": 3,
+    "offset": 772,
+    "evidence": [
+      "NE entry table"
+    ],
+    "name": "SETUPSTARTUPDLGB"
+  },
+  {
+    "segment": 3,
+    "offset": 1182,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 3,
+    "offset": 1343,
+    "evidence": [
+      "NE entry table"
+    ],
+    "name": "ABOUTDLGPROC"
+  },
+  {
+    "segment": 3,
+    "offset": 2447,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 3,
+    "offset": 2619,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 3,
+    "offset": 2801,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 4,
+    "offset": 0,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 4,
+    "offset": 103,
+    "evidence": [
+      "NE entry table"
+    ],
+    "name": "NEWORLOADDLOGFILTER"
+  },
+  {
+    "segment": 5,
+    "offset": 25,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 5,
+    "offset": 143,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 5,
+    "offset": 203,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 5,
+    "offset": 1342,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 5,
+    "offset": 2131,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 5,
+    "offset": 2228,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 5,
+    "offset": 2443,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 5,
+    "offset": 3531,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 5,
+    "offset": 3595,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 5,
+    "offset": 3625,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 5,
+    "offset": 3919,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 6,
+    "offset": 0,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 6,
+    "offset": 182,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 6,
+    "offset": 430,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 6,
+    "offset": 683,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 6,
+    "offset": 931,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 6,
+    "offset": 1179,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 6,
+    "offset": 1392,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 6,
+    "offset": 2113,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 6,
+    "offset": 2306,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 6,
+    "offset": 4075,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 6,
+    "offset": 4805,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 6,
+    "offset": 5428,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 6,
+    "offset": 5778,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 6,
+    "offset": 6128,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 7,
+    "offset": 0,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 7,
+    "offset": 67,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 8,
+    "offset": 0,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 8,
+    "offset": 47,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 8,
+    "offset": 169,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 8,
+    "offset": 1294,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 8,
+    "offset": 3493,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 8,
+    "offset": 3567,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 9,
+    "offset": 0,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 9,
+    "offset": 240,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 9,
+    "offset": 377,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 9,
+    "offset": 693,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 9,
+    "offset": 955,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 10,
+    "offset": 0,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 10,
+    "offset": 173,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 10,
+    "offset": 931,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 10,
+    "offset": 1520,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 10,
+    "offset": 1701,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 10,
+    "offset": 1815,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 10,
+    "offset": 2111,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 11,
+    "offset": 0,
+    "evidence": [
+      "NE entry table"
+    ],
+    "name": "CMDBTNWNDPROC"
+  },
+  {
+    "segment": 11,
+    "offset": 938,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 11,
+    "offset": 1283,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 11,
+    "offset": 1331,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 11,
+    "offset": 1447,
+    "evidence": [
+      "NE entry table"
+    ],
+    "name": "CMDBTNSUBWNDPROC"
+  },
+  {
+    "segment": 11,
+    "offset": 2424,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 12,
+    "offset": 0,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 12,
+    "offset": 470,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 12,
+    "offset": 644,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 12,
+    "offset": 828,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 12,
+    "offset": 937,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 12,
+    "offset": 1248,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 12,
+    "offset": 1528,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 12,
+    "offset": 1614,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 12,
+    "offset": 1759,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 12,
+    "offset": 1823,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 12,
+    "offset": 1907,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 12,
+    "offset": 1944,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 12,
+    "offset": 2051,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 12,
+    "offset": 2088,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 12,
+    "offset": 2140,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 12,
+    "offset": 2197,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 12,
+    "offset": 2380,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 13,
+    "offset": 0,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 13,
+    "offset": 58,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 13,
+    "offset": 131,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 13,
+    "offset": 211,
+    "evidence": [
+      "NE entry table"
+    ],
+    "name": "COUNTDLOGMAIN"
+  },
+  {
+    "segment": 13,
+    "offset": 1145,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 13,
+    "offset": 1971,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 13,
+    "offset": 2039,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 13,
+    "offset": 2103,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 13,
+    "offset": 2176,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 13,
+    "offset": 2238,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 13,
+    "offset": 2392,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 14,
+    "offset": 0,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 14,
+    "offset": 161,
+    "evidence": [
+      "NE entry table"
+    ],
+    "name": "AHOTTADLOGFILTER"
+  },
+  {
+    "segment": 14,
+    "offset": 1081,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 14,
+    "offset": 1383,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 15,
+    "offset": 5,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 15,
+    "offset": 561,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 15,
+    "offset": 1311,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 15,
+    "offset": 1392,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 15,
+    "offset": 1441,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 15,
+    "offset": 1565,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 15,
+    "offset": 1741,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 16,
+    "offset": 0,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 16,
+    "offset": 198,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 16,
+    "offset": 488,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 17,
+    "offset": 0,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 17,
+    "offset": 84,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 17,
+    "offset": 215,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 17,
+    "offset": 383,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 17,
+    "offset": 459,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 17,
+    "offset": 521,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 17,
+    "offset": 910,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 17,
+    "offset": 1088,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 17,
+    "offset": 1200,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 17,
+    "offset": 1373,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 17,
+    "offset": 1441,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 17,
+    "offset": 1958,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 17,
+    "offset": 2180,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 17,
+    "offset": 2362,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 17,
+    "offset": 2499,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 17,
+    "offset": 2562,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 17,
+    "offset": 2590,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 17,
+    "offset": 2854,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 18,
+    "offset": 0,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 18,
+    "offset": 222,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 18,
+    "offset": 465,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 18,
+    "offset": 592,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 18,
+    "offset": 712,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 18,
+    "offset": 909,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 19,
+    "offset": 20,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 19,
+    "offset": 116,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 19,
+    "offset": 217,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 19,
+    "offset": 402,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 19,
+    "offset": 939,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 19,
+    "offset": 1787,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 19,
+    "offset": 2636,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 19,
+    "offset": 2832,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 19,
+    "offset": 3023,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 19,
+    "offset": 3251,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 19,
+    "offset": 3349,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 19,
+    "offset": 3580,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 19,
+    "offset": 4324,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 19,
+    "offset": 4809,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 19,
+    "offset": 5068,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 19,
+    "offset": 5404,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 19,
+    "offset": 5459,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 19,
+    "offset": 7471,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 19,
+    "offset": 8012,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 19,
+    "offset": 8351,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 19,
+    "offset": 8558,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 19,
+    "offset": 8735,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 19,
+    "offset": 8827,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 19,
+    "offset": 9125,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 20,
+    "offset": 0,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 20,
+    "offset": 104,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 20,
+    "offset": 1576,
+    "evidence": [
+      "NE entry table"
+    ],
+    "name": "ELVDLOGMAIN"
+  },
+  {
+    "segment": 20,
+    "offset": 4841,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 20,
+    "offset": 5092,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 20,
+    "offset": 5272,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 20,
+    "offset": 5378,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 20,
+    "offset": 5574,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 20,
+    "offset": 5700,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 20,
+    "offset": 5796,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 20,
+    "offset": 6087,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 20,
+    "offset": 6293,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 20,
+    "offset": 6747,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 20,
+    "offset": 7731,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 20,
+    "offset": 8005,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 20,
+    "offset": 8093,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 20,
+    "offset": 8181,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 20,
+    "offset": 8725,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 20,
+    "offset": 8814,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 20,
+    "offset": 8952,
+    "evidence": [
+      "NE entry table"
+    ],
+    "name": "ELVPOPUP"
+  },
+  {
+    "segment": 20,
+    "offset": 10173,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 20,
+    "offset": 10387,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 21,
+    "offset": 0,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 21,
+    "offset": 133,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 21,
+    "offset": 377,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 21,
+    "offset": 513,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 21,
+    "offset": 878,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 21,
+    "offset": 1202,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 21,
+    "offset": 1348,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 21,
+    "offset": 1975,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 21,
+    "offset": 2073,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 21,
+    "offset": 2951,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 21,
+    "offset": 4141,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 21,
+    "offset": 4224,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 21,
+    "offset": 4328,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 21,
+    "offset": 4758,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 21,
+    "offset": 4832,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 21,
+    "offset": 4880,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 21,
+    "offset": 4923,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 21,
+    "offset": 4966,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 21,
+    "offset": 5015,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 21,
+    "offset": 5324,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 21,
+    "offset": 5370,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 21,
+    "offset": 5450,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 21,
+    "offset": 5669,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 21,
+    "offset": 6126,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 22,
+    "offset": 0,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 22,
+    "offset": 555,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 22,
+    "offset": 682,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 22,
+    "offset": 1287,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 22,
+    "offset": 2188,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 22,
+    "offset": 2535,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 22,
+    "offset": 2734,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 22,
+    "offset": 3558,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 22,
+    "offset": 4095,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 22,
+    "offset": 4801,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 22,
+    "offset": 5506,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 22,
+    "offset": 5725,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 22,
+    "offset": 5943,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 22,
+    "offset": 6261,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 22,
+    "offset": 6419,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 22,
+    "offset": 6792,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 22,
+    "offset": 7000,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 22,
+    "offset": 7355,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 22,
+    "offset": 7489,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 22,
+    "offset": 7635,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 23,
+    "offset": 0,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 23,
+    "offset": 114,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 23,
+    "offset": 794,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 24,
+    "offset": 0,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 24,
+    "offset": 57,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 24,
+    "offset": 286,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 25,
+    "offset": 0,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 25,
+    "offset": 46,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 25,
+    "offset": 122,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 25,
+    "offset": 837,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 25,
+    "offset": 1248,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 25,
+    "offset": 1485,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 25,
+    "offset": 1542,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 25,
+    "offset": 1909,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 25,
+    "offset": 2173,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 25,
+    "offset": 2435,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 25,
+    "offset": 3334,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 26,
+    "offset": 0,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 26,
+    "offset": 110,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 26,
+    "offset": 452,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 26,
+    "offset": 503,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 26,
+    "offset": 596,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 26,
+    "offset": 701,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 26,
+    "offset": 830,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 26,
+    "offset": 944,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 27,
+    "offset": 29,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 27,
+    "offset": 290,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 27,
+    "offset": 549,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 27,
+    "offset": 773,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 27,
+    "offset": 1009,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 27,
+    "offset": 1540,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 27,
+    "offset": 1578,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 27,
+    "offset": 1911,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 27,
+    "offset": 2156,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 27,
+    "offset": 2754,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 27,
+    "offset": 2874,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 27,
+    "offset": 5400,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 27,
+    "offset": 10771,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 27,
+    "offset": 10894,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 28,
+    "offset": 0,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 28,
+    "offset": 111,
+    "evidence": [
+      "NE entry table"
+    ],
+    "name": "FINDDIALOGFILTER"
+  },
+  {
+    "segment": 28,
+    "offset": 910,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 28,
+    "offset": 1080,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 28,
+    "offset": 1159,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 29,
+    "offset": 0,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 29,
+    "offset": 66,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 29,
+    "offset": 1231,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 29,
+    "offset": 1309,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 29,
+    "offset": 1371,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 29,
+    "offset": 1641,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 29,
+    "offset": 1741,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 29,
+    "offset": 1933,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 29,
+    "offset": 2068,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 29,
+    "offset": 2510,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 29,
+    "offset": 2720,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 29,
+    "offset": 2776,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 29,
+    "offset": 2913,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 29,
+    "offset": 3014,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 29,
+    "offset": 3186,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 29,
+    "offset": 3273,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 29,
+    "offset": 3306,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 30,
+    "offset": 0,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 30,
+    "offset": 41,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 30,
+    "offset": 327,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 30,
+    "offset": 482,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 30,
+    "offset": 602,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 30,
+    "offset": 671,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 30,
+    "offset": 772,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 30,
+    "offset": 1104,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 30,
+    "offset": 1184,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 30,
+    "offset": 1683,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 30,
+    "offset": 1898,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 30,
+    "offset": 2006,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 30,
+    "offset": 2134,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 31,
+    "offset": 0,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 31,
+    "offset": 156,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 31,
+    "offset": 289,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 31,
+    "offset": 505,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 31,
+    "offset": 792,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 31,
+    "offset": 1817,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 32,
+    "offset": 0,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 32,
+    "offset": 45,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 32,
+    "offset": 201,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 32,
+    "offset": 829,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 32,
+    "offset": 1622,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 32,
+    "offset": 1793,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 32,
+    "offset": 3078,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 32,
+    "offset": 4170,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 33,
+    "offset": 0,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 33,
+    "offset": 278,
+    "evidence": [
+      "NE entry table"
+    ],
+    "name": "PEPLEINFODLOGFILTER"
+  },
+  {
+    "segment": 33,
+    "offset": 940,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 33,
+    "offset": 1604,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 33,
+    "offset": 2139,
+    "evidence": [
+      "NE entry table"
+    ],
+    "name": "TENANTINFODLOGFILTER"
+  },
+  {
+    "segment": 33,
+    "offset": 3718,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 33,
+    "offset": 3856,
+    "evidence": [
+      "NE entry table"
+    ],
+    "name": "ELVINFODLOGFILTER"
+  },
+  {
+    "segment": 33,
+    "offset": 4570,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 33,
+    "offset": 4680,
+    "evidence": [
+      "NE entry table"
+    ],
+    "name": "ESCINFODLOGFILTER"
+  },
+  {
+    "segment": 33,
+    "offset": 5403,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 33,
+    "offset": 5910,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 33,
+    "offset": 6746,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 33,
+    "offset": 6995,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 33,
+    "offset": 7355,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 33,
+    "offset": 7626,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 33,
+    "offset": 7982,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 33,
+    "offset": 8109,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 33,
+    "offset": 8241,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 33,
+    "offset": 8609,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 33,
+    "offset": 8758,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 33,
+    "offset": 8917,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 33,
+    "offset": 9006,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 33,
+    "offset": 9357,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 33,
+    "offset": 9689,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 33,
+    "offset": 9870,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 33,
+    "offset": 10005,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 33,
+    "offset": 10151,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 33,
+    "offset": 10322,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 33,
+    "offset": 11299,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 33,
+    "offset": 11582,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 33,
+    "offset": 11970,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 33,
+    "offset": 12414,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 33,
+    "offset": 12927,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 33,
+    "offset": 13361,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 33,
+    "offset": 13751,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 33,
+    "offset": 13898,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 33,
+    "offset": 14319,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 33,
+    "offset": 14422,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 33,
+    "offset": 14815,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 33,
+    "offset": 14905,
+    "evidence": [
+      "NE entry table"
+    ],
+    "name": "NAMEPEPLEDIALOGFILTER"
+  },
+  {
+    "segment": 33,
+    "offset": 15707,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 33,
+    "offset": 15812,
+    "evidence": [
+      "NE entry table"
+    ],
+    "name": "NAMETENANTDIALOGFILTER"
+  },
+  {
+    "segment": 33,
+    "offset": 16597,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 33,
+    "offset": 16696,
+    "evidence": [
+      "NE entry table"
+    ],
+    "name": "MOVIETITLEDIALOGFILTER"
+  },
+  {
+    "segment": 33,
+    "offset": 17389,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 33,
+    "offset": 17465,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 33,
+    "offset": 17684,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 33,
+    "offset": 18010,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 33,
+    "offset": 18537,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 33,
+    "offset": 19741,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 33,
+    "offset": 20410,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 33,
+    "offset": 20547,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 33,
+    "offset": 20708,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 34,
+    "offset": 0,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 34,
+    "offset": 331,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 34,
+    "offset": 645,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 34,
+    "offset": 781,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 34,
+    "offset": 1142,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 34,
+    "offset": 1218,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 34,
+    "offset": 1312,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 34,
+    "offset": 1381,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 34,
+    "offset": 1444,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 34,
+    "offset": 1507,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 34,
+    "offset": 1688,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 34,
+    "offset": 1805,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 34,
+    "offset": 1929,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 34,
+    "offset": 2046,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 34,
+    "offset": 2195,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 34,
+    "offset": 2276,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 34,
+    "offset": 2377,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 34,
+    "offset": 2696,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 35,
+    "offset": 0,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 36,
+    "offset": 0,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 36,
+    "offset": 68,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 36,
+    "offset": 323,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 36,
+    "offset": 618,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 36,
+    "offset": 872,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 36,
+    "offset": 1117,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 36,
+    "offset": 1853,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 36,
+    "offset": 2291,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 36,
+    "offset": 2355,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 36,
+    "offset": 2494,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 36,
+    "offset": 2633,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 36,
+    "offset": 2773,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 36,
+    "offset": 2919,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 36,
+    "offset": 2980,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 36,
+    "offset": 3034,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 36,
+    "offset": 3087,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 36,
+    "offset": 3140,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 36,
+    "offset": 3193,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 36,
+    "offset": 3245,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 36,
+    "offset": 3303,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 37,
+    "offset": 0,
+    "evidence": [
+      "NE entry table"
+    ],
+    "name": "INFOWNDPROC"
+  },
+  {
+    "segment": 37,
+    "offset": 533,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 38,
+    "offset": 5,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 38,
+    "offset": 682,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 38,
+    "offset": 1515,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 38,
+    "offset": 2262,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 38,
+    "offset": 2979,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 38,
+    "offset": 4409,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 38,
+    "offset": 4888,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 38,
+    "offset": 5084,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 38,
+    "offset": 5116,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 39,
+    "offset": 0,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 39,
+    "offset": 181,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 39,
+    "offset": 265,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 39,
+    "offset": 482,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 39,
+    "offset": 864,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 39,
+    "offset": 1012,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 39,
+    "offset": 1584,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 39,
+    "offset": 1694,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 39,
+    "offset": 1769,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 39,
+    "offset": 2533,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 39,
+    "offset": 2962,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 39,
+    "offset": 3308,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 39,
+    "offset": 3676,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 39,
+    "offset": 3927,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 40,
+    "offset": 0,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 40,
+    "offset": 165,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 40,
+    "offset": 296,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 40,
+    "offset": 440,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 40,
+    "offset": 617,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 41,
+    "offset": 5,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 41,
+    "offset": 45,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 41,
+    "offset": 168,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 41,
+    "offset": 269,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 41,
+    "offset": 413,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 41,
+    "offset": 479,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 41,
+    "offset": 556,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 41,
+    "offset": 750,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 41,
+    "offset": 833,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 41,
+    "offset": 916,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 41,
+    "offset": 1016,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 41,
+    "offset": 1041,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 41,
+    "offset": 1136,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 41,
+    "offset": 1221,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 42,
+    "offset": 0,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 42,
+    "offset": 61,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 42,
+    "offset": 126,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 42,
+    "offset": 355,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 42,
+    "offset": 424,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 42,
+    "offset": 527,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 42,
+    "offset": 631,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 42,
+    "offset": 712,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 43,
+    "offset": 0,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 43,
+    "offset": 501,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 43,
+    "offset": 1011,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 44,
+    "offset": 0,
+    "evidence": [
+      "NE entry table"
+    ],
+    "name": "MAINWNDPROC"
+  },
+  {
+    "segment": 44,
+    "offset": 1519,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 44,
+    "offset": 1721,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 44,
+    "offset": 2620,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 44,
+    "offset": 2789,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 44,
+    "offset": 2984,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 44,
+    "offset": 3113,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 45,
+    "offset": 0,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 45,
+    "offset": 476,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 46,
+    "offset": 0,
+    "evidence": [
+      "NE entry table"
+    ],
+    "name": "MAPWNDPROC"
+  },
+  {
+    "segment": 46,
+    "offset": 702,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 47,
+    "offset": 20,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 47,
+    "offset": 78,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 47,
+    "offset": 138,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 47,
+    "offset": 225,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 47,
+    "offset": 287,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 47,
+    "offset": 447,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 47,
+    "offset": 657,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 47,
+    "offset": 1044,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 47,
+    "offset": 1314,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 47,
+    "offset": 1391,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 47,
+    "offset": 1520,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 47,
+    "offset": 1564,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 47,
+    "offset": 1589,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 47,
+    "offset": 1635,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 47,
+    "offset": 1665,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 47,
+    "offset": 1700,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 47,
+    "offset": 1783,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 48,
+    "offset": 12,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 48,
+    "offset": 78,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 48,
+    "offset": 158,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 48,
+    "offset": 285,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 48,
+    "offset": 475,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 48,
+    "offset": 636,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 48,
+    "offset": 859,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 48,
+    "offset": 1411,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 48,
+    "offset": 1687,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 48,
+    "offset": 1795,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 48,
+    "offset": 1903,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 48,
+    "offset": 2024,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 48,
+    "offset": 2132,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 48,
+    "offset": 2284,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 48,
+    "offset": 2428,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 48,
+    "offset": 2542,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 48,
+    "offset": 2666,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 48,
+    "offset": 2884,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 48,
+    "offset": 3252,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 48,
+    "offset": 3391,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 48,
+    "offset": 3577,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 48,
+    "offset": 3756,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 48,
+    "offset": 4067,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 48,
+    "offset": 4230,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 48,
+    "offset": 4416,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 48,
+    "offset": 4570,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 48,
+    "offset": 4716,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 48,
+    "offset": 4983,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 49,
+    "offset": 0,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 49,
+    "offset": 115,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 49,
+    "offset": 429,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 49,
+    "offset": 642,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 49,
+    "offset": 850,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 49,
+    "offset": 1455,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 49,
+    "offset": 1704,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 49,
+    "offset": 2086,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 49,
+    "offset": 2314,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 49,
+    "offset": 2876,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 49,
+    "offset": 3019,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 49,
+    "offset": 3113,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 49,
+    "offset": 3303,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 49,
+    "offset": 3401,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 49,
+    "offset": 3478,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 49,
+    "offset": 3532,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 49,
+    "offset": 3561,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 49,
+    "offset": 3705,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 49,
+    "offset": 3811,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 49,
+    "offset": 3975,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 50,
+    "offset": 0,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 50,
+    "offset": 126,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 50,
+    "offset": 446,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 50,
+    "offset": 746,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 50,
+    "offset": 1085,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 50,
+    "offset": 1243,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 50,
+    "offset": 1295,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 50,
+    "offset": 1345,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 50,
+    "offset": 1397,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 50,
+    "offset": 1447,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 50,
+    "offset": 1507,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 50,
+    "offset": 1564,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 50,
+    "offset": 1756,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 50,
+    "offset": 1939,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 50,
+    "offset": 2180,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 50,
+    "offset": 2423,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 50,
+    "offset": 2592,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 50,
+    "offset": 2720,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 51,
+    "offset": 5,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 52,
+    "offset": 0,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 52,
+    "offset": 47,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 52,
+    "offset": 169,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 52,
+    "offset": 217,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 52,
+    "offset": 366,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 52,
+    "offset": 427,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 52,
+    "offset": 594,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 52,
+    "offset": 794,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 52,
+    "offset": 1161,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 52,
+    "offset": 1569,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 52,
+    "offset": 1616,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 52,
+    "offset": 1702,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 52,
+    "offset": 1767,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 52,
+    "offset": 1957,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 52,
+    "offset": 1987,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 52,
+    "offset": 2022,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 52,
+    "offset": 2510,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 52,
+    "offset": 3051,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 53,
+    "offset": 0,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 53,
+    "offset": 294,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 53,
+    "offset": 636,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 53,
+    "offset": 1148,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 53,
+    "offset": 1548,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 53,
+    "offset": 2191,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 53,
+    "offset": 2577,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 53,
+    "offset": 2812,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 53,
+    "offset": 3073,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 53,
+    "offset": 3289,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 53,
+    "offset": 3759,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 53,
+    "offset": 4420,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 53,
+    "offset": 4940,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 54,
+    "offset": 0,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 54,
+    "offset": 180,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 54,
+    "offset": 388,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 54,
+    "offset": 592,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 54,
+    "offset": 754,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 54,
+    "offset": 1364,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 54,
+    "offset": 1539,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 54,
+    "offset": 1714,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 54,
+    "offset": 2003,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 54,
+    "offset": 3029,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 54,
+    "offset": 3266,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 54,
+    "offset": 3857,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 54,
+    "offset": 4193,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 54,
+    "offset": 4275,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 54,
+    "offset": 4441,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 54,
+    "offset": 4503,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 54,
+    "offset": 4772,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 54,
+    "offset": 4828,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 54,
+    "offset": 5234,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 54,
+    "offset": 5272,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 54,
+    "offset": 5321,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 54,
+    "offset": 5526,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 54,
+    "offset": 5739,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 54,
+    "offset": 5804,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 54,
+    "offset": 5966,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 54,
+    "offset": 6123,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 54,
+    "offset": 6162,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 55,
+    "offset": 0,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 55,
+    "offset": 109,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 55,
+    "offset": 164,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 55,
+    "offset": 218,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 55,
+    "offset": 242,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 55,
+    "offset": 1183,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 55,
+    "offset": 1700,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 55,
+    "offset": 1891,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 55,
+    "offset": 2053,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 55,
+    "offset": 2290,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 55,
+    "offset": 2351,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 55,
+    "offset": 2593,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 55,
+    "offset": 2772,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 55,
+    "offset": 2955,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 55,
+    "offset": 3326,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 55,
+    "offset": 3520,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 55,
+    "offset": 3712,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 55,
+    "offset": 3856,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 55,
+    "offset": 4005,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 55,
+    "offset": 4527,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 55,
+    "offset": 5148,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 55,
+    "offset": 5321,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 56,
+    "offset": 0,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 56,
+    "offset": 40,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 56,
+    "offset": 96,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 56,
+    "offset": 137,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 56,
+    "offset": 331,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 56,
+    "offset": 523,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 57,
+    "offset": 0,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 57,
+    "offset": 562,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 57,
+    "offset": 586,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 57,
+    "offset": 704,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 57,
+    "offset": 884,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 57,
+    "offset": 1064,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 57,
+    "offset": 1155,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 57,
+    "offset": 1230,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 57,
+    "offset": 1304,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 57,
+    "offset": 1358,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 58,
+    "offset": 107,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 58,
+    "offset": 256,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 58,
+    "offset": 309,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 58,
+    "offset": 359,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 58,
+    "offset": 704,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 58,
+    "offset": 912,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 58,
+    "offset": 939,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 58,
+    "offset": 1019,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 58,
+    "offset": 1062,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 58,
+    "offset": 1431,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 58,
+    "offset": 1512,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 58,
+    "offset": 1649,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 58,
+    "offset": 1718,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 58,
+    "offset": 2283,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 58,
+    "offset": 2336,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 58,
+    "offset": 2424,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 58,
+    "offset": 2514,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 58,
+    "offset": 2609,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 58,
+    "offset": 2731,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 58,
+    "offset": 2781,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 59,
+    "offset": 0,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 59,
+    "offset": 114,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 59,
+    "offset": 325,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 59,
+    "offset": 596,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 59,
+    "offset": 867,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 59,
+    "offset": 1210,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 60,
+    "offset": 0,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 60,
+    "offset": 252,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 60,
+    "offset": 497,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 60,
+    "offset": 759,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 60,
+    "offset": 964,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 60,
+    "offset": 1059,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 61,
+    "offset": 0,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 61,
+    "offset": 38,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 61,
+    "offset": 73,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 61,
+    "offset": 141,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 61,
+    "offset": 202,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 61,
+    "offset": 472,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 61,
+    "offset": 701,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 61,
+    "offset": 856,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 61,
+    "offset": 1072,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 61,
+    "offset": 1216,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 61,
+    "offset": 1495,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 61,
+    "offset": 1587,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 61,
+    "offset": 1753,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 61,
+    "offset": 2384,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 61,
+    "offset": 2738,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 61,
+    "offset": 2898,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 61,
+    "offset": 3088,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 61,
+    "offset": 3230,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 61,
+    "offset": 3323,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 61,
+    "offset": 3396,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 61,
+    "offset": 3456,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 61,
+    "offset": 3584,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 61,
+    "offset": 3618,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 61,
+    "offset": 3680,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 61,
+    "offset": 3716,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 61,
+    "offset": 3835,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 62,
+    "offset": 0,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 62,
+    "offset": 627,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 63,
+    "offset": 0,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 63,
+    "offset": 22,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 63,
+    "offset": 75,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 63,
+    "offset": 160,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 63,
+    "offset": 529,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 64,
+    "offset": 0,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 64,
+    "offset": 714,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 64,
+    "offset": 826,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 64,
+    "offset": 1664,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 64,
+    "offset": 1741,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 64,
+    "offset": 1872,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 64,
+    "offset": 1939,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 64,
+    "offset": 2008,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 64,
+    "offset": 3939,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 64,
+    "offset": 4074,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 64,
+    "offset": 5202,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 64,
+    "offset": 5623,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 64,
+    "offset": 6141,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 64,
+    "offset": 8101,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 64,
+    "offset": 8423,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 64,
+    "offset": 8849,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 64,
+    "offset": 9229,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 64,
+    "offset": 9634,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 64,
+    "offset": 9949,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 64,
+    "offset": 10317,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 64,
+    "offset": 11876,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 64,
+    "offset": 12122,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 64,
+    "offset": 12527,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 64,
+    "offset": 12830,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 64,
+    "offset": 13187,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 64,
+    "offset": 13367,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 64,
+    "offset": 13608,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 64,
+    "offset": 13740,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 64,
+    "offset": 14681,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 64,
+    "offset": 14897,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 64,
+    "offset": 14983,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 64,
+    "offset": 15252,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 64,
+    "offset": 15379,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 64,
+    "offset": 15661,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 64,
+    "offset": 15709,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 64,
+    "offset": 15780,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 64,
+    "offset": 15934,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 64,
+    "offset": 16115,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 64,
+    "offset": 16305,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 65,
+    "offset": 0,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 65,
+    "offset": 55,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 65,
+    "offset": 406,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 65,
+    "offset": 1347,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 65,
+    "offset": 1368,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 65,
+    "offset": 1421,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 66,
+    "offset": 4,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 66,
+    "offset": 44,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 66,
+    "offset": 81,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 66,
+    "offset": 181,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 66,
+    "offset": 220,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 66,
+    "offset": 261,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 66,
+    "offset": 307,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 66,
+    "offset": 378,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 66,
+    "offset": 416,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 66,
+    "offset": 628,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 66,
+    "offset": 873,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 66,
+    "offset": 993,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 66,
+    "offset": 1039,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 66,
+    "offset": 1076,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 66,
+    "offset": 1116,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 66,
+    "offset": 1181,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 66,
+    "offset": 1321,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 66,
+    "offset": 1449,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 66,
+    "offset": 1510,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 66,
+    "offset": 1539,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 66,
+    "offset": 1594,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 66,
+    "offset": 1690,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 66,
+    "offset": 1823,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 66,
+    "offset": 1957,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 66,
+    "offset": 2005,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 66,
+    "offset": 2511,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 66,
+    "offset": 2626,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 66,
+    "offset": 2701,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 66,
+    "offset": 2922,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 66,
+    "offset": 2983,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 66,
+    "offset": 3209,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 66,
+    "offset": 3253,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 66,
+    "offset": 3317,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 66,
+    "offset": 3381,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 66,
+    "offset": 3445,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 66,
+    "offset": 3580,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 67,
+    "offset": 0,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 67,
+    "offset": 849,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 67,
+    "offset": 1958,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 67,
+    "offset": 2179,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 67,
+    "offset": 3854,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 67,
+    "offset": 4431,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 67,
+    "offset": 4484,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 67,
+    "offset": 4546,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 67,
+    "offset": 4914,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 67,
+    "offset": 5610,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 67,
+    "offset": 6394,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 67,
+    "offset": 6715,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 67,
+    "offset": 6853,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 67,
+    "offset": 6977,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 67,
+    "offset": 7238,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 67,
+    "offset": 7510,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 68,
+    "offset": 0,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 68,
+    "offset": 1905,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 68,
+    "offset": 2253,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 68,
+    "offset": 2697,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 69,
+    "offset": 0,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 69,
+    "offset": 1178,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 69,
+    "offset": 1660,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 69,
+    "offset": 2299,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 69,
+    "offset": 2762,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 69,
+    "offset": 2855,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 69,
+    "offset": 2894,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 69,
+    "offset": 3043,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 69,
+    "offset": 3147,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 69,
+    "offset": 3186,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 69,
+    "offset": 3269,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 69,
+    "offset": 3308,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 69,
+    "offset": 3347,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 69,
+    "offset": 3386,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 69,
+    "offset": 3425,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 69,
+    "offset": 3464,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 69,
+    "offset": 3503,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 69,
+    "offset": 3973,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 69,
+    "offset": 4185,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 69,
+    "offset": 4271,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 69,
+    "offset": 5400,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 69,
+    "offset": 5687,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 69,
+    "offset": 5803,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 69,
+    "offset": 6893,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 69,
+    "offset": 8296,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 69,
+    "offset": 9188,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 69,
+    "offset": 11922,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 69,
+    "offset": 12628,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 69,
+    "offset": 14561,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 69,
+    "offset": 15369,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 69,
+    "offset": 17004,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 69,
+    "offset": 17491,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 69,
+    "offset": 18938,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 69,
+    "offset": 19422,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 69,
+    "offset": 20706,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 69,
+    "offset": 21031,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 69,
+    "offset": 21944,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 69,
+    "offset": 22324,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 69,
+    "offset": 24285,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 69,
+    "offset": 24631,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 69,
+    "offset": 25239,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 69,
+    "offset": 25475,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 69,
+    "offset": 26468,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 69,
+    "offset": 26575,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 69,
+    "offset": 26717,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 69,
+    "offset": 26924,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 69,
+    "offset": 27054,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 69,
+    "offset": 27322,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 69,
+    "offset": 27409,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 69,
+    "offset": 27561,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 69,
+    "offset": 27631,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 69,
+    "offset": 27830,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 69,
+    "offset": 28034,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 69,
+    "offset": 28285,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 69,
+    "offset": 28568,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 69,
+    "offset": 28677,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 69,
+    "offset": 28928,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 69,
+    "offset": 29182,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 70,
+    "offset": 0,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 70,
+    "offset": 259,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 70,
+    "offset": 1989,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 70,
+    "offset": 2155,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 70,
+    "offset": 2408,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 70,
+    "offset": 2905,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 70,
+    "offset": 3482,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 70,
+    "offset": 3632,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 71,
+    "offset": 0,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 71,
+    "offset": 580,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 72,
+    "offset": 30,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 72,
+    "offset": 115,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 72,
+    "offset": 176,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 72,
+    "offset": 207,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 72,
+    "offset": 314,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 72,
+    "offset": 560,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 72,
+    "offset": 671,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 73,
+    "offset": 0,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 73,
+    "offset": 209,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 73,
+    "offset": 304,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 73,
+    "offset": 408,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 73,
+    "offset": 478,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 73,
+    "offset": 525,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 74,
+    "offset": 0,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 75,
+    "offset": 36,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 75,
+    "offset": 276,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 76,
+    "offset": 11,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 76,
+    "offset": 390,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 76,
+    "offset": 837,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 76,
+    "offset": 1250,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 76,
+    "offset": 1285,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 77,
+    "offset": 144,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 77,
+    "offset": 424,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 77,
+    "offset": 727,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 77,
+    "offset": 850,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 77,
+    "offset": 862,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 77,
+    "offset": 901,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 77,
+    "offset": 1058,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 77,
+    "offset": 1395,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 77,
+    "offset": 1763,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 77,
+    "offset": 1980,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 77,
+    "offset": 2235,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 77,
+    "offset": 3082,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 77,
+    "offset": 3511,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 77,
+    "offset": 3798,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 77,
+    "offset": 4737,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 77,
+    "offset": 5006,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 77,
+    "offset": 5011,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 77,
+    "offset": 5195,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 77,
+    "offset": 5266,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 77,
+    "offset": 5271,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 77,
+    "offset": 6454,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 77,
+    "offset": 6530,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 77,
+    "offset": 6744,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 77,
+    "offset": 6899,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 77,
+    "offset": 7100,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 77,
+    "offset": 7228,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 77,
+    "offset": 7901,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 77,
+    "offset": 8516,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 77,
+    "offset": 9691,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 77,
+    "offset": 9799,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 77,
+    "offset": 9926,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 77,
+    "offset": 10628,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 77,
+    "offset": 10890,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 77,
+    "offset": 11067,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 77,
+    "offset": 12446,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 77,
+    "offset": 12796,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 77,
+    "offset": 13858,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 77,
+    "offset": 13877,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 77,
+    "offset": 13897,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 77,
+    "offset": 14010,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 78,
+    "offset": 0,
+    "evidence": [
+      "relocated far CALL target"
+    ]
+  },
+  {
+    "segment": 78,
+    "offset": 232,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 78,
+    "offset": 772,
+    "evidence": [
+      "relocated far CALL target",
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 78,
+    "offset": 1454,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 78,
+    "offset": 1684,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 78,
+    "offset": 1996,
+    "evidence": [
+      "near CALL target"
+    ]
+  },
+  {
+    "segment": 78,
+    "offset": 2094,
+    "evidence": [
+      "near CALL target"
+    ]
+  }
+]

@@ -1,0 +1,1696 @@
+{
+  "metadata": {
+    "path": "original\\extracted\\WINDOWS\\SYSTEM\\KRNL386.EXE",
+    "sha256": "fbeaf672ee9e917318ce8fcd1d560db805dbfadf4777039abbaaff1a9c75b980",
+    "size": 75490,
+    "ne_header_offset": 1024,
+    "flags": 32777,
+    "target_os": 2,
+    "segment_count": 4,
+    "module_count": 0,
+    "resource_count_header": 0,
+    "alignment_shift": 4,
+    "auto_data_segment": 4,
+    "initial_heap": 512,
+    "initial_stack": 0,
+    "initial_cs": 1,
+    "initial_ip": 43547,
+    "initial_ss": 0,
+    "initial_sp": 0,
+    "movable_entry_count": 51
+  },
+  "modules": [],
+  "imported_names": [],
+  "external_imports": [],
+  "entries": [
+    {
+      "ordinal": 1,
+      "segment": 1,
+      "offset": 37838,
+      "flags": 3,
+      "name": "FATALEXIT"
+    },
+    {
+      "ordinal": 2,
+      "segment": 1,
+      "offset": 40303,
+      "flags": 1,
+      "name": "EXITKERNEL"
+    },
+    {
+      "ordinal": 3,
+      "segment": 3,
+      "offset": 1990,
+      "flags": 1,
+      "name": "GETVERSION"
+    },
+    {
+      "ordinal": 4,
+      "segment": 2,
+      "offset": 10423,
+      "flags": 1,
+      "name": "LOCALINIT"
+    },
+    {
+      "ordinal": 5,
+      "segment": 1,
+      "offset": 1347,
+      "flags": 1,
+      "name": "LOCALALLOC"
+    },
+    {
+      "ordinal": 6,
+      "segment": 1,
+      "offset": 1415,
+      "flags": 1,
+      "name": "LOCALREALLOC"
+    },
+    {
+      "ordinal": 7,
+      "segment": 1,
+      "offset": 1375,
+      "flags": 1,
+      "name": "LOCALFREE"
+    },
+    {
+      "ordinal": 8,
+      "segment": 1,
+      "offset": 1395,
+      "flags": 1,
+      "name": "LOCALLOCK"
+    },
+    {
+      "ordinal": 9,
+      "segment": 1,
+      "offset": 1469,
+      "flags": 1,
+      "name": "LOCALUNLOCK"
+    },
+    {
+      "ordinal": 10,
+      "segment": 1,
+      "offset": 1449,
+      "flags": 1,
+      "name": "LOCALSIZE"
+    },
+    {
+      "ordinal": 11,
+      "segment": 1,
+      "offset": 36202,
+      "flags": 1,
+      "name": "LOCALHANDLE"
+    },
+    {
+      "ordinal": 12,
+      "segment": 1,
+      "offset": 1489,
+      "flags": 1,
+      "name": "LOCALFLAGS"
+    },
+    {
+      "ordinal": 13,
+      "segment": 1,
+      "offset": 36229,
+      "flags": 1,
+      "name": "LOCALCOMPACT"
+    },
+    {
+      "ordinal": 14,
+      "segment": 2,
+      "offset": 632,
+      "flags": 1,
+      "name": "LOCALNOTIFY"
+    },
+    {
+      "ordinal": 15,
+      "segment": 1,
+      "offset": 555,
+      "flags": 1,
+      "name": "GLOBALALLOC"
+    },
+    {
+      "ordinal": 16,
+      "segment": 1,
+      "offset": 652,
+      "flags": 1,
+      "name": "GLOBALREALLOC"
+    },
+    {
+      "ordinal": 17,
+      "segment": 1,
+      "offset": 583,
+      "flags": 1,
+      "name": "GLOBALFREE"
+    },
+    {
+      "ordinal": 18,
+      "segment": 1,
+      "offset": 632,
+      "flags": 1,
+      "name": "GLOBALLOCK"
+    },
+    {
+      "ordinal": 19,
+      "segment": 1,
+      "offset": 715,
+      "flags": 1,
+      "name": "GLOBALUNLOCK"
+    },
+    {
+      "ordinal": 20,
+      "segment": 1,
+      "offset": 695,
+      "flags": 1,
+      "name": "GLOBALSIZE"
+    },
+    {
+      "ordinal": 21,
+      "segment": 1,
+      "offset": 612,
+      "flags": 1,
+      "name": "GLOBALHANDLE"
+    },
+    {
+      "ordinal": 22,
+      "segment": 1,
+      "offset": 744,
+      "flags": 1,
+      "name": "GLOBALFLAGS"
+    },
+    {
+      "ordinal": 23,
+      "segment": 1,
+      "offset": 947,
+      "flags": 1,
+      "name": "LOCKSEGMENT"
+    },
+    {
+      "ordinal": 24,
+      "segment": 1,
+      "offset": 967,
+      "flags": 1,
+      "name": "UNLOCKSEGMENT"
+    },
+    {
+      "ordinal": 25,
+      "segment": 1,
+      "offset": 4357,
+      "flags": 1,
+      "name": "GLOBALCOMPACT"
+    },
+    {
+      "ordinal": 26,
+      "segment": 1,
+      "offset": 3641,
+      "flags": 1,
+      "name": "GLOBALFREEALL"
+    },
+    {
+      "ordinal": 28,
+      "segment": 1,
+      "offset": 4496,
+      "flags": 1,
+      "name": "GLOBALMASTERHANDLE"
+    },
+    {
+      "ordinal": 29,
+      "segment": 1,
+      "offset": 32033,
+      "flags": 1,
+      "name": "YIELD"
+    },
+    {
+      "ordinal": 30,
+      "segment": 1,
+      "offset": 31912,
+      "flags": 1,
+      "name": "WAITEVENT"
+    },
+    {
+      "ordinal": 31,
+      "segment": 1,
+      "offset": 32146,
+      "flags": 1,
+      "name": "POSTEVENT"
+    },
+    {
+      "ordinal": 32,
+      "segment": 1,
+      "offset": 32240,
+      "flags": 1,
+      "name": "SETPRIORITY"
+    },
+    {
+      "ordinal": 33,
+      "segment": 1,
+      "offset": 33253,
+      "flags": 1,
+      "name": "LOCKCURRENTTASK"
+    },
+    {
+      "ordinal": 34,
+      "segment": 1,
+      "offset": 32227,
+      "flags": 1,
+      "name": "SETTASKQUEUE"
+    },
+    {
+      "ordinal": 35,
+      "segment": 1,
+      "offset": 32157,
+      "flags": 1,
+      "name": "GETTASKQUEUE"
+    },
+    {
+      "ordinal": 36,
+      "segment": 1,
+      "offset": 33836,
+      "flags": 1,
+      "name": "GETCURRENTTASK"
+    },
+    {
+      "ordinal": 37,
+      "segment": 3,
+      "offset": 590,
+      "flags": 1,
+      "name": "GETCURRENTPDB"
+    },
+    {
+      "ordinal": 38,
+      "segment": 1,
+      "offset": 32197,
+      "flags": 1,
+      "name": "SETTASKSIGNALPROC"
+    },
+    {
+      "ordinal": 41,
+      "segment": 1,
+      "offset": 40078,
+      "flags": 1,
+      "name": "ENABLEDOS"
+    },
+    {
+      "ordinal": 42,
+      "segment": 1,
+      "offset": 40079,
+      "flags": 1,
+      "name": "DISABLEDOS"
+    },
+    {
+      "ordinal": 45,
+      "segment": 2,
+      "offset": 580,
+      "flags": 1,
+      "name": "LOADMODULE"
+    },
+    {
+      "ordinal": 46,
+      "segment": 2,
+      "offset": 374,
+      "flags": 1,
+      "name": "FREEMODULE"
+    },
+    {
+      "ordinal": 47,
+      "segment": 2,
+      "offset": 443,
+      "flags": 1,
+      "name": "GETMODULEHANDLE"
+    },
+    {
+      "ordinal": 48,
+      "segment": 2,
+      "offset": 466,
+      "flags": 1,
+      "name": "GETMODULEUSAGE"
+    },
+    {
+      "ordinal": 49,
+      "segment": 2,
+      "offset": 486,
+      "flags": 1,
+      "name": "GETMODULEFILENAME"
+    },
+    {
+      "ordinal": 50,
+      "segment": 2,
+      "offset": 414,
+      "flags": 1,
+      "name": "GETPROCADDRESS"
+    },
+    {
+      "ordinal": 51,
+      "segment": 3,
+      "offset": 168,
+      "flags": 1,
+      "name": "MAKEPROCINSTANCE"
+    },
+    {
+      "ordinal": 52,
+      "segment": 3,
+      "offset": 197,
+      "flags": 1,
+      "name": "FREEPROCINSTANCE"
+    },
+    {
+      "ordinal": 53,
+      "segment": 1,
+      "offset": 18727,
+      "flags": 1,
+      "name": "CALLPROCINSTANCE"
+    },
+    {
+      "ordinal": 54,
+      "segment": 2,
+      "offset": 537,
+      "flags": 1,
+      "name": "GETINSTANCEDATA"
+    },
+    {
+      "ordinal": 55,
+      "segment": 3,
+      "offset": 2286,
+      "flags": 1,
+      "name": "CATCH"
+    },
+    {
+      "ordinal": 56,
+      "segment": 3,
+      "offset": 2344,
+      "flags": 1,
+      "name": "THROW"
+    },
+    {
+      "ordinal": 57,
+      "segment": 1,
+      "offset": 1635,
+      "flags": 3,
+      "name": "GETPROFILEINT"
+    },
+    {
+      "ordinal": 58,
+      "segment": 1,
+      "offset": 1673,
+      "flags": 3,
+      "name": "GETPROFILESTRING"
+    },
+    {
+      "ordinal": 59,
+      "segment": 1,
+      "offset": 1891,
+      "flags": 3,
+      "name": "WRITEPROFILESTRING"
+    },
+    {
+      "ordinal": 60,
+      "segment": 3,
+      "offset": 8,
+      "flags": 1,
+      "name": "FINDRESOURCE"
+    },
+    {
+      "ordinal": 61,
+      "segment": 1,
+      "offset": 294,
+      "flags": 1,
+      "name": "LOADRESOURCE"
+    },
+    {
+      "ordinal": 62,
+      "segment": 1,
+      "offset": 395,
+      "flags": 1,
+      "name": "LOCKRESOURCE"
+    },
+    {
+      "ordinal": 63,
+      "segment": 1,
+      "offset": 375,
+      "flags": 1,
+      "name": "FREERESOURCE"
+    },
+    {
+      "ordinal": 64,
+      "segment": 1,
+      "offset": 320,
+      "flags": 1,
+      "name": "ACCESSRESOURCE"
+    },
+    {
+      "ordinal": 65,
+      "segment": 1,
+      "offset": 415,
+      "flags": 1,
+      "name": "SIZEOFRESOURCE"
+    },
+    {
+      "ordinal": 66,
+      "segment": 1,
+      "offset": 349,
+      "flags": 1,
+      "name": "ALLOCRESOURCE"
+    },
+    {
+      "ordinal": 67,
+      "segment": 3,
+      "offset": 46,
+      "flags": 1,
+      "name": "SETRESOURCEHANDLER"
+    },
+    {
+      "ordinal": 68,
+      "segment": 3,
+      "offset": 1050,
+      "flags": 1,
+      "name": "INITATOMTABLE"
+    },
+    {
+      "ordinal": 69,
+      "segment": 1,
+      "offset": 18754,
+      "flags": 1,
+      "name": "FINDATOM"
+    },
+    {
+      "ordinal": 70,
+      "segment": 1,
+      "offset": 18751,
+      "flags": 1,
+      "name": "ADDATOM"
+    },
+    {
+      "ordinal": 71,
+      "segment": 1,
+      "offset": 441,
+      "flags": 1,
+      "name": "DELETEATOM"
+    },
+    {
+      "ordinal": 72,
+      "segment": 1,
+      "offset": 461,
+      "flags": 1,
+      "name": "GETATOMNAME"
+    },
+    {
+      "ordinal": 73,
+      "segment": 1,
+      "offset": 509,
+      "flags": 1,
+      "name": "GETATOMHANDLE"
+    },
+    {
+      "ordinal": 74,
+      "segment": 1,
+      "offset": 1509,
+      "flags": 1,
+      "name": "OPENFILE"
+    },
+    {
+      "ordinal": 75,
+      "segment": 3,
+      "offset": 1214,
+      "flags": 1,
+      "name": "OPENPATHNAME"
+    },
+    {
+      "ordinal": 76,
+      "segment": 3,
+      "offset": 1206,
+      "flags": 1,
+      "name": "DELETEPATHNAME"
+    },
+    {
+      "ordinal": 77,
+      "segment": 1,
+      "offset": 33741,
+      "flags": 1,
+      "name": "RESERVED1"
+    },
+    {
+      "ordinal": 78,
+      "segment": 1,
+      "offset": 33738,
+      "flags": 1,
+      "name": "RESERVED2"
+    },
+    {
+      "ordinal": 79,
+      "segment": 1,
+      "offset": 33732,
+      "flags": 1,
+      "name": "RESERVED3"
+    },
+    {
+      "ordinal": 80,
+      "segment": 1,
+      "offset": 33735,
+      "flags": 1,
+      "name": "RESERVED4"
+    },
+    {
+      "ordinal": 81,
+      "segment": 1,
+      "offset": 1134,
+      "flags": 1,
+      "name": "_LCLOSE"
+    },
+    {
+      "ordinal": 82,
+      "segment": 1,
+      "offset": 1254,
+      "flags": 1,
+      "name": "_LREAD"
+    },
+    {
+      "ordinal": 83,
+      "segment": 1,
+      "offset": 1165,
+      "flags": 1,
+      "name": "_LCREAT"
+    },
+    {
+      "ordinal": 84,
+      "segment": 1,
+      "offset": 1208,
+      "flags": 1,
+      "name": "_LLSEEK"
+    },
+    {
+      "ordinal": 85,
+      "segment": 1,
+      "offset": 1091,
+      "flags": 1,
+      "name": "_LOPEN"
+    },
+    {
+      "ordinal": 86,
+      "segment": 1,
+      "offset": 1302,
+      "flags": 1,
+      "name": "_LWRITE"
+    },
+    {
+      "ordinal": 87,
+      "segment": 1,
+      "offset": 33678,
+      "flags": 1,
+      "name": "RESERVED5"
+    },
+    {
+      "ordinal": 88,
+      "segment": 1,
+      "offset": 33647,
+      "flags": 1,
+      "name": "LSTRCPY"
+    },
+    {
+      "ordinal": 89,
+      "segment": 1,
+      "offset": 33663,
+      "flags": 1,
+      "name": "LSTRCAT"
+    },
+    {
+      "ordinal": 90,
+      "segment": 1,
+      "offset": 33526,
+      "flags": 1,
+      "name": "LSTRLEN"
+    },
+    {
+      "ordinal": 91,
+      "segment": 2,
+      "offset": 9869,
+      "flags": 1,
+      "name": "INITTASK"
+    },
+    {
+      "ordinal": 92,
+      "segment": 3,
+      "offset": 1288,
+      "flags": 1,
+      "name": "GETTEMPDRIVE"
+    },
+    {
+      "ordinal": 93,
+      "segment": 1,
+      "offset": 18682,
+      "flags": 1,
+      "name": "GETCODEHANDLE"
+    },
+    {
+      "ordinal": 94,
+      "segment": 3,
+      "offset": 974,
+      "flags": 1,
+      "name": "DEFINEHANDLETABLE"
+    },
+    {
+      "ordinal": 95,
+      "segment": 2,
+      "offset": 557,
+      "flags": 1,
+      "name": "LOADLIBRARY"
+    },
+    {
+      "ordinal": 96,
+      "segment": 2,
+      "offset": 394,
+      "flags": 1,
+      "name": "FREELIBRARY"
+    },
+    {
+      "ordinal": 97,
+      "segment": 3,
+      "offset": 220,
+      "flags": 1,
+      "name": "GETTEMPFILENAME"
+    },
+    {
+      "ordinal": 98,
+      "segment": 1,
+      "offset": 23575,
+      "flags": 1,
+      "name": "GETLASTDISKCHANGE"
+    },
+    {
+      "ordinal": 99,
+      "segment": 1,
+      "offset": 3013,
+      "flags": 1,
+      "name": "GETLPERRMODE"
+    },
+    {
+      "ordinal": 100,
+      "segment": 2,
+      "offset": 10935,
+      "flags": 1,
+      "name": "VALIDATECODESEGMENTS"
+    },
+    {
+      "ordinal": 101,
+      "segment": 1,
+      "offset": 7570,
+      "flags": 1,
+      "name": "NOHOOKDOSCALL"
+    },
+    {
+      "ordinal": 102,
+      "segment": 1,
+      "offset": 7576,
+      "flags": 1,
+      "name": "DOS3CALL"
+    },
+    {
+      "ordinal": 103,
+      "segment": 1,
+      "offset": 40473,
+      "flags": 1,
+      "name": "NETBIOSCALL"
+    },
+    {
+      "ordinal": 104,
+      "segment": 1,
+      "offset": 987,
+      "flags": 1,
+      "name": "GETCODEINFO"
+    },
+    {
+      "ordinal": 105,
+      "segment": 3,
+      "offset": 2009,
+      "flags": 1,
+      "name": "GETEXEVERSION"
+    },
+    {
+      "ordinal": 106,
+      "segment": 1,
+      "offset": 11998,
+      "flags": 1,
+      "name": "SETSWAPAREASIZE"
+    },
+    {
+      "ordinal": 107,
+      "segment": 3,
+      "offset": 306,
+      "flags": 1,
+      "name": "SETERRORMODE"
+    },
+    {
+      "ordinal": 108,
+      "segment": 1,
+      "offset": 4550,
+      "flags": 1,
+      "name": "SWITCHSTACKTO"
+    },
+    {
+      "ordinal": 109,
+      "segment": 1,
+      "offset": 4668,
+      "flags": 1,
+      "name": "SWITCHSTACKBACK"
+    },
+    {
+      "ordinal": 110,
+      "segment": 1,
+      "offset": 31660,
+      "flags": 1,
+      "name": "PATCHCODEHANDLE"
+    },
+    {
+      "ordinal": 111,
+      "segment": 1,
+      "offset": 764,
+      "flags": 1,
+      "name": "GLOBALWIRE"
+    },
+    {
+      "ordinal": 112,
+      "segment": 1,
+      "offset": 784,
+      "flags": 1,
+      "name": "GLOBALUNWIRE"
+    },
+    {
+      "ordinal": 113,
+      "segment": 254,
+      "offset": 3,
+      "flags": 1,
+      "name": "__AHSHIFT"
+    },
+    {
+      "ordinal": 114,
+      "segment": 254,
+      "offset": 8,
+      "flags": 1,
+      "name": "__AHINCR"
+    },
+    {
+      "ordinal": 115,
+      "segment": 1,
+      "offset": 39323,
+      "flags": 1,
+      "name": "OUTPUTDEBUGSTRING"
+    },
+    {
+      "ordinal": 116,
+      "segment": 2,
+      "offset": 10135,
+      "flags": 1,
+      "name": "INITLIB"
+    },
+    {
+      "ordinal": 117,
+      "segment": 1,
+      "offset": 32062,
+      "flags": 1,
+      "name": "OLDYIELD"
+    },
+    {
+      "ordinal": 118,
+      "segment": 1,
+      "offset": 32167,
+      "flags": 1,
+      "name": "GETTASKQUEUEDS"
+    },
+    {
+      "ordinal": 119,
+      "segment": 1,
+      "offset": 32181,
+      "flags": 1,
+      "name": "GETTASKQUEUEES"
+    },
+    {
+      "ordinal": 120,
+      "segment": 1,
+      "offset": 29396,
+      "flags": 1,
+      "name": "UNDEFDYNLINK"
+    },
+    {
+      "ordinal": 121,
+      "segment": 1,
+      "offset": 36272,
+      "flags": 1,
+      "name": "LOCALSHRINK"
+    },
+    {
+      "ordinal": 122,
+      "segment": 1,
+      "offset": 33279,
+      "flags": 1,
+      "name": "ISTASKLOCKED"
+    },
+    {
+      "ordinal": 123,
+      "segment": 1,
+      "offset": 17976,
+      "flags": 1,
+      "name": "KBDRST"
+    },
+    {
+      "ordinal": 124,
+      "segment": 1,
+      "offset": 40080,
+      "flags": 1,
+      "name": "ENABLEKERNEL"
+    },
+    {
+      "ordinal": 125,
+      "segment": 1,
+      "offset": 40081,
+      "flags": 1,
+      "name": "DISABLEKERNEL"
+    },
+    {
+      "ordinal": 126,
+      "segment": 1,
+      "offset": 11943,
+      "flags": 1,
+      "name": "MEMORYFREED"
+    },
+    {
+      "ordinal": 127,
+      "segment": 1,
+      "offset": 1751,
+      "flags": 3,
+      "name": "GETPRIVATEPROFILEINT"
+    },
+    {
+      "ordinal": 128,
+      "segment": 1,
+      "offset": 1801,
+      "flags": 3,
+      "name": "GETPRIVATEPROFILESTRING"
+    },
+    {
+      "ordinal": 129,
+      "segment": 1,
+      "offset": 1941,
+      "flags": 3,
+      "name": "WRITEPRIVATEPROFILESTRING"
+    },
+    {
+      "ordinal": 130,
+      "segment": 3,
+      "offset": 2184,
+      "flags": 1,
+      "name": "FILECDR"
+    },
+    {
+      "ordinal": 131,
+      "segment": 3,
+      "offset": 2254,
+      "flags": 1,
+      "name": "GETDOSENVIRONMENT"
+    },
+    {
+      "ordinal": 132,
+      "segment": 3,
+      "offset": 1963,
+      "flags": 1,
+      "name": "GETWINFLAGS"
+    },
+    {
+      "ordinal": 133,
+      "segment": 1,
+      "offset": 20088,
+      "flags": 1,
+      "name": "GETEXEPTR"
+    },
+    {
+      "ordinal": 134,
+      "segment": 3,
+      "offset": 84,
+      "flags": 1,
+      "name": "GETWINDOWSDIRECTORY"
+    },
+    {
+      "ordinal": 135,
+      "segment": 3,
+      "offset": 126,
+      "flags": 1,
+      "name": "GETSYSTEMDIRECTORY"
+    },
+    {
+      "ordinal": 136,
+      "segment": 3,
+      "offset": 1653,
+      "flags": 1,
+      "name": "GETDRIVETYPE"
+    },
+    {
+      "ordinal": 137,
+      "segment": 1,
+      "offset": 529,
+      "flags": 1,
+      "name": "FATALAPPEXIT"
+    },
+    {
+      "ordinal": 138,
+      "segment": 2,
+      "offset": 7757,
+      "flags": 1,
+      "name": "GETHEAPSPACES"
+    },
+    {
+      "ordinal": 139,
+      "segment": 1,
+      "offset": 24876,
+      "flags": 1,
+      "name": "DOSIGNAL"
+    },
+    {
+      "ordinal": 140,
+      "segment": 3,
+      "offset": 1676,
+      "flags": 1,
+      "name": "SETSIGHANDLER"
+    },
+    {
+      "ordinal": 141,
+      "segment": 1,
+      "offset": 32788,
+      "flags": 1,
+      "name": "INITTASK1"
+    },
+    {
+      "ordinal": 150,
+      "segment": 1,
+      "offset": 31999,
+      "flags": 1,
+      "name": "DIRECTEDYIELD"
+    },
+    {
+      "ordinal": 151,
+      "segment": 3,
+      "offset": 2022,
+      "flags": 1,
+      "name": "WINOLDAPCALL"
+    },
+    {
+      "ordinal": 152,
+      "segment": 3,
+      "offset": 2274,
+      "flags": 1,
+      "name": "GETNUMTASKS"
+    },
+    {
+      "ordinal": 154,
+      "segment": 1,
+      "offset": 844,
+      "flags": 1,
+      "name": "GLOBALNOTIFY"
+    },
+    {
+      "ordinal": 155,
+      "segment": 1,
+      "offset": 4511,
+      "flags": 1,
+      "name": "GETTASKDS"
+    },
+    {
+      "ordinal": 156,
+      "segment": 1,
+      "offset": 17970,
+      "flags": 1,
+      "name": "LIMITEMSPAGES"
+    },
+    {
+      "ordinal": 157,
+      "segment": 1,
+      "offset": 17977,
+      "flags": 1,
+      "name": "GETCURPID"
+    },
+    {
+      "ordinal": 158,
+      "segment": 1,
+      "offset": 32318,
+      "flags": 1,
+      "name": "ISWINOLDAPTASK"
+    },
+    {
+      "ordinal": 159,
+      "segment": 1,
+      "offset": 3781,
+      "flags": 1,
+      "name": "GLOBALHANDLENORIP"
+    },
+    {
+      "ordinal": 160,
+      "segment": 1,
+      "offset": 43328,
+      "flags": 1,
+      "name": "EMSCOPY"
+    },
+    {
+      "ordinal": 161,
+      "segment": 2,
+      "offset": 10697,
+      "flags": 1,
+      "name": "LOCALCOUNTFREE"
+    },
+    {
+      "ordinal": 162,
+      "segment": 2,
+      "offset": 10753,
+      "flags": 1,
+      "name": "LOCALHEAPSIZE"
+    },
+    {
+      "ordinal": 163,
+      "segment": 1,
+      "offset": 824,
+      "flags": 1,
+      "name": "GLOBALLRUOLDEST"
+    },
+    {
+      "ordinal": 164,
+      "segment": 1,
+      "offset": 804,
+      "flags": 1,
+      "name": "GLOBALLRUNEWEST"
+    },
+    {
+      "ordinal": 165,
+      "segment": 1,
+      "offset": 40460,
+      "flags": 1,
+      "name": "A20PROC"
+    },
+    {
+      "ordinal": 166,
+      "segment": 2,
+      "offset": 655,
+      "flags": 1,
+      "name": "WINEXEC"
+    },
+    {
+      "ordinal": 167,
+      "segment": 1,
+      "offset": 20226,
+      "flags": 1,
+      "name": "GETEXPWINVER"
+    },
+    {
+      "ordinal": 168,
+      "segment": 1,
+      "offset": 33976,
+      "flags": 1,
+      "name": "DIRECTRESALLOC"
+    },
+    {
+      "ordinal": 169,
+      "segment": 1,
+      "offset": 1028,
+      "flags": 1,
+      "name": "GETFREESPACE"
+    },
+    {
+      "ordinal": 170,
+      "segment": 1,
+      "offset": 208,
+      "flags": 1,
+      "name": "ALLOCCSTODSALIAS"
+    },
+    {
+      "ordinal": 171,
+      "segment": 1,
+      "offset": 228,
+      "flags": 1,
+      "name": "ALLOCDSTOCSALIAS"
+    },
+    {
+      "ordinal": 172,
+      "segment": 1,
+      "offset": 8699,
+      "flags": 1,
+      "name": "ALLOCALIAS"
+    },
+    {
+      "ordinal": 173,
+      "segment": 254,
+      "offset": 61440,
+      "flags": 1,
+      "name": "__ROMBIOS"
+    },
+    {
+      "ordinal": 174,
+      "segment": 254,
+      "offset": 40960,
+      "flags": 1,
+      "name": "__A000H"
+    },
+    {
+      "ordinal": 175,
+      "segment": 1,
+      "offset": 7582,
+      "flags": 1,
+      "name": "ALLOCSELECTOR"
+    },
+    {
+      "ordinal": 176,
+      "segment": 1,
+      "offset": 248,
+      "flags": 1,
+      "name": "FREESELECTOR"
+    },
+    {
+      "ordinal": 177,
+      "segment": 1,
+      "offset": 268,
+      "flags": 1,
+      "name": "PRESTOCHANGOSELECTOR"
+    },
+    {
+      "ordinal": 178,
+      "segment": 254,
+      "offset": 1,
+      "flags": 1,
+      "name": "__WINFLAGS"
+    },
+    {
+      "ordinal": 179,
+      "segment": 254,
+      "offset": 53248,
+      "flags": 1,
+      "name": "__D000H"
+    },
+    {
+      "ordinal": 180,
+      "segment": 1,
+      "offset": 9913,
+      "flags": 1,
+      "name": "LONGPTRADD"
+    },
+    {
+      "ordinal": 181,
+      "segment": 254,
+      "offset": 45056,
+      "flags": 1,
+      "name": "__B000H"
+    },
+    {
+      "ordinal": 182,
+      "segment": 254,
+      "offset": 47104,
+      "flags": 1,
+      "name": "__B800H"
+    },
+    {
+      "ordinal": 183,
+      "segment": 254,
+      "offset": 0,
+      "flags": 1,
+      "name": "__0000H"
+    },
+    {
+      "ordinal": 184,
+      "segment": 1,
+      "offset": 5018,
+      "flags": 1,
+      "name": "GLOBALDOSALLOC"
+    },
+    {
+      "ordinal": 185,
+      "segment": 1,
+      "offset": 5076,
+      "flags": 1,
+      "name": "GLOBALDOSFREE"
+    },
+    {
+      "ordinal": 186,
+      "segment": 1,
+      "offset": 8786,
+      "flags": 1,
+      "name": "GETSELECTORBASE"
+    },
+    {
+      "ordinal": 187,
+      "segment": 1,
+      "offset": 10021,
+      "flags": 1,
+      "name": "SETSELECTORBASE"
+    },
+    {
+      "ordinal": 188,
+      "segment": 1,
+      "offset": 10069,
+      "flags": 1,
+      "name": "GETSELECTORLIMIT"
+    },
+    {
+      "ordinal": 189,
+      "segment": 1,
+      "offset": 10093,
+      "flags": 1,
+      "name": "SETSELECTORLIMIT"
+    },
+    {
+      "ordinal": 190,
+      "segment": 254,
+      "offset": 57344,
+      "flags": 1,
+      "name": "__E000H"
+    },
+    {
+      "ordinal": 191,
+      "segment": 1,
+      "offset": 867,
+      "flags": 1,
+      "name": "GLOBALPAGELOCK"
+    },
+    {
+      "ordinal": 192,
+      "segment": 1,
+      "offset": 887,
+      "flags": 1,
+      "name": "GLOBALPAGEUNLOCK"
+    },
+    {
+      "ordinal": 193,
+      "segment": 254,
+      "offset": 64,
+      "flags": 1,
+      "name": "__0040H"
+    },
+    {
+      "ordinal": 194,
+      "segment": 254,
+      "offset": 61440,
+      "flags": 1,
+      "name": "__F000H"
+    },
+    {
+      "ordinal": 195,
+      "segment": 254,
+      "offset": 49152,
+      "flags": 1,
+      "name": "__C000H"
+    },
+    {
+      "ordinal": 196,
+      "segment": 1,
+      "offset": 10139,
+      "flags": 1,
+      "name": "SELECTORACCESSRIGHTS"
+    },
+    {
+      "ordinal": 197,
+      "segment": 1,
+      "offset": 907,
+      "flags": 1,
+      "name": "GLOBALFIX"
+    },
+    {
+      "ordinal": 198,
+      "segment": 1,
+      "offset": 927,
+      "flags": 1,
+      "name": "GLOBALUNFIX"
+    },
+    {
+      "ordinal": 199,
+      "segment": 1,
+      "offset": 1607,
+      "flags": 1,
+      "name": "SETHANDLECOUNT"
+    },
+    {
+      "ordinal": 200,
+      "segment": 1,
+      "offset": 15950,
+      "flags": 1,
+      "name": "VALIDATEFREESPACES"
+    },
+    {
+      "ordinal": 201,
+      "segment": 1,
+      "offset": 39642,
+      "flags": 1,
+      "name": "REPLACEINST"
+    },
+    {
+      "ordinal": 202,
+      "segment": 3,
+      "offset": 2077,
+      "flags": 1,
+      "name": "REGISTERPTRACE"
+    },
+    {
+      "ordinal": 203,
+      "segment": 1,
+      "offset": 37998,
+      "flags": 1,
+      "name": "DEBUGBREAK"
+    },
+    {
+      "ordinal": 204,
+      "segment": 3,
+      "offset": 334,
+      "flags": 1,
+      "name": "SWAPRECORDING"
+    },
+    {
+      "ordinal": 205,
+      "segment": 1,
+      "offset": 38880,
+      "flags": 1,
+      "name": "CVWBREAK"
+    },
+    {
+      "ordinal": 206,
+      "segment": 1,
+      "offset": 7669,
+      "flags": 1,
+      "name": "ALLOCSELECTORARRAY"
+    },
+    {
+      "ordinal": 207,
+      "segment": 1,
+      "offset": 33829,
+      "flags": 1,
+      "name": "ISDBCSLEADBYTE"
+    },
+    {
+      "ordinal": 310,
+      "segment": 2,
+      "offset": 10764,
+      "flags": 1,
+      "name": "LOCALHANDLEDELTA"
+    },
+    {
+      "ordinal": 311,
+      "segment": 1,
+      "offset": 40623,
+      "flags": 1,
+      "name": "GETSETKERNELDOSPROC"
+    },
+    {
+      "ordinal": 314,
+      "segment": 1,
+      "offset": 38965,
+      "flags": 1,
+      "name": "DEBUGDEFINESEGMENT"
+    },
+    {
+      "ordinal": 315,
+      "segment": 1,
+      "offset": 28811,
+      "flags": 3,
+      "name": "WRITEOUTPROFILES"
+    },
+    {
+      "ordinal": 316,
+      "segment": 1,
+      "offset": 4734,
+      "flags": 1,
+      "name": "GETFREEMEMINFO"
+    },
+    {
+      "ordinal": 318,
+      "segment": 1,
+      "offset": 40655,
+      "flags": 1,
+      "name": "FATALEXITHOOK"
+    },
+    {
+      "ordinal": 319,
+      "segment": 1,
+      "offset": 21244,
+      "flags": 1,
+      "name": "FLUSHCACHEDFILEHANDLE"
+    },
+    {
+      "ordinal": 320,
+      "segment": 1,
+      "offset": 32336,
+      "flags": 1,
+      "name": "ISTASK"
+    },
+    {
+      "ordinal": 323,
+      "segment": 2,
+      "offset": 7835,
+      "flags": 1,
+      "name": "ISROMMODULE"
+    },
+    {
+      "ordinal": 324,
+      "segment": 1,
+      "offset": 38095,
+      "flags": 3,
+      "name": "LOGERROR"
+    },
+    {
+      "ordinal": 325,
+      "segment": 1,
+      "offset": 38130,
+      "flags": 3,
+      "name": "LOGPARAMERROR"
+    },
+    {
+      "ordinal": 326,
+      "segment": 2,
+      "offset": 7840,
+      "flags": 1,
+      "name": "ISROMFILE"
+    },
+    {
+      "ordinal": 327,
+      "segment": 1,
+      "offset": 38043,
+      "flags": 1,
+      "name": "K327"
+    },
+    {
+      "ordinal": 328,
+      "segment": 1,
+      "offset": 38094,
+      "flags": 1,
+      "name": "_DEBUGOUTPUT"
+    },
+    {
+      "ordinal": 329,
+      "segment": 1,
+      "offset": 38085,
+      "flags": 1,
+      "name": "K329"
+    },
+    {
+      "ordinal": 332,
+      "segment": 4,
+      "offset": 536,
+      "flags": 1,
+      "name": "THHOOK"
+    },
+    {
+      "ordinal": 334,
+      "segment": 1,
+      "offset": 19298,
+      "flags": 1,
+      "name": "ISBADREADPTR"
+    },
+    {
+      "ordinal": 335,
+      "segment": 1,
+      "offset": 19331,
+      "flags": 1,
+      "name": "ISBADWRITEPTR"
+    },
+    {
+      "ordinal": 336,
+      "segment": 1,
+      "offset": 19496,
+      "flags": 1,
+      "name": "ISBADCODEPTR"
+    },
+    {
+      "ordinal": 337,
+      "segment": 1,
+      "offset": 19534,
+      "flags": 1,
+      "name": "ISBADSTRINGPTR"
+    },
+    {
+      "ordinal": 338,
+      "segment": 1,
+      "offset": 19570,
+      "flags": 1,
+      "name": "HASGPHANDLER"
+    },
+    {
+      "ordinal": 339,
+      "segment": 1,
+      "offset": 42766,
+      "flags": 1,
+      "name": "DIAGQUERY"
+    },
+    {
+      "ordinal": 340,
+      "segment": 1,
+      "offset": 42781,
+      "flags": 1,
+      "name": "DIAGOUTPUT"
+    },
+    {
+      "ordinal": 341,
+      "segment": 3,
+      "offset": 2124,
+      "flags": 1,
+      "name": "TOOLHELPHOOK"
+    },
+    {
+      "ordinal": 342,
+      "segment": 1,
+      "offset": 43040,
+      "flags": 3,
+      "name": "__GP"
+    },
+    {
+      "ordinal": 343,
+      "segment": 2,
+      "offset": 1673,
+      "flags": 1,
+      "name": "REGISTERWINOLDAPHOOK"
+    },
+    {
+      "ordinal": 344,
+      "segment": 2,
+      "offset": 1779,
+      "flags": 1,
+      "name": "GETWINOLDAPHOOKS"
+    },
+    {
+      "ordinal": 345,
+      "segment": 1,
+      "offset": 19769,
+      "flags": 1,
+      "name": "ISSHAREDSELECTOR"
+    },
+    {
+      "ordinal": 346,
+      "segment": 1,
+      "offset": 19365,
+      "flags": 1,
+      "name": "ISBADHUGEREADPTR"
+    },
+    {
+      "ordinal": 347,
+      "segment": 1,
+      "offset": 19429,
+      "flags": 1,
+      "name": "ISBADHUGEWRITEPTR"
+    },
+    {
+      "ordinal": 348,
+      "segment": 1,
+      "offset": 19804,
+      "flags": 1,
+      "name": "HMEMCPY"
+    },
+    {
+      "ordinal": 349,
+      "segment": 1,
+      "offset": 19948,
+      "flags": 1,
+      "name": "_HREAD"
+    },
+    {
+      "ordinal": 350,
+      "segment": 1,
+      "offset": 19953,
+      "flags": 1,
+      "name": "_HWRITE"
+    },
+    {
+      "ordinal": 351,
+      "segment": 1,
+      "offset": 24210,
+      "flags": 1,
+      "name": "BUNNY_351"
+    },
+    {
+      "ordinal": 353,
+      "segment": 1,
+      "offset": 33567,
+      "flags": 1,
+      "name": "LSTRCPYN"
+    },
+    {
+      "ordinal": 354,
+      "segment": 1,
+      "offset": 40683,
+      "flags": 1,
+      "name": "GETAPPCOMPATFLAGS"
+    },
+    {
+      "ordinal": 355,
+      "segment": 1,
+      "offset": 40746,
+      "flags": 3,
+      "name": "GETWINDEBUGINFO"
+    },
+    {
+      "ordinal": 356,
+      "segment": 1,
+      "offset": 40758,
+      "flags": 3,
+      "name": "SETWINDEBUGINFO"
+    },
+    {
+      "ordinal": 403,
+      "segment": 1,
+      "offset": 10737,
+      "flags": 1,
+      "name": "K403"
+    },
+    {
+      "ordinal": 404,
+      "segment": 1,
+      "offset": 10670,
+      "flags": 1,
+      "name": "K404"
+    }
+  ],
+  "segments": [
+    {
+      "number": 1,
+      "offset": 5664,
+      "size": 50545,
+      "flags": 3392,
+      "minimum_allocation": 50545,
+      "relocation_count": 4
+    },
+    {
+      "number": 2,
+      "offset": 56256,
+      "size": 10936,
+      "flags": 7504,
+      "minimum_allocation": 10936,
+      "relocation_count": 3
+    },
+    {
+      "number": 3,
+      "offset": 67232,
+      "size": 3154,
+      "flags": 7504,
+      "minimum_allocation": 3156,
+      "relocation_count": 2
+    },
+    {
+      "number": 4,
+      "offset": 70416,
+      "size": 5074,
+      "flags": 3169,
+      "minimum_allocation": 5074,
+      "relocation_count": 0
+    }
+  ],
+  "relocations": {
+    "internal": 9
+  },
+  "resources": []
+}

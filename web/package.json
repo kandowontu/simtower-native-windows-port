@@ -1,0 +1,17 @@
+{
+  "name": "simtower-native-web-runtime",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "build": "tsc --noEmit && vite build",
+    "dev": "vite --host 127.0.0.1",
+    "test": "vitest run src/sim/carriers.test.ts src/sim/commands.test.ts src/sim/progression.test.ts src/sim/original-tuning.test.ts src/sim/events-audio.test.ts src/sim/queue/route-record.test.ts src/sim/sims/housekeeping.test.ts src/sim/sims/scoring.test.ts src/sim/legacy-tdt/import.test.ts src/sim/legacy-tdt/import.external.test.ts src/sim/legacy-tdt/export.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2",
+    "vite": "^7.1.2",
+    "vitest": "^4.1.3"
+  }
+}

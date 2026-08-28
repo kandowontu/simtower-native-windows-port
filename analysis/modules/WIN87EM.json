@@ -1,0 +1,137 @@
+{
+  "metadata": {
+    "path": "original\\extracted\\WINDOWS\\SYSTEM\\WIN87EM.DLL",
+    "sha256": "30d6b965d45eddf306268c9526b01494df4841b8b530bab2654c379e1cf49db2",
+    "size": 12800,
+    "ne_header_offset": 1024,
+    "flags": 33536,
+    "target_os": 2,
+    "segment_count": 2,
+    "module_count": 1,
+    "resource_count_header": 0,
+    "alignment_shift": 9,
+    "auto_data_segment": 0,
+    "initial_heap": 0,
+    "initial_stack": 0,
+    "initial_cs": 1,
+    "initial_ip": 88,
+    "initial_ss": 0,
+    "initial_sp": 0,
+    "movable_entry_count": 0
+  },
+  "modules": [
+    "KERNEL"
+  ],
+  "imported_names": [
+    {
+      "offset": 1,
+      "name": "KERNEL"
+    },
+    {
+      "offset": 8,
+      "name": "__WINFLAGS"
+    }
+  ],
+  "external_imports": [
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 171,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 1555,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 176,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 1637,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "name",
+      "symbol": "__WINFLAGS",
+      "references": [
+        {
+          "segment": 1,
+          "offset": 9874,
+          "source_type": 5,
+          "flags": 2
+        }
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "ordinal": 1,
+      "segment": 1,
+      "offset": 42,
+      "flags": 1,
+      "name": "__FPMATH"
+    },
+    {
+      "ordinal": 2,
+      "segment": 1,
+      "offset": 137,
+      "flags": 1,
+      "name": "WEP"
+    },
+    {
+      "ordinal": 3,
+      "segment": 1,
+      "offset": 427,
+      "flags": 1,
+      "name": "__WIN87EMINFO"
+    },
+    {
+      "ordinal": 4,
+      "segment": 1,
+      "offset": 544,
+      "flags": 1,
+      "name": "__WIN87EMRESTORE"
+    },
+    {
+      "ordinal": 5,
+      "segment": 1,
+      "offset": 483,
+      "flags": 1,
+      "name": "__WIN87EMSAVE"
+    }
+  ],
+  "segments": [
+    {
+      "number": 1,
+      "offset": 2048,
+      "size": 10083,
+      "flags": 3392,
+      "minimum_allocation": 10083,
+      "relocation_count": 5
+    },
+    {
+      "number": 2,
+      "offset": 12288,
+      "size": 368,
+      "flags": 3169,
+      "minimum_allocation": 368,
+      "relocation_count": 0
+    }
+  ],
+  "relocations": {
+    "import_name": 1,
+    "import_ordinal": 2,
+    "internal": 2
+  },
+  "resources": []
+}

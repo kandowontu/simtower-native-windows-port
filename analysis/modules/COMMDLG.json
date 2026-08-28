@@ -1,0 +1,3925 @@
+{
+  "metadata": {
+    "path": "original\\extracted\\WINDOWS\\SYSTEM\\COMMDLG.DLL",
+    "sha256": "853574d46a8e0103028354883cc597e762bafd034b60c15aedc8cdc097629ec8",
+    "size": 89248,
+    "ne_header_offset": 128,
+    "flags": 33549,
+    "target_os": 2,
+    "segment_count": 9,
+    "module_count": 4,
+    "resource_count_header": 0,
+    "alignment_shift": 4,
+    "auto_data_segment": 9,
+    "initial_heap": 1024,
+    "initial_stack": 0,
+    "initial_cs": 8,
+    "initial_ip": 0,
+    "initial_ss": 0,
+    "initial_sp": 0,
+    "movable_entry_count": 48
+  },
+  "modules": [
+    "KERNEL",
+    "GDI",
+    "USER",
+    "KEYBOARD"
+  ],
+  "imported_names": [
+    {
+      "offset": 1,
+      "name": "KERNEL"
+    },
+    {
+      "offset": 8,
+      "name": "GDI"
+    },
+    {
+      "offset": 12,
+      "name": "USER"
+    },
+    {
+      "offset": 17,
+      "name": "KEYBOARD"
+    }
+  ],
+  "external_imports": [
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 1,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 21268,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 4,
+          "offset": 8796,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 12,
+      "references": [
+        {
+          "segment": 4,
+          "offset": 7460,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 128,
+      "references": [
+        {
+          "segment": 4,
+          "offset": 9533,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 14,
+      "references": [
+        {
+          "segment": 4,
+          "offset": 7478,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 153,
+      "references": [
+        {
+          "segment": 3,
+          "offset": 12393,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 154,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 9815,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 156,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 3674,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 19,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 8094,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 2,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 20894,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 20,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 8084,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 27,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 10174,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 4,
+          "offset": 8685,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 3,
+      "references": [
+        {
+          "segment": 4,
+          "offset": 7369,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 33,
+      "references": [
+        {
+          "segment": 4,
+          "offset": 8768,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 34,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 9656,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 21234,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 4,
+          "offset": 8328,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 351,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 21152,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 4,
+          "offset": 9185,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 36,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 7542,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 38,
+      "references": [
+        {
+          "segment": 3,
+          "offset": 8633,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 442,
+      "references": [
+        {
+          "segment": 4,
+          "offset": 10218,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 6,
+          "offset": 265,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 45,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 10143,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 20944,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 12188,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 4,
+          "offset": 8867,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 7,
+          "offset": 471,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 51,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 9322,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 7,
+          "offset": 454,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 52,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 6127,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 3560,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 4,
+          "offset": 8186,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 7,
+          "offset": 436,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 53,
+      "references": [
+        {
+          "segment": 3,
+          "offset": 12327,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 57,
+      "references": [
+        {
+          "segment": 4,
+          "offset": 8847,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 61,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 4347,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 66,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 9822,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 20877,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 4,
+          "offset": 8643,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 68,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 2348,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 21776,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 8772,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 4,
+          "offset": 8347,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 7,
+          "offset": 543,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 69,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 9839,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 21010,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 4,
+          "offset": 9840,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 7,
+          "offset": 496,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 80,
+      "references": [
+        {
+          "segment": 4,
+          "offset": 9523,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 81,
+      "references": [
+        {
+          "segment": 4,
+          "offset": 7299,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 82,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 3630,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 87,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 10137,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 20924,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 12176,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 9,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 21251,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 4,
+          "offset": 8782,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 91,
+      "references": [
+        {
+          "segment": 4,
+          "offset": 9061,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 93,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 20013,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 12204,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 4,
+          "offset": 9036,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 94,
+      "references": [
+        {
+          "segment": 4,
+          "offset": 7329,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "GDI",
+      "kind": "ordinal",
+      "symbol": 96,
+      "references": [
+        {
+          "segment": 4,
+          "offset": 7347,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 102,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 11893,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 21986,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 107,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 2896,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 640,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 115,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 18674,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 121,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 13642,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 132,
+      "references": [
+        {
+          "segment": 7,
+          "offset": 389,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 135,
+      "references": [
+        {
+          "segment": 3,
+          "offset": 15737,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 136,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 18617,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 15,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 1907,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 8446,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 16,
+      "references": [
+        {
+          "segment": 3,
+          "offset": 4546,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 17,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 2256,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 15482,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 178,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 12065,
+          "source_type": 5,
+          "flags": 1
+        },
+        {
+          "segment": 8,
+          "offset": 6,
+          "source_type": 5,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 18,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 1923,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 15126,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 19,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 5546,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 3021,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 16102,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 4,
+          "offset": 10139,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 5,
+          "offset": 835,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 6,
+          "offset": 176,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 207,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 348,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 24,
+      "references": [
+        {
+          "segment": 7,
+          "offset": 359,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 3,
+      "references": [
+        {
+          "segment": 7,
+          "offset": 240,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 4,
+      "references": [
+        {
+          "segment": 8,
+          "offset": 89,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 47,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 5224,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 4,
+          "offset": 6838,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 6,
+          "offset": 379,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 48,
+      "references": [
+        {
+          "segment": 8,
+          "offset": 36,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 5,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 6166,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 14028,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 9592,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 4,
+          "offset": 5499,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 5,
+          "offset": 1582,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 50,
+      "references": [
+        {
+          "segment": 3,
+          "offset": 11661,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 4,
+          "offset": 6868,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 6,
+          "offset": 395,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 58,
+      "references": [
+        {
+          "segment": 3,
+          "offset": 4820,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 60,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 5245,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 2824,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 2676,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 4,
+          "offset": 10011,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 5,
+          "offset": 730,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 6,
+          "offset": 31,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 61,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 5261,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 2861,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 2693,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 4,
+          "offset": 10021,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 5,
+          "offset": 677,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 6,
+          "offset": 50,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 62,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 5274,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 2907,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 15396,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 4,
+          "offset": 10147,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 5,
+          "offset": 759,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 6,
+          "offset": 97,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 63,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 5554,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 3050,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 15544,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 4,
+          "offset": 10256,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 6,
+          "offset": 295,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 7,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 2418,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 14291,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 15255,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 4,
+          "offset": 6660,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 74,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 11664,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 81,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 11719,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 88,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 22193,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 5334,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 4,
+          "offset": 3505,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 89,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 10500,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 5317,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 90,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 21142,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 4957,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 4,
+          "offset": 8762,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 91,
+      "references": [
+        {
+          "segment": 8,
+          "offset": 18,
+          "source_type": 3,
+          "flags": 5
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 95,
+      "references": [
+        {
+          "segment": 3,
+          "offset": 654,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KERNEL",
+      "kind": "ordinal",
+      "symbol": 96,
+      "references": [
+        {
+          "segment": 3,
+          "offset": 13667,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KEYBOARD",
+      "kind": "ordinal",
+      "symbol": 5,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 21604,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "KEYBOARD",
+      "kind": "ordinal",
+      "symbol": 6,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 21657,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 1,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 19884,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 12978,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 4,
+          "offset": 5104,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 100,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 1609,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 101,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 11154,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 20253,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 15002,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 4,
+          "offset": 8926,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 5,
+          "offset": 2012,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 104,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 16591,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 39,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 107,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 20284,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 110,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 15919,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 4,
+          "offset": 3759,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 111,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 7057,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 19962,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 15593,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 4,
+          "offset": 7908,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 5,
+          "offset": 2686,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 118,
+      "references": [
+        {
+          "segment": 5,
+          "offset": 138,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 7,
+          "offset": 273,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 122,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 7236,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 4415,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 72,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 124,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 9550,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 4,
+          "offset": 3783,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 5,
+          "offset": 1726,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 125,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 8606,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 9978,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 4,
+          "offset": 7538,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 127,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 1817,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 131,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 4516,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 133,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 7100,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 135,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 6779,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 13793,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 136,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 6789,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 6343,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 13855,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 16,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 1719,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 173,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 2353,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 4,
+          "offset": 1863,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 174,
+      "references": [
+        {
+          "segment": 3,
+          "offset": 15890,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 176,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 3951,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 19774,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 15976,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 4,
+          "offset": 9778,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 5,
+          "offset": 579,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 179,
+      "references": [
+        {
+          "segment": 4,
+          "offset": 7920,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 7,
+          "offset": 8,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 18,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 1710,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 180,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 4340,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 3938,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 4,
+          "offset": 9958,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 7,
+          "offset": 80,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 185,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 21066,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 189,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 5310,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 191,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 1253,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 22,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 3581,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 23,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 6894,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 12848,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 232,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 3524,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 6634,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 24,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 2391,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 13524,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 15222,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 4,
+          "offset": 3090,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 5,
+          "offset": 2142,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 240,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 4075,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 2976,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 15437,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 4,
+          "offset": 283,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 242,
+      "references": [
+        {
+          "segment": 5,
+          "offset": 824,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 244,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 10121,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 25,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 7081,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 17542,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 13973,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 4,
+          "offset": 722,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 5,
+          "offset": 1436,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 26,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 6202,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 4993,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 9640,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 4,
+          "offset": 1098,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 5,
+          "offset": 1619,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 28,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 1207,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 29,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 5783,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 6575,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 4,
+          "offset": 7760,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 32,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 6513,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 6527,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 4,
+          "offset": 7747,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 33,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 13809,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 34,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 6405,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 15372,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 13549,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 4,
+          "offset": 1745,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 5,
+          "offset": 2254,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 35,
+      "references": [
+        {
+          "segment": 3,
+          "offset": 11903,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 36,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 19862,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 4150,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 4,
+          "offset": 3804,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 37,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 17740,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 4,
+          "offset": 2440,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 5,
+          "offset": 1933,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 39,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 3605,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 4,
+          "offset": 1885,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 40,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 3635,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 4,
+          "offset": 1920,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 42,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 6763,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 5187,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 10832,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 4,
+          "offset": 1734,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 5,
+          "offset": 2288,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 420,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 19842,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 12953,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 4,
+          "offset": 9905,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 430,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 658,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 431,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 1182,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 432,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 20298,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 1672,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 46,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 7039,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 4290,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 143,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 466,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 7189,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 21301,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 47,
+      "references": [
+        {
+          "segment": 5,
+          "offset": 61,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 471,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 12128,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 9458,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 4,
+          "offset": 2658,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 472,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 22893,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 4849,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 512,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 18826,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 1610,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 53,
+      "references": [
+        {
+          "segment": 5,
+          "offset": 2150,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 56,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 6600,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 66,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 9307,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 19939,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 12138,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 4,
+          "offset": 10185,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 6,
+          "offset": 224,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 7,
+          "offset": 421,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 68,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 9544,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 20035,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 12226,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 4,
+          "offset": 10232,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 6,
+          "offset": 279,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 7,
+          "offset": 507,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 69,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 2359,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 4,
+          "offset": 1869,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 71,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 2318,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 74,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 7904,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 20347,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 76,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 1740,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 78,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 7176,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 79,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 9789,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 81,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 9831,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 20975,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 83,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 4212,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 88,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 6182,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 13654,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 15278,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 4,
+          "offset": 3075,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 91,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 6396,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 19719,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 15581,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 4,
+          "offset": 9308,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 5,
+          "offset": 2276,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 92,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 19668,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 7252,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 4,
+          "offset": 9796,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 5,
+          "offset": 2663,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 93,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 11120,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 2,
+          "offset": 14953,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 14786,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 4,
+          "offset": 9016,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 5,
+          "offset": 2793,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 94,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 11062,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 6877,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 95,
+      "references": [
+        {
+          "segment": 1,
+          "offset": 11027,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 14752,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 4,
+          "offset": 2737,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 96,
+      "references": [
+        {
+          "segment": 3,
+          "offset": 15655,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 5,
+          "offset": 2638,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 97,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 5219,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 9212,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 4,
+          "offset": 1386,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 5,
+          "offset": 2354,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    },
+    {
+      "module": "USER",
+      "kind": "ordinal",
+      "symbol": 98,
+      "references": [
+        {
+          "segment": 2,
+          "offset": 12411,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 3,
+          "offset": 14380,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 4,
+          "offset": 9635,
+          "source_type": 3,
+          "flags": 1
+        },
+        {
+          "segment": 5,
+          "offset": 2716,
+          "source_type": 3,
+          "flags": 1
+        }
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "ordinal": 1,
+      "segment": 2,
+      "offset": 3095,
+      "flags": 3,
+      "name": "GETOPENFILENAME"
+    },
+    {
+      "ordinal": 2,
+      "segment": 2,
+      "offset": 3144,
+      "flags": 3,
+      "name": "GETSAVEFILENAME"
+    },
+    {
+      "ordinal": 5,
+      "segment": 1,
+      "offset": 3745,
+      "flags": 3,
+      "name": "CHOOSECOLOR"
+    },
+    {
+      "ordinal": 6,
+      "segment": 2,
+      "offset": 17059,
+      "flags": 3,
+      "name": "FILEOPENDLGPROC"
+    },
+    {
+      "ordinal": 7,
+      "segment": 2,
+      "offset": 17514,
+      "flags": 3,
+      "name": "FILESAVEDLGPROC"
+    },
+    {
+      "ordinal": 8,
+      "segment": 1,
+      "offset": 407,
+      "flags": 3,
+      "name": "COLORDLGPROC"
+    },
+    {
+      "ordinal": 9,
+      "segment": 6,
+      "offset": 0,
+      "flags": 3,
+      "name": "LOADALTERBITMAP"
+    },
+    {
+      "ordinal": 11,
+      "segment": 5,
+      "offset": 0,
+      "flags": 3,
+      "name": "FINDTEXT"
+    },
+    {
+      "ordinal": 12,
+      "segment": 5,
+      "offset": 412,
+      "flags": 3,
+      "name": "REPLACETEXT"
+    },
+    {
+      "ordinal": 13,
+      "segment": 5,
+      "offset": 877,
+      "flags": 3,
+      "name": "FINDTEXTDLGPROC"
+    },
+    {
+      "ordinal": 14,
+      "segment": 5,
+      "offset": 1410,
+      "flags": 3,
+      "name": "REPLACETEXTDLGPROC"
+    },
+    {
+      "ordinal": 15,
+      "segment": 4,
+      "offset": 0,
+      "flags": 3,
+      "name": "CHOOSEFONT"
+    },
+    {
+      "ordinal": 16,
+      "segment": 4,
+      "offset": 688,
+      "flags": 3,
+      "name": "FORMATCHARDLGPROC"
+    },
+    {
+      "ordinal": 18,
+      "segment": 4,
+      "offset": 6222,
+      "flags": 3,
+      "name": "FONTSTYLEENUMPROC"
+    },
+    {
+      "ordinal": 19,
+      "segment": 4,
+      "offset": 4246,
+      "flags": 3,
+      "name": "FONTFAMILYENUMPROC"
+    },
+    {
+      "ordinal": 20,
+      "segment": 3,
+      "offset": 3220,
+      "flags": 3,
+      "name": "PRINTDLG"
+    },
+    {
+      "ordinal": 21,
+      "segment": 3,
+      "offset": 14111,
+      "flags": 3,
+      "name": "PRINTDLGPROC"
+    },
+    {
+      "ordinal": 22,
+      "segment": 3,
+      "offset": 12410,
+      "flags": 3,
+      "name": "PRINTSETUPDLGPROC"
+    },
+    {
+      "ordinal": 23,
+      "segment": 3,
+      "offset": 0,
+      "flags": 3,
+      "name": "EDITINTEGERONLY"
+    },
+    {
+      "ordinal": 25,
+      "segment": 1,
+      "offset": 6982,
+      "flags": 3,
+      "name": "WANTARROWS"
+    },
+    {
+      "ordinal": 26,
+      "segment": 6,
+      "offset": 487,
+      "flags": 3,
+      "name": "COMMDLGEXTENDEDERROR"
+    },
+    {
+      "ordinal": 27,
+      "segment": 2,
+      "offset": 3193,
+      "flags": 3,
+      "name": "GETFILETITLE"
+    },
+    {
+      "ordinal": 28,
+      "segment": 6,
+      "offset": 429,
+      "flags": 3,
+      "name": "WEP"
+    },
+    {
+      "ordinal": 29,
+      "segment": 2,
+      "offset": 4261,
+      "flags": 3,
+      "name": "DWLBSUBCLASS"
+    },
+    {
+      "ordinal": 30,
+      "segment": 3,
+      "offset": 86,
+      "flags": 3,
+      "name": "DWUPARROWHACK"
+    },
+    {
+      "ordinal": 31,
+      "segment": 2,
+      "offset": 4111,
+      "flags": 3,
+      "name": "DWOKSUBCLASS"
+    },
+    {
+      "ordinal": 32,
+      "segment": 2,
+      "offset": 2274,
+      "flags": 0,
+      "name": null
+    },
+    {
+      "ordinal": 33,
+      "segment": 5,
+      "offset": 2862,
+      "flags": 0,
+      "name": null
+    },
+    {
+      "ordinal": 34,
+      "segment": 4,
+      "offset": 9818,
+      "flags": 0,
+      "name": null
+    },
+    {
+      "ordinal": 35,
+      "segment": 1,
+      "offset": 16,
+      "flags": 0,
+      "name": null
+    },
+    {
+      "ordinal": 36,
+      "segment": 3,
+      "offset": 15784,
+      "flags": 0,
+      "name": null
+    },
+    {
+      "ordinal": 37,
+      "segment": 2,
+      "offset": 21742,
+      "flags": 0,
+      "name": null
+    },
+    {
+      "ordinal": 38,
+      "segment": 1,
+      "offset": 11589,
+      "flags": 0,
+      "name": null
+    },
+    {
+      "ordinal": 39,
+      "segment": 1,
+      "offset": 11505,
+      "flags": 0,
+      "name": null
+    },
+    {
+      "ordinal": 40,
+      "segment": 1,
+      "offset": 11553,
+      "flags": 0,
+      "name": null
+    },
+    {
+      "ordinal": 41,
+      "segment": 1,
+      "offset": 11631,
+      "flags": 0,
+      "name": null
+    },
+    {
+      "ordinal": 42,
+      "segment": 2,
+      "offset": 3416,
+      "flags": 0,
+      "name": null
+    },
+    {
+      "ordinal": 43,
+      "segment": 6,
+      "offset": 352,
+      "flags": 0,
+      "name": null
+    },
+    {
+      "ordinal": 44,
+      "segment": 1,
+      "offset": 11293,
+      "flags": 0,
+      "name": null
+    },
+    {
+      "ordinal": 45,
+      "segment": 1,
+      "offset": 11803,
+      "flags": 0,
+      "name": null
+    },
+    {
+      "ordinal": 46,
+      "segment": 1,
+      "offset": 11844,
+      "flags": 0,
+      "name": null
+    },
+    {
+      "ordinal": 47,
+      "segment": 1,
+      "offset": 11872,
+      "flags": 0,
+      "name": null
+    },
+    {
+      "ordinal": 48,
+      "segment": 1,
+      "offset": 11172,
+      "flags": 0,
+      "name": null
+    },
+    {
+      "ordinal": 49,
+      "segment": 1,
+      "offset": 11665,
+      "flags": 0,
+      "name": null
+    },
+    {
+      "ordinal": 50,
+      "segment": 1,
+      "offset": 11319,
+      "flags": 0,
+      "name": null
+    },
+    {
+      "ordinal": 51,
+      "segment": 1,
+      "offset": 11395,
+      "flags": 0,
+      "name": null
+    },
+    {
+      "ordinal": 52,
+      "segment": 1,
+      "offset": 11356,
+      "flags": 0,
+      "name": null
+    },
+    {
+      "ordinal": 53,
+      "segment": 7,
+      "offset": 341,
+      "flags": 0,
+      "name": null
+    }
+  ],
+  "segments": [
+    {
+      "number": 1,
+      "offset": 6112,
+      "size": 12067,
+      "flags": 7440,
+      "minimum_allocation": 12067,
+      "relocation_count": 74
+    },
+    {
+      "number": 2,
+      "offset": 18784,
+      "size": 22991,
+      "flags": 7440,
+      "minimum_allocation": 22992,
+      "relocation_count": 112
+    },
+    {
+      "number": 3,
+      "offset": 42688,
+      "size": 16127,
+      "flags": 7440,
+      "minimum_allocation": 16127,
+      "relocation_count": 70
+    },
+    {
+      "number": 4,
+      "offset": 59392,
+      "size": 10270,
+      "flags": 7440,
+      "minimum_allocation": 10271,
+      "relocation_count": 75
+    },
+    {
+      "number": 5,
+      "offset": 70272,
+      "size": 2880,
+      "flags": 7440,
+      "minimum_allocation": 2880,
+      "relocation_count": 29
+    },
+    {
+      "number": 6,
+      "offset": 73392,
+      "size": 512,
+      "flags": 7440,
+      "minimum_allocation": 512,
+      "relocation_count": 15
+    },
+    {
+      "number": 7,
+      "offset": 1728,
+      "size": 570,
+      "flags": 7504,
+      "minimum_allocation": 570,
+      "relocation_count": 14
+    },
+    {
+      "number": 8,
+      "offset": 2432,
+      "size": 116,
+      "flags": 7504,
+      "minimum_allocation": 116,
+      "relocation_count": 5
+    },
+    {
+      "number": 9,
+      "offset": 2624,
+      "size": 3416,
+      "flags": 3185,
+      "minimum_allocation": 3416,
+      "relocation_count": 0
+    }
+  ],
+  "relocations": {
+    "import_ordinal": 337,
+    "internal": 57
+  },
+  "resources": [
+    {
+      "type_id": 14,
+      "resource_id": 528,
+      "offset": 74032,
+      "size": 48,
+      "flags": 7216,
+      "sha256": "fcba0c1927ff6b73ad6582a83e0db1beb540c6e712376e7e12be85e1f0184353",
+      "file": null
+    },
+    {
+      "type_id": 14,
+      "resource_id": 529,
+      "offset": 74080,
+      "size": 48,
+      "flags": 7216,
+      "sha256": "489fc2c024a62fc365f40775e7631889587fea4979895f57f21f0f105422f23e",
+      "file": null
+    },
+    {
+      "type_id": 2,
+      "resource_id": 576,
+      "offset": 74128,
+      "size": 1136,
+      "flags": 3088,
+      "sha256": "1ce1b06ecbd54e5359f29c0faf221814b00b2055c6206eb224ec67050c5d04c4",
+      "file": null
+    },
+    {
+      "type_id": 2,
+      "resource_id": 584,
+      "offset": 75264,
+      "size": 176,
+      "flags": 3088,
+      "sha256": "56a28440a0a1635ded81302cf31b4c0005b43419f8e8e722303213d2e0cedbef",
+      "file": null
+    },
+    {
+      "type_id": 2,
+      "resource_id": 30,
+      "offset": 75440,
+      "size": 144,
+      "flags": 3120,
+      "sha256": "56751ba3b9714ffc3e02e1cd6fe8f56381ea0b881b4e660eaf26f5bd7946369c",
+      "file": null
+    },
+    {
+      "type_id": 2,
+      "resource_id": 34,
+      "offset": 75584,
+      "size": 144,
+      "flags": 3120,
+      "sha256": "284654251441571bde763fb0aec5218e3d329859d7213ed3ac73bb43eaf0d79a",
+      "file": null
+    },
+    {
+      "type_id": 2,
+      "resource_id": 32,
+      "offset": 75728,
+      "size": 144,
+      "flags": 3120,
+      "sha256": "942d6a286d118c7b2c92281b0b427fbc35047e587a535dcd0aed76894f322267",
+      "file": null
+    },
+    {
+      "type_id": 2,
+      "resource_id": 36,
+      "offset": 75872,
+      "size": 144,
+      "flags": 3120,
+      "sha256": "28d07de726f36533fd64e57872ab94ae7cee21d468a5eb83f6af0becf9d15644",
+      "file": null
+    },
+    {
+      "type_id": 2,
+      "resource_id": 31,
+      "offset": 76016,
+      "size": 176,
+      "flags": 3120,
+      "sha256": "2d67792aee5f3e588df09ec36aaed6c5880399c25a9935823487aed47f59a4b8",
+      "file": null
+    },
+    {
+      "type_id": 2,
+      "resource_id": 35,
+      "offset": 76192,
+      "size": 176,
+      "flags": 3120,
+      "sha256": "8815ddbbf06701f6b22a7063d9e421e021cb02656137042865ebe7c80580f073",
+      "file": null
+    },
+    {
+      "type_id": 2,
+      "resource_id": 33,
+      "offset": 76368,
+      "size": 176,
+      "flags": 3120,
+      "sha256": "0bdcf9f1b1837124be4ffa63b538adf3658374f873b3f180b93f75036cbadce8",
+      "file": null
+    },
+    {
+      "type_id": 2,
+      "resource_id": 37,
+      "offset": 76544,
+      "size": 176,
+      "flags": 3120,
+      "sha256": "50db04513d16a5a33fe3ce9cf3c04b10ca08a2d74ececdb1c07d12955a0946a7",
+      "file": null
+    },
+    {
+      "type_id": 2,
+      "resource_id": 38,
+      "offset": 76720,
+      "size": 592,
+      "flags": 3120,
+      "sha256": "ef274d4ecf171dc98b0f82dbcb0907efd93d9589dd703ec9f56633419e28a201",
+      "file": null
+    },
+    {
+      "type_id": 5,
+      "resource_id": 1536,
+      "offset": 77312,
+      "size": 352,
+      "flags": 7216,
+      "sha256": "1580e866d7bb25dc74e59aa78dd2ef25342b7c4adca3472ef24832746acb79cf",
+      "file": null
+    },
+    {
+      "type_id": 5,
+      "resource_id": 1537,
+      "offset": 77664,
+      "size": 352,
+      "flags": 7216,
+      "sha256": "1faeb6fb78598b5eb594ae00916a40f72aa25c63507eb791f5024ab399a97458",
+      "file": null
+    },
+    {
+      "type_id": 5,
+      "resource_id": 1538,
+      "offset": 78016,
+      "size": 512,
+      "flags": 7216,
+      "sha256": "e19ce593618613020eea5aee6cec6c81a3ab0d02d5ac343f9a023fb77ac11418",
+      "file": null
+    },
+    {
+      "type_id": 5,
+      "resource_id": 1539,
+      "offset": 78528,
+      "size": 480,
+      "flags": 7216,
+      "sha256": "1f023b5a1c2e1587f39dbca3f61318874a0cee568bb14aa75ea14b75062f8fcb",
+      "file": null
+    },
+    {
+      "type_id": 5,
+      "resource_id": 1540,
+      "offset": 79008,
+      "size": 288,
+      "flags": 7216,
+      "sha256": "2d2aa0ddf22a0b963b76ee25d5b8d2f51b713ee4b77c8db9d8f42bd5c13c24e9",
+      "file": null
+    },
+    {
+      "type_id": 5,
+      "resource_id": 1541,
+      "offset": 79296,
+      "size": 320,
+      "flags": 7216,
+      "sha256": "85d9bee29d255bd110b2ad40b8da184c4c6edc95cad92a2515ee63d4c18a80cc",
+      "file": null
+    },
+    {
+      "type_id": 5,
+      "resource_id": "CHOOSECOLOR",
+      "offset": 79616,
+      "size": 624,
+      "flags": 7216,
+      "sha256": "de7f8820a9561861b2633f751359427834beafcd42d44eb7aa6967b6cd4f260a",
+      "file": null
+    },
+    {
+      "type_id": 5,
+      "resource_id": 1543,
+      "offset": 80240,
+      "size": 432,
+      "flags": 7216,
+      "sha256": "8df6211827b88dbb74840f558f4b943011ff32297e52de90235226c2407d0ed1",
+      "file": null
+    },
+    {
+      "type_id": 6,
+      "resource_id": 17,
+      "offset": 80672,
+      "size": 128,
+      "flags": 7216,
+      "sha256": "3c8098423e9aa1a548d8ce983570e679998a721aa1131af6ad312111ec0594ce",
+      "file": null
+    },
+    {
+      "type_id": 6,
+      "resource_id": 49,
+      "offset": 80800,
+      "size": 128,
+      "flags": 7216,
+      "sha256": "9b7a016748b36599abbfb78c60f3b4b70bf0208056fa3bc750611382b377ba67",
+      "file": null
+    },
+    {
+      "type_id": 6,
+      "resource_id": 25,
+      "offset": 80928,
+      "size": 1040,
+      "flags": 7216,
+      "sha256": "613b9a2e172c39c479b31585558a7d1b7f5755fc542e764348402c957bdf498f",
+      "file": null
+    },
+    {
+      "type_id": 6,
+      "resource_id": 26,
+      "offset": 81968,
+      "size": 448,
+      "flags": 7216,
+      "sha256": "e6749e6a260b5a87a59c0f8d11f5575f05cc7dad4d8dbb94911afe0174dd232e",
+      "file": null
+    },
+    {
+      "type_id": 6,
+      "resource_id": 66,
+      "offset": 82416,
+      "size": 96,
+      "flags": 7216,
+      "sha256": "682270ccd93aa864b4fb3c205749b7b6f50c4bd335c4ebe28e49f50198cae1e3",
+      "file": null
+    },
+    {
+      "type_id": 6,
+      "resource_id": 67,
+      "offset": 82512,
+      "size": 32,
+      "flags": 7216,
+      "sha256": "205370d8dac2568f44ec5d1cc11a65799c03872b27ae4703ccc4d2b1e051ade2",
+      "file": null
+    },
+    {
+      "type_id": 6,
+      "resource_id": 68,
+      "offset": 82544,
+      "size": 48,
+      "flags": 7216,
+      "sha256": "3418b61116d8910fcb484e29015b6f9bd9ef88b6e3e5224909e79c37b4531f6a",
+      "file": null
+    },
+    {
+      "type_id": 6,
+      "resource_id": 69,
+      "offset": 82592,
+      "size": 560,
+      "flags": 7216,
+      "sha256": "e853806c71417c658f57104030af6b0a54bb34c3baa8f72cfd1e5aecdf4000a2",
+      "file": null
+    },
+    {
+      "type_id": 6,
+      "resource_id": 70,
+      "offset": 83152,
+      "size": 720,
+      "flags": 7216,
+      "sha256": "7af00444b9c7cc289864098598e42467bb07c10c7c45dcb9ac4fde0f41b7ed2e",
+      "file": null
+    },
+    {
+      "type_id": 6,
+      "resource_id": 73,
+      "offset": 83872,
+      "size": 304,
+      "flags": 7216,
+      "sha256": "34b4af89dc82bcd62bb1a4ecb655c308a7986be5c56011c55cee6ebfd6c1a075",
+      "file": null
+    },
+    {
+      "type_id": 6,
+      "resource_id": 74,
+      "offset": 84176,
+      "size": 352,
+      "flags": 7216,
+      "sha256": "4722506002ac0911eb650b91e1d9542a23bafc27a3867bbad1bda909d1aad8e4",
+      "file": null
+    },
+    {
+      "type_id": 6,
+      "resource_id": 75,
+      "offset": 84528,
+      "size": 304,
+      "flags": 7216,
+      "sha256": "c6f6070ab610d9a34c16e53e3e8e0532201a7f2a709f656e79690f8289967fe8",
+      "file": null
+    },
+    {
+      "type_id": 6,
+      "resource_id": 89,
+      "offset": 84832,
+      "size": 48,
+      "flags": 7216,
+      "sha256": "195ebd8d7c8b08193b18cde0e301e11515b9710fe6dac65b223b81906187fcd0",
+      "file": null
+    },
+    {
+      "type_id": 6,
+      "resource_id": 65,
+      "offset": 84880,
+      "size": 32,
+      "flags": 7216,
+      "sha256": "6b0a1ffd041df76c5ed96c9015f7ad3bc5f30b698cc1354916509cbfc1cf5e1c",
+      "file": null
+    },
+    {
+      "type_id": 6,
+      "resource_id": 81,
+      "offset": 84912,
+      "size": 240,
+      "flags": 7216,
+      "sha256": "457d15eb2e83f3b38d1d4734b7b60199e8c5bdfca8cd425ba3bf5c375e00f4ad",
+      "file": null
+    },
+    {
+      "type_id": 16,
+      "resource_id": 1,
+      "offset": 85152,
+      "size": 480,
+      "flags": 3120,
+      "sha256": "4331801367adb2f35a54684d197975f2f5a7cf0456e26ee6855a2703e6bddc9a",
+      "file": null
+    },
+    {
+      "type_id": 3,
+      "resource_id": 1,
+      "offset": 85632,
+      "size": 304,
+      "flags": 7184,
+      "sha256": "21a42755f5599c6aee7364072f2241ddfa31743b21c7aaef119d7ebe1f66516d",
+      "file": null
+    },
+    {
+      "type_id": 3,
+      "resource_id": 2,
+      "offset": 85936,
+      "size": 752,
+      "flags": 7184,
+      "sha256": "5173e51c04dc9178eced79390129d22e00c830b3606f1031dc31b77512378e61",
+      "file": null
+    },
+    {
+      "type_id": 3,
+      "resource_id": 3,
+      "offset": 86688,
+      "size": 752,
+      "flags": 7184,
+      "sha256": "0915adf8e5ed7acff2accf03b1df13f52034609c767735575dc3612fd4a3ee01",
+      "file": null
+    },
+    {
+      "type_id": 3,
+      "resource_id": 4,
+      "offset": 87440,
+      "size": 304,
+      "flags": 7184,
+      "sha256": "7c3f79eb92684efad00c07697d68e08fe837e15f91d9b2554f522804aa01be7c",
+      "file": null
+    },
+    {
+      "type_id": 3,
+      "resource_id": 5,
+      "offset": 87744,
+      "size": 752,
+      "flags": 7184,
+      "sha256": "b5eec90ce6c02c654a6d56b0c166d77196c10985329da92732ec97e3ba1667e0",
+      "file": null
+    },
+    {
+      "type_id": 3,
+      "resource_id": 6,
+      "offset": 88496,
+      "size": 752,
+      "flags": 7184,
+      "sha256": "b61fc53a90f2fe5cd29b6b34a789fc47695267c20595b03076080210711b82b0",
+      "file": null
+    }
+  ]
+}
